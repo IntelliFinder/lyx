@@ -1,0 +1,544 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+אלגברה ב סיכום מבחן
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טריקים לגרדון
+\end_layout
+
+\begin_layout Enumerate
+מטריצה לא הפיכה-קיים ע"ע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\end_layout
+
+\begin_layout Enumerate
+פולינום מינימלי-להציב מטריצה בפולינום אופייני, או למצוא ר"ג של ע"ׂע
+\end_layout
+
+\begin_layout Enumerate
+מספר בלוקי גורדן של ע"ׂע מסוים-ר"ג שלו-מספר וקטורים עצמיים-סדר של 
+\begin_inset Formula $A$
+\end_inset
+
+ פחות דרגה של 
+\begin_inset Formula $A-\lambda\mathbb{I}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+פולינום אופייני ַֹמכיל את כל הע"ע של האופרטור
+\end_layout
+
+\begin_layout Enumerate
+פולינום מינימלי ואופייני יש להם את אותם הגורמים הלינאריים רק ממעלות שונות
+\end_layout
+
+\begin_layout Enumerate
+דטרמיננטה-מכפלת ע"ע, 
+\begin_inset Formula $trace$
+\end_inset
+
+-סכום ׁע"ע
+\end_layout
+
+\begin_layout Enumerate
+סכום הריבוי האלגברי הכללי-סדר המטריצה
+\end_layout
+
+\begin_layout Enumerate
+שרשרת גורדן- אם 
+\begin_inset Formula $v_{1}\in\ker A$
+\end_inset
+
+ ו-
+\begin_inset Formula $v_{2}\notin\ker A,v_{2}\in\ker A^{2}$
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula $Av_{2}=v_{1}$
+\end_inset
+
+ אז
+\begin_inset Formula 
+\[
+P=\left(\begin{array}{cc}
+| & |\\
+v_{1} & v_{2}\\
+| & |
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מציאת וקטורים עצמיים מראש שהם אורתוגונליים
+\end_layout
+
+\begin_layout Enumerate
+מטריצת בלוקים
+\begin_inset Formula 
+\[
+\det\left(\begin{array}{cc}
+A & B\\
+C & D
+\end{array}\right)=\det(A-BD^{-1}C)\det(D)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left(\begin{array}{cc}
+A & B\\
+0 & D
+\end{array}\right)^{k}=\left(\begin{array}{cc}
+A^{k} & *\\
+0 & D^{k}
+\end{array}\right),\left(\begin{array}{cc}
+A & 0\\
+B & D
+\end{array}\right)^{k}=\left(\begin{array}{cc}
+A^{k} & 0\\
+* & D^{k}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז אם המטריצה היא בלוקים כשאחד הבלוקים על האלכסון המשני הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז הפולינום האופייני הוא מכפלת הפולינומים האופייניים של המטריצות בלוקים
+ על האלכסון הראשי.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תכונות אופרטורים
+\end_layout
+
+\begin_layout Enumerate
+מציאת אופרטור צמוד–
+\begin_inset Formula 
+\[
+orthonormal-basis-and-hermitian-operation
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+by-definition
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+סימון וקטורי בסיס ב-
+\begin_inset Formula $\left\{ e_{1},e_{2}...\right\} $
+\end_inset
+
+ ואז לסמן פעולות 
+\begin_inset Formula $e_{1}+e_{2}$
+\end_inset
+
+ וכו'
+\end_layout
+
+\begin_layout Enumerate
+אופרטור אוניטארי מעביר בסיס א.נ.
+ לבסיס א.נ.
+\end_layout
+
+\begin_layout Enumerate
+ע"ע של אופרטור אוניטרי על מעגל היחידה, 
+\begin_inset Formula $\left|\lambda_{i}\right|=1$
+\end_inset
+
+)אם 
+\begin_inset Formula $T$
+\end_inset
+
+ נורמלי וכל הע"ע כל מעגל היחידה-הוכחה עם איזומטריה וו"ע(
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מרחבי מנה
+\end_layout
+
+\begin_layout Enumerate
+אם 
+\begin_inset Formula $W\subseteq V$
+\end_inset
+
+ הוא 
+\begin_inset Formula $T$
+\end_inset
+
+-שמור, אז 
+\begin_inset Formula $\overline{T}:V/W\to V/W$
+\end_inset
+
+ היא הפונקצייה המושרה על 
+\begin_inset Formula $W$
+\end_inset
+
+ על ידי 
+\begin_inset Formula $T$
+\end_inset
+
+ ומוגדרת כך
+\begin_inset Formula 
+\[
+\overline{T}\left(v+W\right)=T\left(v\right)+W
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+אם מבקשים 
+\begin_inset Formula $T:V/W\to U$
+\end_inset
+
+ אז שני אפשרויות:
+\begin_inset Formula 
+\[
+V=W\oplus U\Rightarrow define\,\forall v=w+u\,:\,T\left(v=w+u\right)=u\Rightarrow T\,linear\,and\,kerT\,is\,W\,andImT\,is\,U
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+use\,cosets\,show\,well-defined\,etc.\Rightarrow u-v\in W\Rightarrow T\left(u-v\right)\in W\Rightarrow T\left(u\right)=T\left(v\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $m_{\overline{T}}\left(x\right)|m_{T}\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכח
+\backslash
+הפרך נפוצים
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טריקים הוכחות
+\end_layout
+
+\begin_layout Enumerate
+לכסון סימולטני-
+\begin_inset Formula 
+\[
+1.Use\,commutitivity\,to\,show\,invariance
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+2.Use\,diagnolizability\,and\,minimal\,polynomial\,of\,the\,invariant\,subspace\Rightarrow show\,picture
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+3.conclude\,subspace\,is\,diagonalizable\,b\backslash c\,of\,linear\,factors
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+4.direct\,sum\,of\,eigenspaces\Rightarrow sum\,of\,sub-bases
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+צמצום לתתי-מרחבים 
+\begin_inset Formula $T$
+\end_inset
+
+-שמורים
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Ker\left(A\right)\subseteq Im\left(A^{*}\right)^{\perp}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+משפט שור-מעל המרוכבים, כל מטריצה דומה אוניטארית למשולשת עליונה
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $T$
+\end_inset
+
+ לכסין 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\begin_inset Formula $T=\sum\lambda_{i}P_{i}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $P_{i}\left(\left(\begin{array}{c}
+x\\
+y\\
+z
+\end{array}\right)\right)=\left\langle \left(\begin{array}{c}
+x\\
+y\\
+z
+\end{array}\right),b_{1}\right\rangle b_{1}+...+\left\langle \left(\begin{array}{c}
+x\\
+y\\
+z
+\end{array}\right),b_{n}\right\rangle b_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מ"פ ניתנת לייצוג על ידי מטריצה 
+\begin_inset Formula $\left(T\right)_{ij}=\left\langle e_{j},e_{i}\right\rangle $
+\end_inset
+
+ בסיס אורתונורמלי
+\end_layout
+
+\begin_layout Enumerate
+הפיכות של אופרטור 
+\begin_inset Formula $kerT=\left\{ 0\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תבניות בילינאריות
+\end_layout
+
+\begin_layout Enumerate
+החלפת משתנים נקבעת על ידי המטריצה הפועלת על העמודות של הטרנספורציה
+\end_layout
+
+\begin_layout Enumerate
+דרגה היא 
+\begin_inset Formula $invariant$
+\end_inset
+
+ של תב"ל מעל 
+\bar under
+המרוכבים
+\end_layout
+
+\begin_layout Enumerate
+חפיפה סימולטנית-פעולות חפיפה על סימטרית משאירים אותה סימטרית ומעל הממשיים
+ לכסינה אוניטארית-מדהים!
+\end_layout
+
+\end_body
+\end_document

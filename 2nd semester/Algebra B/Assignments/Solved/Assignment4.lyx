@@ -1,0 +1,1078 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+אלגברה ב
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+104173
+\numeric off
+-גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Author
+שניר הורדן-
+\numeric on
+205689581
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A=\left(\begin{array}{cccc}
+7 & 1 & 2 & 2\\
+1 & 4 & -1 & -1\\
+-2 & 1 & 5 & -1\\
+1 & 1 & 2 & 8
+\end{array}\right)$
+\end_inset
+
+.
+ נתון 
+\begin_inset Formula $\lambda=6$
+\end_inset
+
+ הוא ערך עצמי.
+\begin_inset Formula 
+\[
+ker\left(A-6\mathbb{I}\right)=ker\left(\left(\begin{array}{cccc}
+1 & 1 & 2 & 2\\
+1 & -2 & -1 & -1\\
+-2 & 1 & -1 & -1\\
+1 & 1 & 2 & 2
+\end{array}\right)\right)=ker\left(\left(\begin{array}{cccc}
+1 & 1 & 2 & 2\\
+0 & -3 & -3 & -3\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{array}\right)\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+sp\left\{ \left(\begin{array}{c}
+1\\
+1\\
+-1\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+1\\
+-1
+\end{array}\right)\right\} \Rightarrow dim\left(ker\left(A-6\mathbb{I}\right)\right)=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נמצא עבור אלו ערכי 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula $ker\left(A-6\mathbb{I}\right)^{k}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ker\left(A-6\mathbb{I}\right)^{2}=ker\left(\left(\begin{array}{cccc}
+1 & 1 & 2 & 2\\
+1 & -2 & -1 & -1\\
+-2 & 1 & -1 & -1\\
+1 & 1 & 2 & 2
+\end{array}\right)^{2}\right)=ker\left(\left(\begin{array}{cccc}
+0 & 3 & 3 & 3\\
+0 & 3 & 3 & 3\\
+0 & -6 & -6 & -6\\
+0 & 3 & 3 & 3
+\end{array}\right)\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+ker\left(A-6\mathbb{I}\right)^{3}=0_{4\times4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נמצא את הפולנום האופייני ,
+\begin_inset Formula 
+\[
+p_{A}\left(\lambda\right)=\left|\left(\begin{array}{cccc}
+7-\lambda & 1 & 2 & 2\\
+1 & 4-\lambda & -1 & -1\\
+-2 & 1 & 5-\lambda & -1\\
+1 & 1 & 2 & 8-\lambda
+\end{array}\right)\right|=\left(7-\lambda\right)\left|\left(\begin{array}{ccc}
+4-\lambda & -1 & -1\\
+1 & 5-\lambda & -1\\
+1 & 2 & 8-\lambda
+\end{array}\right)\right|-1\left|\left(\begin{array}{ccc}
+1 & -1 & -1\\
+-2 & 5-\lambda & -1\\
+1 & 2 & 8-\lambda
+\end{array}\right)\right|+2\left|\left(\begin{array}{ccc}
+1 & 4-\lambda & -1\\
+-2 & 1 & -1\\
+1 & 1 & 8-\lambda
+\end{array}\right)\right|-2\left|\left(\begin{array}{ccc}
+1 & 4-\lambda & -1\\
+-2 & 1 & 5-\lambda\\
+1 & 1 & 2
+\end{array}\right)\right|
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=1296-864\lambda+216\lambda^{2}-24\lambda^{3}+\lambda^{4}=\left(\lambda-6\right)^{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי קיים ערך עצמי יחיד.
+\end_layout
+
+\begin_layout Standard
+הפולינום המינימלי הוא
+\begin_inset Formula 
+\[
+m_{A}\left(\lambda\right)=\left(\lambda-6\right)^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מאחר וקיבלנו את טרנספורמציית ה-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לאחר הצבה כאשר 
+\begin_inset Formula $k=3$
+\end_inset
+
+ לעיל.
+\end_layout
+
+\begin_layout Standard
+ב.
+\end_layout
+
+\begin_layout Standard
+הריבוי הגיאומרי קטן מהריבוי האלגברי לכן מטריצה זו אינה לכסינה.
+ אך לפי משפט, כל מטריצה ניתנת לכתיבה בצורת גורדן.
+\end_layout
+
+\begin_layout Standard
+מצא שרשרת גורדן, כלומר
+\begin_inset Formula 
+\[
+v_{4}\in Ker\left(A-6\mathbb{I}\right)^{3}\land v_{4}\notin Ker\left(A-6\mathbb{I}\right)^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+v_{3}\in Ker\left(A-6\mathbb{I}\right)^{2}\land v_{3}\notin Ker\left(A-6\mathbb{I}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+v_{1},v_{2}\in Ker\left(A-6\mathbb{I}\right)\quad already\quad found
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתחיל בתהליך:
+\begin_inset Formula 
+\[
+1.pick\quad arbitrary\quad\left(\begin{array}{c}
+0\\
+1\\
+0\\
+0
+\end{array}\right)\in Ker\left(A-6\mathbb{I}\right)^{3}\land\left(\begin{array}{c}
+0\\
+1\\
+0\\
+0
+\end{array}\right)\notin Ker\left(A-6\mathbb{I}\right)^{2}\checkmark
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+2.\left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right)\in Ker\left(A-6\mathbb{I}\right)^{2}\land\left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right)\notin Ker\left(A-6\mathbb{I}\right)\checkmark
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+3.\left\{ v_{1},v_{2}\right\} =\left\{ \left(\begin{array}{c}
+1\\
+1\\
+-2\\
+1
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+1\\
+-1
+\end{array}\right)\right\} \in Ker\left(A-6\mathbb{I}\right)\quad two\quad linearly\quad independent\quad vectors\checkmark
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סיימנו.
+ אזי,
+\begin_inset Formula 
+\[
+P=\left(\begin{array}{cccc}
+0 & 1 & 1 & 0\\
+0 & 1 & 0 & 1\\
+1 & -2 & 0 & 0\\
+-1 & 1 & 0 & 0
+\end{array}\right),P^{-1}=\left(\begin{array}{cccc}
+0 & 0 & -1 & -2\\
+0 & 0 & -1 & -1\\
+1 & 0 & 1 & 1\\
+0 & 1 & 1 & 1
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+J=\left(\begin{array}{cccc}
+6 & 0 & 0 & 0\\
+0 & 6 & 1 & 0\\
+0 & 0 & 6 & 1\\
+0 & 0 & 0 & 6
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $\left[T\right]_{E}=\left(\begin{array}{ccc}
+2 & 0 & 0\\
+0 & 2 & 0\\
+-1 & 1 & 2
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמצא 
+\begin_inset Formula $B$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $\left[T\right]_{B}=J$
+\end_inset
+
+.
+ כלומר 
+\begin_inset Formula $J=B\left[T\right]_{B}B^{-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמצא את הפולינום האופייני:
+\begin_inset Formula 
+\[
+\left|\left(\begin{array}{ccc}
+2-x & 0 & 0\\
+0 & 2-x & 0\\
+-1 & 1 & 2-x
+\end{array}\right)\right|=\left(2-x\right)^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל ע"ׂע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מריבוי גיאומטרי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+.
+ נמצא את הריבוי הגיאומטרי:
+\begin_inset Formula 
+\[
+ker\left(\left(\begin{array}{ccc}
+2-2 & 0 & 0\\
+0 & 2-2 & 0\\
+-1 & 1 & 2-2
+\end{array}\right)\right)=ker\left(\left(\begin{array}{ccc}
+0 & 0 & 0\\
+0 & 0 & 0\\
+-1 & 1 & 0
+\end{array}\right)\right)=span\left\{ \left(\begin{array}{c}
+1\\
+1\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הריבוי הגיאומרי הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ אז מאחר ויש לנו מטריצה 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ וע"ׂע אחד, לפי משפט מתקיים שמספר בלוקי גורדן שווה למספר הו"ׂע, נקבל מטריצה
+ המורכבת מבלוק גורדן 
+\begin_inset Formula $1\times1$
+\end_inset
+
+ ובלוק גורדן 
+\begin_inset Formula $2\times2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמצא את השרשרת גורדן:
+\begin_inset Formula 
+\[
+\left(\left[T\right]_{E}-2I\right)v_{2}=\left(\begin{array}{c}
+1\\
+1\\
+0
+\end{array}\right)\land v_{2}\in ker\left(\left[T\right]_{E}-2I\right)^{2}\Rightarrow v_{2}\in ker\left(\left[T\right]_{E}-2I\right)^{2}=ker\left(\left(\begin{array}{ccc}
+0 & 0 & 0\\
+0 & 0 & 0\\
+-1 & 1 & 0
+\end{array}\right)\right)^{2}=\mathbb{R}^{3}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+!\exists v_{2}\in\mathbb{R}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\left[T\right]_{E}-2I\right)v_{3}=\left(\begin{array}{c}
+0\\
+0\\
+1
+\end{array}\right)\land v_{3}\in ker\left(\left[T\right]_{E}-2I\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי
+\begin_inset Formula 
+\[
+v_{3}=\left(\begin{array}{c}
+0\\
+1\\
+0
+\end{array}\right)\left(not\quad only\quad choice\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן
+\begin_inset Formula 
+\[
+J=\left(\begin{array}{ccc}
+2 & 0 & 0\\
+0 & 2 & 1\\
+0 & 0 & 2
+\end{array}\right),B=\left\{ \left(\begin{array}{c}
+1\\
+1\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+1
+\end{array}\right),\left(\begin{array}{c}
+0\\
+1\\
+0
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A^{2}$
+\end_inset
+
+ היא מטריצה מהצורה דלהלן פירוק למטריצה אלמנטרית כפול 
+\begin_inset Formula $A^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\left(\begin{array}{ccccccccccc}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0
+\end{array}\right)\overbrace{\left(\begin{array}{ccccccccccc}
+0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{array}\right)}^{A^{2}}\\
+=\left(\begin{array}{ccccccccccc}
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{array}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו"ׂע בת"ׁל עבור 
+\begin_inset Formula $\lambda=0$
+\end_inset
+
+, אז יש שלושה בלוקי גורדן.
+\end_layout
+
+\begin_layout Standard
+אז עבור פרמוטציה של איברי הבסיס נקבל,
+\begin_inset Formula 
+\[
+\left[diag\left(J_{6}\left(0\right),J_{1}\left(0\right),J_{4}\left(0\right)\right)\right]_{B_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula 
+\[
+B_{2}=\left\{ v_{2},v_{3},v_{4},v_{5},v_{6},v_{7},v_{8},v_{9},v_{10},v_{11},v_{1}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נוכל להסיק עבור הע"ׁע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\numeric on
+1
+\numeric off
+ 
+\begin_inset Formula 
+\[
+p_{A}=\left(x-1\right)^{3}\left(x-2\right)^{4}\Rightarrow3\text{,4}=\text{א}"\text{ר}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ר"ג=
+\begin_inset Formula $2,3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי עבור כל ערך עצמי קיים וקטור עצמי מוכלל יחיד.
+ נקבל צורת גורדן מהצורה
+\begin_inset Formula 
+\[
+J=diag\left(J_{1}\left(1\right),J_{2}\left(1\right),J_{1}\left(2\right),J_{3}\left(2\right)\right)
+\]
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $p\left(x\right)=x^{4}-2x^{2}+1$
+\end_inset
+
+ מתאפס עבור 
+\begin_inset Formula $x=A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי משפט 
+\begin_inset Formula $p_{m}\left(x\right)|p\left(x\right)$
+\end_inset
+
+.
+ נציב 
+\begin_inset Formula $t=x^{2}$
+\end_inset
+
+ ונקבל
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p\left(t\right)=t^{2}-2t+1=\left(t-1\right)^{2}\Rightarrow p\left(x\right)=\left(x^{2}-1\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $p_{m}\left(x\right)=x^{2}-1=\left(x+1\right)\left(x-1\right)\quad or\quad p_{m}\left(x\right)=\left(x^{2}-1\right)^{2}=\left(x+1\right)^{2}\left(x-1\right)^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נקבל לפי משפט הפירוק הפרימרי ומשפט הפירוק הספקטרלי, כל המטריצות 
+\begin_inset Formula $A\in M_{4\times4}\left(\mathbb{C}\right)$
+\end_inset
+
+ אשר 
+\begin_inset Formula $p\left(x\right)$
+\end_inset
+
+ מאפס אותן, עד כדי דמיון:
+\begin_inset Formula 
+\[
+A_{1}=diag\left(1,1,-1,-1\right),A_{2}=diag\left(J_{2}\left(1\right),J_{2}\left(-1\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

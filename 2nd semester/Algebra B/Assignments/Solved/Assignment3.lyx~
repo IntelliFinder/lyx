@@ -1,0 +1,1808 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+אלגברה ב-גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Author
+שניר הורדן-
+\numeric on
+20568981
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.נמצא את המטריצה המייצגת של הטרנספורמציה בבסיס הסטנדרטי
+\begin_inset Formula 
+\[
+T=\left[\begin{array}{ccc}
+2 & 2 & 1\\
+0 & 2 & -1\\
+0 & 0 & 3
+\end{array}\right]_{E}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את הפולינום האופייני
+\begin_inset Formula 
+\[
+det\left(\lambda I-T\right)=\left|\left[\begin{array}{ccc}
+-2+\lambda & -2 & -1\\
+0 & -2+\lambda & 1\\
+0 & 0 & -3+\lambda
+\end{array}\right]\right|=\left(\lambda-2\right)^{2}\left(\lambda-3\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב כי המטריצה משולשת עליונה, אז לפי משפט היא לכסינה.
+ כמו כן, לפי משפט, עבור 
+\begin_inset Formula $T$
+\end_inset
+
+ אופרטור לינארי כלשהו, 
+\begin_inset Formula $T$
+\end_inset
+
+לכסין אם"ם הפולינום המינימלי שלו הוא 
+\begin_inset Formula $m_{T}(\lambda)=\left(\lambda-\lambda_{1}\right)...\left(\lambda-\lambda_{n}\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\[
+m_{T}(\lambda)=\left(\lambda-2\right)\left(\lambda-3\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ב.
+ לפי משפט הפירוק הספקטרלי, המ"ע של הע"ע הם סכום ישר של המרחב, ובמקרה זה
+ 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+U=ker\left(2\mathbb{I}-T\right)^{2} & =ker\left(\left[\begin{array}{ccc}
+2-2 & 2 & 1\\
+0 & 2-2 & -1\\
+0 & 0 & 3-2
+\end{array}\right]^{2}\right)=ker\left(\left[\begin{array}{ccc}
+0 & 2 & 1\\
+0 & 0 & -1\\
+0 & 0 & 1
+\end{array}\right]^{2}\right)=\\
+= & ker\left(\left[\begin{array}{ccc}
+0 & 0 & -1\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{array}\right]\right)=span\left\{ \left(\begin{array}{c}
+1\\
+0\\
+0
+\end{array}\right),\left(\begin{array}{c}
+1\\
+1\\
+0
+\end{array}\right)\right\} \\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W=ker\left(3\mathbb{I}-T\right)=ker\left(\left[\begin{array}{ccc}
+1 & -2 & -1\\
+0 & 1 & 1\\
+0 & 0 & 0
+\end{array}\right]\right)=span\left\{ \left(\begin{array}{c}
+1\\
+1\\
+-1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים 
+\begin_inset Formula $\mathbb{R}^{3}=U\oplus V$
+\end_inset
+
+ לפי משפט הפירוק הספקטרלי.
+ המ"ׂע בווודאי 
+\begin_inset Formula $T$
+\end_inset
+
+–איווריאנטים.
+ לפי משפט המוכיח כי 
+\begin_inset Formula $m_{T|_{W}}|m_{T}$
+\end_inset
+
+וגם אם 
+\begin_inset Formula $W$
+\end_inset
+
+ הוא תת-מרחב 
+\begin_inset Formula $T$
+\end_inset
+
+-שמור אז אם 
+\begin_inset Formula $T$
+\end_inset
+
+ לכסין גם 
+\begin_inset Formula $T|_{W}$
+\end_inset
+
+ לכסין.
+ הצמצום של 
+\begin_inset Formula $T$
+\end_inset
+
+ לכל אחד מתתי המרחבים לעיל הוא 
+\begin_inset Formula 
+\[
+m_{T|_{U}}\left(\lambda\right)=\left(\lambda-2\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m_{T|_{W}}\left(\lambda\right)=\left(\lambda-3\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+ נתייחס למטריצה בתור 
+\begin_inset Formula $A$
+\end_inset
+
+או 
+\begin_inset Formula $T$
+\end_inset
+
+ ללא חשיבות.
+\end_layout
+
+\begin_layout Standard
+א.
+ נמצא את הפולינום האופייני מעל 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{align*}
+p_{A}(\lambda) & =det\left(\lambda I-A\right)=\left|\left[\begin{array}{cccc}
+\lambda-1 & 0 & 4 & -4\\
+0 & \lambda-2 & 0 & 0\\
+0 & -1 & \lambda-1 & 0\\
+0 & -1 & 0 & \lambda-1
+\end{array}\right]\right|=\left(\lambda-1\right)\left|\left[\begin{array}{ccc}
+\lambda-2 & 0 & 0\\
+-1 & \lambda-1 & 0\\
+-1 & 0 & \lambda-1
+\end{array}\right]\right|=\\
+= & \left(\lambda-1\right)\left(\lambda-2\right)\left(\lambda-1\right)\left(\lambda-1\right)=\left(\lambda-2\right)\left(\lambda-1\right)^{3}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מעל 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+נקבל
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{A}\left(\lambda\right)=\left(\lambda-2\right)\left(\lambda-1\right)^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז נמצא מתי דרגת הגרעין של הגורם הלינארי ממעלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, נמצא את המעלה שבה אם נציב את המטריצה ב-
+\begin_inset Formula $p$
+\end_inset
+
+נקבל את מטריצת האפס,
+\begin_inset Formula 
+\[
+\left(\left[\begin{array}{cccc}
+1 & 0 & -4 & 4\\
+0 & 2 & 0 & 0\\
+0 & 1 & 1 & 0\\
+0 & 1 & 0 & 1
+\end{array}\right]-\mathbb{I}\right)^{2}=\left(\left[\begin{array}{cccc}
+0 & 0 & -4 & 4\\
+0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{array}\right]\right)^{2}=\left[\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{array}\right]\neq0_{4\times4}
+\]
+
+\end_inset
+
+ לכן המטריצה אינה לכסינה וספולינום האופייני הוא:
+\begin_inset Formula 
+\[
+m_{A}\left(\lambda\right)=\left(\lambda-2\right)\left(\lambda-1\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים 
+\begin_inset Formula $\mathbb{R}^{3}=U\oplus V$
+\end_inset
+
+ לפי משפט הפירוק הספקטרלי.
+ 
+\end_layout
+
+\begin_layout Standard
+ב.
+ לפי משפט הפירוק הפרימרי עבור 
+\begin_inset Formula $W_{i}=ker\left(\lambda_{i}\mathbb{I}-T\right)^{\beta_{i}}$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $W_{i}$
+\end_inset
+
+ 
+\begin_inset Formula $T$
+\end_inset
+
+-אינווריאנטים 
+\begin_inset Formula $V=\oplus W_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן
+\begin_inset Formula 
+\begin{align*}
+W_{1} & =ker\left(\lambda_{1}\mathbb{I}-T\right)=ker\left(2\mathbb{I}-T\right)=ker\left[\begin{array}{cccc}
+2-1 & 0 & 4 & -4\\
+0 & 2-2 & 0 & 0\\
+0 & -1 & 2-1 & 0\\
+0 & -1 & 0 & 2-1
+\end{array}\right]=\\
+= & ker\left[\begin{array}{cccc}
+1 & 0 & 4 & -4\\
+0 & 0 & 0 & 0\\
+0 & -1 & 1 & 0\\
+0 & -1 & 0 & 1
+\end{array}\right]=span\left\{ \left(\begin{array}{c}
+0\\
+\\
+0\\
+0
+\end{array}\right)\right\} 
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+W_{2} & =ker\left(\lambda_{2}\mathbb{I}-T\right)=ker\left[\begin{array}{cccc}
+1-1 & 0 & 4 & -4\\
+0 & 1-2 & 0 & 0\\
+0 & -1 & 1-1 & 0\\
+0 & -1 & 0 & 1-1
+\end{array}\right]=\\
+= & ker\left[\begin{array}{cccc}
+0 & 0 & 4 & -4\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0
+\end{array}\right]=ker\left[\begin{array}{cccc}
+0 & 0 & 1 & -1\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{array}\right]=span\left\{ \left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+1\\
+1
+\end{array}\right)\right\} 
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב כי הריבוי האלגברי גדול )ממש( מהריבוי הגיאומטרי, לכן 
+\begin_inset Formula $A$
+\end_inset
+
+ אינה לכסינה.
+ ז"א, ישנם פחות ו"ע מערכים עצמיים.
+ נשלים את הבסיס של 
+\begin_inset Formula $W_{2}$
+\end_inset
+
+באמצעות ערך עצמי מוכלל, כלומר מתקיימים 
+\begin_inset Formula 
+\[
+\begin{cases}
+\left(T-\lambda\mathbb{I}\right)^{m}x_{m} & =0\\
+\left(T-\lambda\mathbb{I}\right)^{m-1}x_{m} & \neq0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב 
+\begin_inset Formula $rank\left(T\right)-\mu_{1}=1$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $\mu_{1}$
+\end_inset
+
+ הוא הריבוי האלגברי של הע"ע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נעלה בדרגה את הפולינומים עד שנגיע למטריצה מדרגה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(I-A\right)=\left[\begin{array}{cccc}
+0 & 0 & 4 & -4\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0
+\end{array}\right],rank=2
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left(I-A\right)^{2}=\left[\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{array}\right],rank=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן יהיה ע"ע עצמי מוכלל יחיד, כי השרשרת גורדן היא מאורך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וההפרש בין דרגות המטריצות הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+מצאנו שני ו"ע בת"ל של הגרעין במעלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ על מנת להשלים את הבסיס שיפרוש את המרחב העצמי עלינו לפתור את השרשרת גורדן.
+\begin_inset Formula 
+\[
+\left[\begin{array}{cccc}
+0 & 0 & 4 & -4\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0
+\end{array}\right]\left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right)=\left(\begin{array}{c}
+0\\
+0\\
+0\\
+0
+\end{array}\right)\Rightarrow\left[\begin{array}{cccc}
+0 & 0 & 4 & -4\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0
+\end{array}\right]\left(\begin{array}{c}
+x_{1}\\
+x_{2}\\
+x_{3}\\
+x_{4}
+\end{array}\right)=\left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\Rightarrow & \left(\begin{array}{c}
+x_{1}\\
+x_{2}\\
+x_{3}\\
+x_{4}
+\end{array}\right)=\left(\begin{array}{c}
+0\\
+0\\
+-\frac{1}{4}\\
+0
+\end{array}\right)\iff\left[\begin{array}{cccc}
+0 & 0 & 4 & -4\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & -1 & 0 & 0
+\end{array}\right]^{2}\left(\begin{array}{c}
+x_{1}\\
+x_{2}\\
+x_{3}\\
+x_{4}
+\end{array}\right)=\left(\begin{array}{c}
+0\\
+0\\
+0\\
+0
+\end{array}\right)\\
+\Rightarrow & \left[\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{array}\right]\left(\begin{array}{c}
+0\\
+0\\
+-\frac{1}{4}\\
+0
+\end{array}\right)=\left(\begin{array}{c}
+0\\
+0\\
+0\\
+0
+\end{array}\right)\checkmark
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula 
+\[
+U=span\left\{ \left(\begin{array}{c}
+0\\
+0\\
+1\\
+1
+\end{array}\right),\left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+-\frac{1}{4}\\
+0
+\end{array}\right)\right\} \underbrace{=}_{equal-dimensions}Ker\left(\mathbb{I}-A\right)^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W\underbrace{=}_{equal-dimensions}Ker\left(2\mathbb{I}-A\right)^{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי משפט הפירוק הפרימרי: 
+\begin_inset Formula $\mathbb{C}^{4}=W\oplus U$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ג.המטריצה חייבת להיות בצורת בלוקים כי התתי-מרחבים הם סכום-ישר .
+\end_layout
+
+\begin_layout Standard
+המטריצה 
+\begin_inset Formula $P$
+\end_inset
+
+ מוגדרת כהבסיס שמצאנו בסעיף ב בעמודותיה ,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P=\left[\begin{array}{cccc}
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1\\
+1 & 0 & -\frac{1}{4} & 0\\
+1 & 0 & 0 & 0
+\end{array}\right],P^{-1}=\left[\begin{array}{cccc}
+0 & -1 & 0 & 1\\
+1 & 0 & 0 & 0\\
+0 & 0 & -4 & 4\\
+0 & 1 & 0 & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ד.הצורת גורדן המתאימה )לא היחידה( היא:
+\begin_inset Formula 
+\[
+J=\left[\begin{array}{cccc}
+1 & 0 & 0 & 0\\
+0 & 1 & 1 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נפרק למטריצה נילפוטנטית ולכסינה )אף אלכסונית במקרה זה( המתחלפות בכפל:
+\begin_inset Formula 
+\[
+N=\left[\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{array}\right],D=\left[\begin{array}{cccc}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $v\in V$
+\end_inset
+
+.
+ נניח כי לכל 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n\left(v\right)$
+\end_inset
+
+ כך שמתקיים 
+\begin_inset Formula $T^{n\left(v\right)}\left(v\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+עלינו להוכיח כי קיים 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $T^{n}\left(v\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נגדיר 
+\begin_inset Formula $n=max\left\{ n\left(v\right)\right\} +1$
+\end_inset
+
+.
+ כל 
+\begin_inset Formula $v$
+\end_inset
+
+מתאפס עם 
+\begin_inset Formula $n_{0}\in\mathbb{N}$
+\end_inset
+
+ כלשהו המקיים 
+\begin_inset Formula $n_{0}<n$
+\end_inset
+
+ אזי 
+\begin_inset Formula 
+\[
+T^{n}\left(v\right)=T^{n-n_{0}}\circ T^{n_{0}}\left(v\right)=T^{n-n_{0}}\left(0\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נשים לב כי 
+\begin_inset Formula $n-n_{0}>0$
+\end_inset
+
+ אז לא נטפל במקרה 
+\begin_inset Formula $n=n\left(v\right)$
+\end_inset
+
+ אך אילו כן בכל מקרה היה מתקיים 
+\begin_inset Formula $T^{0}\left(0\right)=0$
+\end_inset
+
+ כי זו טרנספורמציית הזהות.
+\end_layout
+
+\begin_layout Proof
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ב.
+\end_layout
+
+\begin_layout Proof
+נניח כי 
+\begin_inset Formula $dimImT=1$
+\end_inset
+
+.
+ יהא 
+\begin_inset Formula $v\in V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+אזי 
+\begin_inset Formula $T\left(v\right)=\lambda\left(v\right)v_{1}\subseteq span\left\{ v_{1}\right\} =ImT$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $\lambda\left(v\right)$
+\end_inset
+
+ הוא משתנה התלוי ב-
+\begin_inset Formula $v$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+לפי משפט גורדן, כל מטריצה דומה למטריצה ללכסינה חיבור עם נילפוטנטית)צורת
+ גורדן(.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+מקרה 
+\begin_inset Formula $I$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+המטריצה לכסינה עם ע"ע 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ וו"ׂע 
+\begin_inset Formula $\lambda\left(v_{1}\right)$
+\end_inset
+
+ מריבוי גיאומטרי=אלגברי של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וע"ׂע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מריבוי אלגברי=גיאומטרי של 
+\begin_inset Formula $rankT-1$
+\end_inset
+
+.
+ אז קיים בסיס שבו היא אלכסונית, אזי אינה נילפוטנית.)כי אם 
+\begin_inset Formula $T$
+\end_inset
+
+ אלכסונית אז לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+, 
+\begin_inset Formula $T^{n}\neq0_{m\times m}$
+\end_inset
+
+.(
+\end_layout
+
+\begin_layout Proof
+הסבר נוסף: הצורת גורדן שלה היא בלוק של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והשאר אפסים )כלומר אלכסונית חיבור עם מטריצת האפס עבור הנילפוטנטית במשפט(.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+מקרה 
+\begin_inset Formula $II$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $T$
+\end_inset
+
+ אינה לכסינה.
+ אז לא קיים 
+\begin_inset Formula $v_{0}\in V$
+\end_inset
+
+ המקיים 
+\begin_inset Formula $T\left(v_{0}\right)=\lambda v_{0}$
+\end_inset
+
+ אך אכן מתקיים 
+\begin_inset Formula $dimImT=1$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $T\neq0_{n\times n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+קיים בסיס כך שכל המטריצה אפסים פרט לערך יחיד 
+\bar under
+שאינו 
+\bar default
+על האלכסון הראשי.
+ אז הפולינום האופייני של הטרנספורמציה הוא 
+\begin_inset Formula $p\left(x\right)=x^{n}$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $T$
+\end_inset
+
+ נילפוטנטית.
+\end_layout
+
+\begin_layout Proof
+כעת, נניח בשלילה כי היא לכסינה ונילפוטנטית סימולטנית.
+\end_layout
+
+\begin_layout Proof
+אם היא לכסינה אז קיים בסיס כך שמטריצה מייצגת לפי בסיס זה היא אלכסונית.
+ אך מטריצה אלכסונית בכל חזקה מעל 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+היא אלכסונית.
+ סתירה לנילפוטנטיות.
+ )בכללי לאלכסוניות לא מתייחס לנתון לגבי התמונה(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $v\in V$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לפי משפט האיזומורפיזם הראשון קיים איזומורפיזם עבור 
+\begin_inset Formula $T:V\to U$
+\end_inset
+
+ אופרטור לינארי,
+\begin_inset Formula 
+\[
+\phi:\underbrace{V/K\text{erT}}_{V/W}\to\underbrace{ImT}_{U}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V=M_{n}\left(\mathbb{R}\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula $W=\left\{ Upper-diagonal-matrices\right\} $
+\end_inset
+
+.
+\begin_inset Formula $U=\left\{ \left[\begin{array}{cccc}
+0 & 0 & . & 0\\
+a & 0 & 0 & 0\\
+. & b & . & .\\
+c & d & . & 0
+\end{array}\right]|letters\in\mathbb{R}\right\} $
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+T\left(\left[\begin{array}{cccc}
+s & f & . & k\\
+a & g & h & l\\
+. & b & . & .\\
+c & d & . & r
+\end{array}\right]\right)=\left[\begin{array}{cccc}
+0 & 0 & . & 0\\
+a & 0 & 0 & 0\\
+. & b & . & .\\
+c & d & . & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זו בוודאי העתקה לינארית,חח"ע ועל )כי זו אותה מטריצה ללא האיברים "מעל" וכולל
+ האלכסון הראשי( והגרעין הן כל המטריצות המשולשות עליונות.
+\end_layout
+
+\begin_layout Standard
+באמצעות קוסטים:
+\begin_inset Formula 
+\[
+\phi\left(\left[v\right]\right)=v+W
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dim\left(V/W\right)=dimV-dimW=(n^{2}-n)/2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\begin_inset Formula 
+\[
+T\left(p(x)\right)=p\left(\minuso\pm\sqrt{5}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+U=\left\{ p\left(x\right)\in Q\left[x\right]|(x+\sqrt{5})\left(x-\sqrt{5}\right)\notin p\left(x\right)\right\} =\left\{ p\left(x\right)\in Q\left[x\right]|p\left(\pm\sqrt{5}\right)\neq0\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המימד הוא אינסופי.
+ נותר אינסופי למרות שהוא קבוצת מנה כי צמצמנו את כל הפולינומים עם פתרונות
+ ספציפיים אז עדיין נותרנו עם כמות אינסופית של פולינומים ב-
+\begin_inset Formula $\mathbb{Q}\left[x\right]/W$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u\neq\alpha v$
+\end_inset
+
+ לכל 
+\begin_inset Formula $\alpha\in\mathbb{F}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $w\in\mathbb{R}^{3}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $B=\left\{ u,v,w\right\} $
+\end_inset
+
+.
+ נסמן 
+\begin_inset Formula $v=u^{'}+v^{'}+w^{'}$
+\end_inset
+
+.
+ כאשר 
+\begin_inset Formula $v'\in span\left\{ v\right\} $
+\end_inset
+
+ וכדומה עבור שאר הוקטורים בבסיס 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T\left(v\right)=w^{'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זו העתקה לינארית,חח"ע ועל.
+ הגרעין שלה הוא כל הוקטורים ב
+\begin_inset Formula $v$
+\end_inset
+
+ללא רכיב של 
+\begin_inset Formula $w$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי משפט האיזומורפיזם הראשון, קיים איזומורפיזם 
+\begin_inset Formula $\phi:V/W\to ImT$
+\end_inset
+
+ מאחר והמימדים סופיים מתקיים:
+\begin_inset Formula 
+\[
+dim\left(V\backslash W\right)=dim\left(V\right)-dim\left(W\right)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $\alpha\in\mathbb{F}$
+\end_inset
+
+כך ש-
+\begin_inset Formula $u=\alpha v$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+על מנת להשלים לבסיס נבחר שני וקטורים 
+\begin_inset Formula $w,\psi\in V$
+\end_inset
+
+ המקיימים 
+\begin_inset Formula $w\neq\alpha\psi$
+\end_inset
+
+ וגם 
+\begin_inset Formula $w\neq\beta u$
+\end_inset
+
+ לכל 
+\begin_inset Formula $\beta,\alpha\in\mathbb{F}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $B=\left\{ u,w,\psi\right\} $
+\end_inset
+
+.
+ נסמן 
+\begin_inset Formula $v=w^{'}+\psi^{'}+u^{'}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T\left(v\right)=w^{'}+\psi^{'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זו העתקה לינארית חח"ע ועל.
+ הגרעין שלה הוא כל הוקטורים ב-
+\begin_inset Formula $span\left\{ u\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי משפט האיזומורפיזם הראשון, 
+\begin_inset Formula $V/W$
+\end_inset
+
+ ו-
+\begin_inset Formula $ImT$
+\end_inset
+
+ איזומורפיות.
+ הקבוצות ממימד סופי לכן,
+\begin_inset Formula 
+\[
+dim\left(V\backslash W\right)=dim\left(V\right)-dim\left(W\right)=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1417 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+קומבי גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\end_layout
+
+\begin_layout Author
+שניר הורדן-ליעד סלומון
+\end_layout
+
+\begin_layout Author
+
+\numeric on
+205689581
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+326991890
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נשתמש בעקרון שובך היונים.
+\end_layout
+
+\begin_layout Standard
+נתון
+\begin_inset Formula 
+\[
+\left(1\right)\stackrel[i=1]{60}{\sum}x_{i}=100,x_{i}\geq1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula 
+\[
+S_{j}=\stackrel[i=1]{j}{\sum}x_{i},1\leq j\leq60
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+20
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תאים ו-
+\numeric on
+60
+\numeric off
+ יונים, כאשר התאים הם 
+\begin_inset Formula $\left\{ 0,1,...,19\right\} $
+\end_inset
+
+ והיונים הם 
+\begin_inset Formula $S_{j}\%20$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לפי עקרון שובך היונים, יש שני אפשרויות: 
+\begin_inset Formula 
+\[
+\begin{cases}
+\left(1\right) & \exists cell-with-4-pigeons\\
+\left(2\right) & \forall cells-have-exactly-3-pigeons
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+אופציה 
+\numeric on
+1
+\numeric off
+ -
+\bar default
+ אזי קיימים 
+\begin_inset Formula $j,k,l,w$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $20|S_{j},S_{k},S_{l},S_{w}$
+\end_inset
+
+ , 
+\begin_inset Formula $\left|S_{i}-S_{q}\right|=20$
+\end_inset
+
+ עבור 
+\begin_inset Formula $i,q\in\left\{ j,k,l,w\right\} $
+\end_inset
+
+ סיימנו.
+\end_layout
+
+\begin_layout Standard
+אילו לא אז 
+\begin_inset Formula $min\left\{ \left|S_{i}-S_{q}\right|\right\} \geq40$
+\end_inset
+
+, אזי 
+\begin_inset Formula $\exists\left(\left|S_{i}-S_{k}\right|\right)=20$
+\end_inset
+
+כי אם נניח בשלילה, שכולם מקיימים 
+\begin_inset Formula $min\left\{ \left|S_{z}-S_{t}\right|\right\} \geq40$
+\end_inset
+
+, קיימים לפחות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הפרשים כאלה, נקבל 
+\begin_inset Formula $\max\left\{ S_{j}\right\} \geq120$
+\end_inset
+
+סתירה ל-
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+אופציה 
+\numeric on
+2
+\numeric off
+ -
+\bar default
+נתבונן בתא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+אזי קיימים 
+\begin_inset Formula $j,k,l$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $20|S_{\text{j , }}<S_{k},<S_{l}$
+\end_inset
+
+ , אם 
+\begin_inset Formula $S_{j} =20$
+\end_inset
+
+ סיימנו.
+\end_layout
+
+\begin_layout Standard
+אם לא אז הסכום
+\begin_inset Formula $60\leq$
+\end_inset
+
+ .
+ אם 
+\begin_inset Formula $S_{k}=20$
+\end_inset
+
+סיימנו.
+ אילו לא,נשים לב כי 
+\begin_inset Formula $S_{l}=100$
+\end_inset
+
+ קיימים שני אפשרויות שההפרשים שנוצרים הם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+20
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\numeric on
+60
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+40
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\numeric on
+40
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ אם זה המקרה הראשון סיימנו.
+ אם זה המקרה השני אז
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקבל 
+\begin_inset Formula $100-80=20$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $f:\left\{ 1,...,15\right\} \to\mathbb{N}$
+\end_inset
+
+ המוגדרת 
+\begin_inset Formula $\stackrel[i=1]{15}{\sum}f\left(i\right)=100$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\aleph\right)$
+\end_inset
+
+נגדיר 
+\begin_inset Formula $\left\{ 0,...,13\right\} $
+\end_inset
+
+ כתאים כאשר 
+\begin_inset Formula $f\left(i\right)+f\left(i+1\right)$
+\end_inset
+
+ הם היונים לכל 
+\begin_inset Formula $i\in\left[15\right]$
+\end_inset
+
+.
+ נזכור כי 
+\begin_inset Formula $f\left(15+1\right)=f\text{\left(1\right) }$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז ישנם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+15
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יונים.
+ תחום הסכומים האפשריים עבור היונים הוא 
+\begin_inset Formula $0\to100$
+\end_inset
+
+.
+ כל תא מייצג ערך של סכום אפשרי מודולו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+14
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+**לפי עקרון שובך היונים קיים תא עם שתי יונים**.
+ נניח בשלילה כי הסכומים בכל התאים הם קטנים מ-
+\numeric on
+14
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ אז נקבל,
+\begin_inset Formula 
+\[
+f\left(i\right)+f\left(i+1\right)\leq13
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי,
+\begin_inset Formula 
+\begin{align*}
+max\left\{ \stackrel[i=1]{15}{\sum}f\left(i\right)\right\}  & =\frac{max\left\{ \stackrel[i=1]{15}{\sum}f\left(i\right)\right\} +max\left\{ \stackrel[i=1]{15}{\sum}f\left(i\right)\right\} }{2}=\frac{max\left\{ \stackrel[i=1]{15}{\sum}f\left(i\right)\right\} +max\left\{ \stackrel[i=1]{15}{\sum}f\left(i+1\right)\right\} }{2}\\
+\underbrace{=}_{series-sum-laws} & \frac{max\left\{ \stackrel[i=1]{15}{\sum}f\left(i\right)+f\left(i+1\right)\right\} }{2}=\frac{15\times13}{2}=97.5\neq100
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סתירה.
+ המקרה המינימלי הוא היונה נמצאת בתא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ואז הסכום הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+14
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+לכן, קיים 
+\begin_inset Formula $i\in\left[15\right]$
+\end_inset
+
+ , 
+\begin_inset Formula $f\left(i\right)+f\left(i+1\right)\geq14$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\beta\right)$
+\end_inset
+
+ נשתמש בשיטת פתרון שונה עבור סעיף זה.
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $\left\{ 0,...,21\right\} $
+\end_inset
+
+כתאים כאשר 
+\begin_inset Formula $2f\left(i\right)+f\left(i+1\right)$
+\end_inset
+
+ הם היונים לכל 
+\begin_inset Formula $i\in\left[15\right]$
+\end_inset
+
+.
+ נזכור כי 
+\begin_inset Formula $f\left(15+1\right)=f\text{\left(1\right) }$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נחשב את הממוצע לכל שלישייה 
+\begin_inset Formula 
+\[
+\left(*\right)f\left(i\right)+f\left(i\right)+f\left(i+1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ישנם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+15
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שלישיות מסוג 
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+ ו-
+\begin_inset Formula $\stackrel[i=1]{15}{\sum}\left(*\right)\underbrace{=}_{series-sum-laws}\stackrel[i=1]{15}{2\sum}f\left(i\right)+\stackrel[i=1]{15}{\sum}f\left(i+1\right)\underbrace{=}_{f\left(15+1\right)=f\text{\left(1\right) }}300$
+\end_inset
+
+.
+ נחשב את הממוצע: 
+\begin_inset Formula 
+\[
+\frac{\stackrel[i=1]{15}{\sum}\left(*\right)}{15}=\frac{300}{15}=20
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתבונן בביטוי 
+\begin_inset Formula $\stackrel[i=1]{15}{\sum}f\left(i\right)=100$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לא ייתכן ש-
+\begin_inset Formula $f\left(i\right)=n\in\mathbb{N}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\in\left\{ 1,2,...,15\right\} $
+\end_inset
+
+ כי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\frac{100}{15}=6\frac{2}{3}\in\mathbb{Q}\backslash\mathbb{N}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $2f\left(i\right)+f\left(i+1\right)\neq20$
+\end_inset
+
+ בפרט.
+ אך הממוצע הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+20
+\numeric off
+.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+אזי,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\exists i|2f\left(i\right)+f\left(i+1\right)\geq21
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+ 
+\begin_inset Formula $\left(\aleph\right)$
+\end_inset
+
+
+\series default
+לא ייתכן גרף עם 6 קודקודים בעלי ערכיות זו מכיוון שע"פ הנתון קיימים 2 קודקודים
+ בעלי ערכיות 5.
+ כלומר, מכל קודקוד בעל ערכיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ יש צלע לכל אחד משאר הקודקודים.
+ ז"א שבמקרה שלנו הערכיות הכי נמוכה של קודקוד כלשהו מתוך ה-6 הינה לכל הפחות
+ 2, וזה בסתירה לנתון.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\beta\right)$
+\end_inset
+
+לפי נוסחאת סכום הדרגות 
+\begin_inset Formula $\sum deg\left(v\right)=2\left|E\right|$
+\end_inset
+
+.
+ גם לפי מסקנה שהוכחנו בכיתה, כמות הקודקודים בגרף עם מספר ערכויות אי-זוגי
+ הוא מספר זוגי, בניגוד לדוגמא זו.
+ לכן זה לא ייתכן.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\gamma\right)$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\\
+\\
+\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Proof
+יהי 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+ גרף קשיר המקיים 
+\begin_inset Formula $|E|=|V|-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+עלינו להוכיח כי ב-
+\begin_inset Formula $G$
+\end_inset
+
+ אין מעגלים ואז נסיק שהוא עץ.
+\end_layout
+
+\begin_layout Proof
+נניח בשלילה כי קיים מעגל פשוט בגרף 
+\begin_inset Formula $G$
+\end_inset
+
+, כלומר הוא לא עץ.
+\end_layout
+
+\begin_layout Proof
+קיימים 
+\begin_inset Formula $\left|V\right|-1$
+\end_inset
+
+ צלעות בגרף.נבנה מחדש את הגרף כשנתחיל מממעגל כלשהו שהנחנו שקיים אחד כזה לפחות.
+\end_layout
+
+\begin_layout Proof
+במעגל, מספר הצלעות שווה למספר הקודקודים.
+ כל קודקוד שנוסיף לגרף יוסיף צלע לספירה כי הגרף קשיר.
+\end_layout
+
+\begin_layout Proof
+אזי 
+\begin_inset Formula $\left|E\right|\geq\left|V\right|$
+\end_inset
+
+מכיוון שלפחות מעגל אחד בגרף.
+\end_layout
+
+\begin_layout Proof
+סתירה.
+ לכן 
+\begin_inset Formula $G$
+\end_inset
+
+חסר מעגלים והוא קשיר אזי הוא עץ ע"פ ההגדרה.
+\end_layout
+
+\begin_layout Proof
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נניח כי 
+\begin_inset Formula $G$
+\end_inset
+
+הוא חסר מעגלים מקסימלי.
+ בפרט הוא חסר מעגלים אזי הוא עץ.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+ עץ.
+\end_layout
+
+\begin_layout Proof
+על פי ההגדרה 
+\begin_inset Formula $G$
+\end_inset
+
+ הוא גרף קשיר )קיים מסלול בין כל שני קודקודים בגרף ( וחסר מעגלים.
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $\left\{ x,y\right\} \in V$
+\end_inset
+
+ זוג קודקודים.
+ נבחר 
+\begin_inset Formula $z\neq x\land z\neq y\in V$
+\end_inset
+
+ ונתבונן בזוג 
+\begin_inset Formula $\left\{ x,z\right\} $
+\end_inset
+
+.
+ נחבר ביניהם באמצעות ענף.
+ מכיוון שהגרף הוא קשיר בהכרח קיים ביניהם מסלול אז אם נחבר ביניהם נקבל מעגל.
+\end_layout
+
+\begin_layout Proof
+מאחר וזה מקרה כללי, כל צלע שנוסיף בין הקודקודים הקיימים)שאינם כבר מחוברים(,
+ נקבל מעגל.
+\end_layout
+
+\begin_layout Proof
+כנדרש.
+\end_layout
+
+\begin_layout Proof
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

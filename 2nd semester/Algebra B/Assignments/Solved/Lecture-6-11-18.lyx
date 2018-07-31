@@ -1,0 +1,695 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\bar under
+מסקנה 
+\end_layout
+
+\begin_layout Standard
+מהטענות של אופ צמוד עצמי ומדרך ההוכחה של המשפט שאופ נורמלי הוא לכסין אוניטרית
+ נובע:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+אם 
+\begin_inset Formula $T:V\to V$
+\end_inset
+
+ אופ לינארי מעל 
+\begin_inset Formula $V$
+\end_inset
+
+ ממ"פ סוף מימדי מעל 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ אז 
+\begin_inset Formula $T$
+\end_inset
+
+ לכסין אורתוגונלית אםם 
+\begin_inset Formula $T$
+\end_inset
+
+ צ.ע.
+\end_layout
+
+\begin_layout Standard
+בפרט: אם 
+\begin_inset Formula $A\in M_{n}\left(\mathbb{R}\right)$
+\end_inset
+
+ מט סימטרית אז לכסינה א"ג כלומר דומה א"ג למטריצה אלכסונית 
+\begin_inset Formula $P^{t}A\underbrace{P}_{columns\quad are\quad unitary\quad base}=P^{-1}AP=\underbrace{D}_{diagonal\quad columns}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים מתוך משפט הפירוק הספקטרלי-
+\begin_inset Formula $A=\sum\lambda_{i}Q_{i}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $Q_{i}$
+\end_inset
+
+ ההטלה האורתוגונלית על 
+\begin_inset Formula $W_{i}$
+\end_inset
+
+ ובפרט 
+\begin_inset Formula $Q=Q*$
+\end_inset
+
+ )ההרמטית שלה(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+איך נמצא את 
+\begin_inset Formula $Q$
+\end_inset
+
+במפורש?
+\end_layout
+
+\begin_layout Standard
+נניח ש-
+\begin_inset Formula $\left\{ v_{1},...v_{n}\right\} $
+\end_inset
+
+ הוא בסיס אוניטארי למ"ע 
+\begin_inset Formula $V_{\lambda}$
+\end_inset
+
+ אזי 
+\begin_inset Formula $Q_{i}=v_{1}v_{1}^{t}+...+v_{n}v_{n}^{t}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+זאת משום שמתקיים 
+\begin_inset Formula $Q_{i}\left(e_{1}\right)=\stackrel[i=1]{n}{\sum}\left\langle e_{1},v_{i}\right\rangle v_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left(\begin{array}{cc}
+2 & 3\\
+3 & 2
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\lambda_{1}=5,\lambda_{2}=-1$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+V_{\lambda_{1}}=span\left\{ \frac{1}{\sqrt{2}}\left(\begin{array}{c}
+1\\
+1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+V_{\lambda_{2}}=span\left\{ \frac{1}{\sqrt{2}}\left(\begin{array}{c}
+1\\
+-1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי =
+\begin_inset Formula 
+\[
+Q_{1}=\frac{1}{\sqrt{2}}\left(\begin{array}{c}
+1\\
+1
+\end{array}\right)\frac{1}{\sqrt{2}}\left(\begin{array}{cc}
+1 & 1\end{array}\right)\left(\begin{array}{cc}
+\frac{1}{2} & \frac{1}{2}\\
+\frac{1}{2} & \frac{1}{2}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q_{2}=\frac{1}{\sqrt{2}}\left(\begin{array}{c}
+1\\
+-1
+\end{array}\right)\frac{1}{\sqrt{2}}\left(\begin{array}{cc}
+1 & -1\end{array}\right)=\left(\begin{array}{cc}
+\frac{1}{2} & -\frac{1}{2}\\
+-\frac{1}{2} & \frac{1}{2}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=5Q_{1}-Q_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תזכורת:
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $F=\mathbb{R},\mathbb{C}$
+\end_inset
+
+.
+ עבור 
+\begin_inset Formula $A\in M_{n}\left(F\right)$
+\end_inset
+
+ הגדרנו ש-
+\begin_inset Formula $A$
+\end_inset
+
+ חיובית לחלוטין אם 
+\begin_inset Formula $A=A*$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x^{*}Ax>0$
+\end_inset
+
+ לכל 
+\begin_inset Formula $x\neq0\in F$
+\end_inset
+
+.
+ נאמר ש-
+\begin_inset Formula $A$
+\end_inset
+
+ היא אי-שלילית אם 
+\begin_inset Formula $A=A^{*}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x^{*}Ax\geq0$
+\end_inset
+
+ לכל 
+\begin_inset Formula $x\in F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טענה
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A=A^{*}$
+\end_inset
+
+ אזי הבאים שקולים :
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A$
+\end_inset
+
+ אי-שלילית )חיובית לחלוטין(
+\end_layout
+
+\begin_layout Enumerate
+הע"ׂע של 
+\begin_inset Formula $A$
+\end_inset
+
+ הם אי-שליליים)חיוביים ממש(
+\end_layout
+
+\begin_layout Enumerate
+יש מטריצה הרמטית )הפיכה( 
+\begin_inset Formula $C$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $A=C^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+יש מטריצה 
+\begin_inset Formula $B$
+\end_inset
+
+ )הפיכה( כך ש-
+\begin_inset Formula $A=B^{*}B$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1\to2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ ע"ׂע אז יש 
+\begin_inset Formula $x\neq\vec{0}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $Ax=\lambda x$
+\end_inset
+
+ ולכן
+\begin_inset Formula 
+\[
+0\underbrace{\leq}_{Given}x^{*}Ax=x^{*}\lambda x=\lambda||x||^{2}\Rightarrow\lambda\geq0
+\]
+
+\end_inset
+
+ְ 
+\begin_inset Formula $2\to3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $A=\stackrel[i=1]{n}{\sum}\lambda_{i}Q_{i}$
+\end_inset
+
+ הפירוק הספקטרלי של 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula 
+\[
+C=\stackrel[i=1]{n}{\sum}\sqrt{\lambda_{i}}Q_{i}
+\]
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula $C$
+\end_inset
+
+ הרמטית כסכום של כאלו ומתקיים ש-
+\begin_inset Formula $A=C^{2}$
+\end_inset
+
+ כי 
+\begin_inset Formula $Q_{i}Q_{j}=\delta_{ij}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $3\to4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $B=C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $4\to1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{*}Ax=x^{*}B^{*}\underbrace{Bx}_{y}=||y||^{2}\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה
+\end_layout
+
+\begin_layout Standard
+ניתן לראות ש-
+\begin_inset Formula $C$
+\end_inset
+
+ בסעיף ג נקבעת באופן יחיד ואי-שלילית בעצמה אז קוראים לה 
+\bar under
+השורש
+\bar default
+ של 
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+עוד הערה
+\end_layout
+
+\begin_layout Standard
+תהא 
+\begin_inset Formula $A=A^{*}$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $A$
+\end_inset
+
+אי-שלילת אםם המינורים הראשיים שלה אי-שליליים.
+ )ש"ב(
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סיכומון
+\end_layout
+
+\begin_layout Standard
+תהא 
+\begin_inset Formula $A\in M_{n}\left(F\right)$
+\end_inset
+
+ מטריצה נורמלית .
+\end_layout
+
+\begin_layout Itemize
+ְ
+\begin_inset Formula $A$
+\end_inset
+
+ הרמטית אםם העע שלה ממשיים
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A$
+\end_inset
+
+ אי-שלילית )חיובית לחלוטין( אםם הע"ׂע ממשיים ואי-שליליים )חיוביים ממש(
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A$
+\end_inset
+
+ אוניטארית אםם הע"ע שלה על מעגל היחידה
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+משפט 
+\bar default
+)הפירוק הפרימרי(
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A\in M_{n}\left(F\right)$
+\end_inset
+
+ אז קיימות 
+\begin_inset Formula $u$
+\end_inset
+
+ אוניטארית ו-
+\begin_inset Formula $R$
+\end_inset
+
+ אי-שלילית כך ש-
+\begin_inset Formula $A=uR$
+\end_inset
+
+.)אם 
+\begin_inset Formula $A$
+\end_inset
+
+ הפיכה אז 
+\begin_inset Formula $R$
+\end_inset
+
+ חיובית לחלוטין(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נוכיח עבור 
+\begin_inset Formula $A$
+\end_inset
+
+ הפיכה.
+ 
+\end_layout
+
+\begin_layout Standard
+ראינו 
+\begin_inset Formula $A^{*}A$
+\end_inset
+
+ תמיד אי-שלילית ולכן קיים 
+\begin_inset Formula $R$
+\end_inset
+
+ הפיכה אי-שלילית )שורש של 
+\begin_inset Formula $A$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+כך ש-
+\begin_inset Formula $R^{2}=A^{*}A$
+\end_inset
+
+ אם 
+\begin_inset Formula $A$
+\end_inset
+
+ הפיכה אז 
+\begin_inset Formula $R$
+\end_inset
+
+ הפיכה )ובפרט חיובית לחלוטין( ונוכל להגדיר 
+\begin_inset Formula $u=R^{-1}A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה ש-
+\begin_inset Formula $u$
+\end_inset
+
+ אוניטארית:
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+ 
+\begin_inset Formula $u^{*}u=I$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u^{*}u=\left(R^{-1}A\right)^{*}\left(R^{-1}A\right)=A^{*}R^{-1^{*}}\underbrace{R^{-1}}_{unitary}A=A^{*}IA=I
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\end_body
+\end_document

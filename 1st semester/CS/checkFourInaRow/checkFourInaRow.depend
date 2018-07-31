@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1514053879 source:c:\users\snir\technion\checkfourinarow\hw3q1.c
+	<stdio.h>
+	<stdbool.h>
+	<assert.h>
+

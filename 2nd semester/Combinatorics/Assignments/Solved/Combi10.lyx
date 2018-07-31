@@ -1,0 +1,1348 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+קומבי
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\end_layout
+
+\begin_layout Author
+ליעד סלומון-שניר הורדן
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נתון גרף 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+ עם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+קודקודים ו-
+\numeric on
+33
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+צלעות.
+ צ.ל.
+ בכל צביעה בכחול ואדום קיים 
+\begin_inset Formula $K_{3}$
+\end_inset
+
+ אדום או כחול בגרף.
+\end_layout
+
+\begin_layout Standard
+נתבונן בגרף השלם 
+\begin_inset Formula $K_{9}$
+\end_inset
+
+.
+ קיימות לו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\frac{9\times8}{2}=36$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ צלעות
+\end_layout
+
+\begin_layout Standard
+ב
+\bar under
+מקרה הגרוע ביותר
+\bar default
+ קיימות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+צלעות זרות שמחוברות לקודקודים הנ"ל ש
+\bar under
+אינם
+\bar default
+ ב-
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אלו מחוברים ל-
+\numeric on
+6
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+קודקודים בסה"כ- נסמנם 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתבונן ב-
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הקודקודים שנותרו-נסמנם 
+\begin_inset Formula $R$
+\end_inset
+
+.
+ נוכל להתבונן ב-
+\begin_inset Formula $R$
+\end_inset
+
+ וב-
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתוך הקודקודים ב-
+\begin_inset Formula $B$
+\end_inset
+
+ כך שאף שתיים מהם אינם מחוברים אחד לשני עם צלע שהסרנו בשלב הראשון.
+\end_layout
+
+\begin_layout Standard
+איחוד זה מקיים 
+\begin_inset Formula $K_{6}$
+\end_inset
+
+ כי כל אחד מהקודקודים בו מחובר לכל השאר בוודאות לפי הבנייה לעיל.
+ )התבוננו ב-
+\begin_inset Formula $K_{9}$
+\end_inset
+
+ ולא התייחסנו לקודקודים שאיתם אין אנו מקיימים את הנתונים של 
+\begin_inset Formula $G$
+\end_inset
+
+, אז נותרנו עם צליות המחוברות אחת לשנייה(.
+\end_layout
+
+\begin_layout Standard
+נזכור 
+\begin_inset Formula $r\left(3,3\right)=6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי מצאנו גרף שלם בגודל של מספר רמזי הנדרש.
+ סיימנו.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה:
+\bar default
+ אם הצלעות היו מחוברות לפחות קודקודים אז עדייןהיינו מקיימים את תכונת רמזי,
+ אך בבחירה של הקודקודים מתוך 
+\begin_inset Formula $B$
+\end_inset
+
+ היו לנו פחות אפשרויות בחירה.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+ 
+\begin_inset Formula $r\left(6,3\right)\leq19$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נתבונן בגרף 
+\begin_inset Formula $G=K_{19}$
+\end_inset
+
+ )הגרף השלם של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+19
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+קודקודים(.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $x\in V$
+\end_inset
+
+.
+ נשים לב ש-
+\begin_inset Formula $deg\left(x\right)=18$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $V_{B}$
+\end_inset
+
+-הקודקודים הכחולים היוצאים מ-
+\begin_inset Formula $x$
+\end_inset
+
+ ו-
+\begin_inset Formula $V_{R}$
+\end_inset
+
+הקודקודים האדומים היוצאים מ-
+\begin_inset Formula $x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי מתקיים אחד מן השתיים:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left|V_{B}\right|\geq\underbrace{r\left(4,3\right)}_{proven}+r\left(5,2\right)=9+5=14\geq r\left(5,3\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left|V_{R}\right|\geq R\left(6,2\right)=6$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אילו שניהם לא מתקיימים אז 
+\begin_inset Formula $\left|V_{R}\right|=13$
+\end_inset
+
+ ו-
+\begin_inset Formula $\left|V_{B}\right|=5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתבונן בגרף הנוצר כל ידי הצלעות האדומות בלבד, נסמנו 
+\begin_inset Formula $G_{2}=\left(V_{2},E_{2}\right)$
+\end_inset
+
+.
+ אז לפי נוסחא מההרצאה נקבל 
+\begin_inset Formula $2\left|E_{2}\right|=\stackrel[i=1]{19}{\sum}deg\left(v_{i}\right)=13\times19=247$
+\end_inset
+
+ .
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+אז
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתקיימים.
+ כלומר בגרף לכל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ קודקוד מחוברים לפחות 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+14
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ קודקודים עם צלעות כחולות או שלכל קודקוד מחוברים לפחות 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ קודקודים עם צלעות אדומות.
+\end_layout
+
+\begin_layout Standard
+אם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתקיים אז יש גרף עם 
+\begin_inset Formula $R\left(5,3\right)$
+\end_inset
+
+ קודקודים אז נוכל למצוא 
+\begin_inset Formula $K_{5}$
+\end_inset
+
+ הצבוע בכחול או 
+\begin_inset Formula $K_{3}$
+\end_inset
+
+ הצבוע באדום.
+ אז עם הקודקוד 
+\begin_inset Formula $x$
+\end_inset
+
+ נקבל 
+\begin_inset Formula $K_{6}$
+\end_inset
+
+ הצבוע בכחול.
+ באופן אנאלוגי עבור הצביעה באדום.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נמצא את ה\SpecialChar softhyphen
+
+\begin_inset Formula $n$
+\end_inset
+
+ המדובר.
+\end_layout
+
+\begin_layout Standard
+נקביל את קיום ארבעת הנקודות במישור כך שהמרחק ביניהם הוא לכל היותר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לקליקה בעלת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+איברים ואת הנקודות שהמרחק בין כל שתיים מהן גדול מ-
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לקליקה בעלת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+איברים.
+\end_layout
+
+\begin_layout Standard
+אזי עלינו למצוא את מספר רמזי הנ"ל 
+\begin_inset Formula $R\left(4,5\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי משפט 
+\begin_inset Formula $Ramsey$
+\end_inset
+
+ קיים חסם עליון על מספרי רמזי והוא נתון על ידי 
+\begin_inset Formula $R\left(4,5\right)\leq{4+5-2 \choose 4-1}={7 \choose 3}=\frac{7!}{3!4!}=\frac{7\times6\times5}{6}=35$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי נגדיר 
+\begin_inset Formula $n=35$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+סיימנו.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נוכיח באינדוקציה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בסיס האינדוקציה:
+\bar default
+ עבור 
+\begin_inset Formula $n=1$
+\end_inset
+
+ נקבל 
+\begin_inset Formula $K_{3n-1}=K_{2}$
+\end_inset
+
+ אזי כאן קיימים שני קודקודים אז קיים זיווג בגודל אחד שהוא בהכרח באותו צבע
+ )כי קיימת צלע אחת כזאת(.
+\end_layout
+
+\begin_layout Standard
+נניח נוכונות עבור 
+\begin_inset Formula $n$
+\end_inset
+
+ ונוכיח עבור 
+\begin_inset Formula $n+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נקח קודקוד ונחבר אליו שני צלעות-אחת אדומה ואחת כחולה ונוסיף קוקדים בקצוות
+ הפנויים של הצלעות.
+ עלינו לעשות זאת כי אנו צובעים בשני צבעים אז קיים קודקוד עבורו נאלץ לחבר
+ אליו צלעות מצבעים שונים.
+\end_layout
+
+\begin_layout Standard
+כעת נשתמש בהנחת האינדוקציה ונקבל שקיים גרף 
+\begin_inset Formula $K_{3n-1}$
+\end_inset
+
+ בעל זיווג בגודל 
+\begin_inset Formula $n$
+\end_inset
+
+ של צלעות זרות העלות אותו צבע.
+ ניקח את שלושת הנקודות שתיארנו מקודם, נרחיב אותם ונצרף אותם לגרף זה.
+ קיבלנו גרף 
+\begin_inset Formula $K_{3\left(n+1\right)-1}$
+\end_inset
+
+ שקיים לו זיווג של 
+\begin_inset Formula $n+1$
+\end_inset
+
+ צלעות זרות הצבועות באותו צבע.
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+ב.
+ 
+\bar under
+דוגמא המפריכה את קיום המסקנה עבור 
+\begin_inset Formula $K_{3n-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבנה רקורסיבית את הדוגמא.
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n=1$
+\end_inset
+
+ אין מה להוכיח כי קיים קודקוד יחיד ללא צלעות.
+\end_layout
+
+\begin_layout Standard
+כעת נקח קודקוד נחבר אליו צלע אדומה וכחולה )מאותם נימוקים במו סעיף א( ואז
+ נרחיב את מה שיצרנו ונחבר אותו לצעד הבנייה הקודם.
+\end_layout
+
+\begin_layout Standard
+נקבל זיווג בגודל 
+\begin_inset Formula $n-1$
+\end_inset
+
+.
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לפי משפט 
+\begin_inset Formula $Erdos-Szekres$
+\end_inset
+
+ מההרצאה דרוש 
+\begin_inset Formula $\left(n-1\right)\left(k-1\right)+1$
+\end_inset
+
+ קודקודים לקיום 
+\begin_inset Formula $n$
+\end_inset
+
+ קודקודים בסדר מונוטוני יורד או 
+\begin_inset Formula $k$
+\end_inset
+
+ קודקודים בסדר מונוטוני עולה.
+\end_layout
+
+\begin_layout Standard
+בהרצאה הקבלנו זאת לקליקה בעלת 
+\begin_inset Formula $n$
+\end_inset
+
+ צלעות ו-
+\begin_inset Formula $k$
+\end_inset
+
+ קודקודים המחוברים בסדר כלשהו מונוטוני, כלומר ניתן לסדר אותם על "קו ישר"
+ שכולו באותו צבע.
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n+1$
+\end_inset
+
+ קודקודים המסמלות קטעים סגורים זרים אחת לשנייה
+\begin_inset Formula $\left(A\right)$
+\end_inset
+
+ ו-
+\begin_inset Formula $n+1$
+\end_inset
+
+ קודקודים המסמלים שקיימת נקודה משותפת ביניהם 
+\begin_inset Formula $\left(B\right)$
+\end_inset
+
+ נקבל שדרוש 
+\begin_inset Formula $n^{2}+1$
+\end_inset
+
+ קודקודים.
+\end_layout
+
+\begin_layout Standard
+נשים לב כי תכונת הטרנזיטיביות מתקיימת עבור קטעים החולקים נקודה משותפת, אזי
+ כולם חולקים את אותה הנקודה.
+\end_layout
+
+\begin_layout Standard
+נתון כי קיימים 
+\begin_inset Formula $n^{2}+1$
+\end_inset
+
+ קודקודים, כנדרש לפי 
+\begin_inset Formula $Erdos-Szekres$
+\end_inset
+
+ .
+\end_layout
+
+\end_body
+\end_document

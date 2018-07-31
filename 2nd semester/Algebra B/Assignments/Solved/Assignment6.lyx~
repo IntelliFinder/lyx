@@ -1,0 +1,1222 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+אלגברה ב-גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left(\begin{array}{ccc}
+5 & 4 & -4\\
+4 & 5 & 4\\
+-4 & 4 & 5
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $\lambda=-3$
+\end_inset
+
+.
+ נחשב
+\begin_inset Formula 
+\[
+Ker\left(\left(\begin{array}{ccc}
+5 & 4 & -4\\
+4 & 5 & 4\\
+-4 & 4 & 5
+\end{array}\right)-\left(\begin{array}{ccc}
+-3 & 0 & 0\\
+0 & -3 & 0\\
+0 & 0 & -3
+\end{array}\right)\right)=Ker\left(\begin{array}{ccc}
+8 & 4 & -4\\
+4 & 8 & 4\\
+-4 & 4 & 8
+\end{array}\right)=sp\left\{ \left(\begin{array}{c}
+1\\
+-1\\
+1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $trA=15$
+\end_inset
+
+ אז 
+\begin_inset Formula $\lambda_{2}+\lambda_{3}=18$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבדוק:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $\lambda=9$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+Ker\left(A-\left(\begin{array}{ccc}
+9 & 0 & 0\\
+0 & 9 & 0\\
+0 & 0 & 9
+\end{array}\right)\right)=Ker\left(\begin{array}{ccc}
+-4 & 4 & -4\\
+4 & -4 & 4\\
+-4 & 4 & -4
+\end{array}\right)=sp\left\{ \left(\begin{array}{c}
+1\\
+0\\
+-1
+\end{array}\right),\left(\begin{array}{c}
+1\\
+2\\
+1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יש לנו שני ערכים עצמיים, אחד מריבוי גיאומטרי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והשני מריבוי גיאומטרי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ 
+\begin_inset Formula $A\in M_{n}\left(\mathbb{R}\right)$
+\end_inset
+
+ אז סיימנו.
+\end_layout
+
+\begin_layout Standard
+לפי משפט, וקטורים במרחבים עצמיים של ערכים עצמיים שונים הם אורתוגונלים.
+ 
+\end_layout
+
+\begin_layout Standard
+כמו כן יש לנו מרחב עצמי שבו הוקטורים הם אורתוגונליים אז נותר רק לנרמל אותם
+ ליצור מרחב אורתוגונלי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B=\left\{ \frac{1}{\sqrt{3}}\left(\begin{array}{c}
+1\\
+-1\\
+1
+\end{array}\right),\frac{1}{\sqrt{2}}\left(\begin{array}{c}
+1\\
+0\\
+-1
+\end{array}\right),\frac{1}{\sqrt{6}}\left(\begin{array}{c}
+1\\
+2\\
+1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula 
+\[
+D=\left(\begin{array}{ccc}
+-3 & 0 & 0\\
+0 & 9 & 0\\
+0 & 0 & 9
+\end{array}\right),P=\left(\begin{array}{ccc}
+\frac{1}{\sqrt{3}} & \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{6}}\\
+\frac{-1}{\sqrt{3}} & 0 & \frac{2}{\sqrt{6}}\\
+\frac{1}{\sqrt{3}} & \frac{-1}{\sqrt{2}} & \frac{1}{\sqrt{6}}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+ 
+\begin_inset Formula 
+\[
+q\left(x_{1},x_{2},x_{3},x_{4}\right)=2x_{1}x_{4}-6x_{2}x_{3}
+\]
+
+\end_inset
+
+
+\family roman
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ השלמה לריבוע:
+\begin_inset Formula 
+\[
+\left(\begin{array}{cccc}
+0 & \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0\\
+0 & \frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}} & 0\\
+\frac{1}{\sqrt{2}} & 0 & 0 & \frac{1}{\sqrt{2}}\\
+-\frac{1}{\sqrt{2}} & 0 & 0 & \frac{1}{\sqrt{2}}
+\end{array}\right)\left(\begin{array}{c}
+x_{1}\\
+x_{2}\\
+x_{3}\\
+x_{4}
+\end{array}\right)=\left(\begin{array}{c}
+y_{1}\\
+y_{2}\\
+y_{3}\\
+y_{4}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לאחר הצבה נקבל 
+\begin_inset Formula 
+\[
+q\left(\vec{y}\right)=3y_{1}^{2}-3y_{2}^{2}+y_{3}^{2}-y_{4}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Formula 
+\[
+\left[q\right]_{E}=\left(\begin{array}{cccc}
+0 & 0 & 0 & 1\\
+0 & 0 & -3 & 0\\
+0 & -3 & 0 & 0\\
+1 & 0 & 0 & 0
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ׂע"ׂע הם 
+\begin_inset Formula $\lambda_{1}=3,\lambda_{2}=-3,\lambda_{3}=1,\lambda_{4}=-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ו"ע הם בהתאמה )בסיס סדור(:
+\begin_inset Formula 
+\[
+B=\left\{ \left(\begin{array}{c}
+0\\
+\frac{1}{\sqrt{2}}\\
+\frac{1}{\sqrt{2}}\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+\frac{1}{\sqrt{2}}\\
+-\frac{1}{\sqrt{2}}\\
+0
+\end{array}\right),\left(\begin{array}{c}
+\frac{1}{\sqrt{2}}\\
+0\\
+0\\
+\frac{1}{\sqrt{2}}
+\end{array}\right),\left(\begin{array}{c}
+-\frac{1}{\sqrt{2}}\\
+0\\
+0\\
+\frac{1}{\sqrt{2}}
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי
+\begin_inset Formula 
+\[
+\left[q\right]_{B}=\left(\begin{array}{cccc}
+3 & 0 & 0 & 0\\
+0 & -3 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & -1
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dim U=2$
+\end_inset
+
+ כי יש שני ע"ע חיוביים.
+ 
+\begin_inset Formula $U$
+\end_inset
+
+ נפרש על ידי הו"ׂע המתאימים לע"ע אלו
+\begin_inset Formula 
+\[
+U=sp\left\{ \left(\begin{array}{c}
+0\\
+\frac{1}{\sqrt{2}}\\
+\frac{1}{\sqrt{2}}\\
+0
+\end{array}\right),\left(\begin{array}{c}
+\frac{1}{\sqrt{2}}\\
+0\\
+0\\
+\frac{1}{\sqrt{2}}
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+ 
+\begin_inset Formula 
+\[
+\left[q\right]_{E}=\left(\begin{array}{ccc}
+5 & 2 & -2\\
+2 & 1 & -1\\
+-2 & -1 & 0
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל 
+\begin_inset Formula 
+\[
+P^{t}\left[q\right]_{E}p=\left(\begin{array}{ccc}
+5 & 0 & 0\\
+0 & -1 & 0\\
+0 & 0 & \frac{1}{5}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $P=\left(\begin{array}{ccc}
+1 & 0 & \frac{2}{5}\\
+0 & 1 & -1\\
+0 & 1 & 0
+\end{array}\right)$
+\end_inset
+
+.
+ עמודות 
+\begin_inset Formula $P$
+\end_inset
+
+ הם הבסיס שבו 
+\begin_inset Formula $q$
+\end_inset
+
+אלכסונית.
+\end_layout
+
+\begin_layout Standard
+ב.
+ נתבונן במטריצה 
+\begin_inset Formula $A=\left(\begin{array}{ccc}
+2 & 1 & 1\\
+1 & 2 & 1\\
+1 & 1 & 2
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הע"ע שלה הם 
+\begin_inset Formula $1$
+\end_inset
+
+ מר"ג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\numeric on
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מר"ג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)כי 
+\begin_inset Formula $trA=6$
+\end_inset
+
+(.
+ כלומר הם חיוביים.
+\end_layout
+
+\begin_layout Standard
+לפי משפט ההתמדה של סילבסטר הסיגנטורה של שני מטריצות חופפות היא זהה.
+\end_layout
+
+\begin_layout Standard
+אך 
+\begin_inset Formula $sgn\left(q\right)=\left(2,1\right)$
+\end_inset
+
+ ו-
+\begin_inset Formula $sgn\left(A\right)=\left(3,0\right)$
+\end_inset
+
+.
+ אז הן אינן חופפות, כלומר לא קיים בסיס של 
+\begin_inset Formula $R^{3}$
+\end_inset
+
+שבו המטריצה המייצגת של 
+\begin_inset Formula $q$
+\end_inset
+
+ היא 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A\in M_{n}\left(R\right)$
+\end_inset
+
+ סימטרית.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $A$
+\end_inset
+
+ חופפת ל-
+\begin_inset Formula $A^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ סימטרית ממשית לכן לכסינה אז לפי משפט הפירוק הספקטרלי 
+\begin_inset Formula $A=\stackrel[i=1]{n}{\sum}\lambda_{i}P_{i}$
+\end_inset
+
+ ו-
+\begin_inset Formula $A^{2}=\stackrel[i=1]{n}{\sum}\lambda_{i}^{2}P_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ חופפת ל-
+\begin_inset Formula $A^{2}$
+\end_inset
+
+ אז 
+\begin_inset Formula $sgn\left(A\right)=sgn\left(A^{2}\right)$
+\end_inset
+
+.
+ נשים לב -
+\begin_inset Formula $sgn\left(A^{2}\right)=\left(k,0\right)$
+\end_inset
+
+ כל הע"ע אי שליליים.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $sgn\left(A\right)=\left(k,0\right)$
+\end_inset
+
+, כלומר כל הע"ׂע של 
+\begin_inset Formula $A$
+\end_inset
+
+ הם אי-שליליים, בלומר 
+\begin_inset Formula $A$
+\end_inset
+
+ היא אי-שלילית.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח ש-
+\begin_inset Formula $A$
+\end_inset
+
+ היא אי שלילית.
+ אז 
+\begin_inset Formula $sgn\left(A\right)=\left(\underbrace{k}_{rank\underbar{A}},0\right)$
+\end_inset
+
+.
+ כפי שראינו לעיל -
+\begin_inset Formula $A^{2}=\stackrel[i=1]{n}{\sum}\lambda_{i}^{2}P_{i}$
+\end_inset
+
+.
+ אזי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $rank\left(A^{2}\right)=rank\left(A\right)\Rightarrow sgn\left(A^{2}\right)=sgn\left(A\right)$
+\end_inset
+
+.
+ אם ל-
+\begin_inset Formula $A$
+\end_inset
+
+ יש ע"ע ם אז גם ל-
+\begin_inset Formula $A^{2}$
+\end_inset
+
+ ואם הוא חיובי הוא נשאר חיובי.
+ 
+\end_layout
+
+\begin_layout Standard
+לפי משפט ההתמדה של סילוסטר, הן חופפות.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\bar under
+פתרון
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left(\begin{array}{cc}
+1 & i\\
+0 & -1
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי משפט הפירוק הפולרי לכל מטריצה קיים פירוק 
+\begin_inset Formula $A=QR$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $Q$
+\end_inset
+
+ אורתו ו-
+\begin_inset Formula $R$
+\end_inset
+
+ אי-שלילית.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula 
+\[
+A^{*}A=\left(\begin{array}{cc}
+1 & 0\\
+-i & -1
+\end{array}\right)\left(\begin{array}{cc}
+1 & i\\
+0 & -1
+\end{array}\right)=\left(\begin{array}{cc}
+1 & i\\
+-i & 2
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כל הע"ע של מטריצה מהצורה 
+\begin_inset Formula $A=B^{*}B$
+\end_inset
+
+ הם אי-שליליים.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+לפי משפט שור, כל מטריצה דומה אוניטארית למטריצה משולשת עליונה.
+ 
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A$
+\end_inset
+
+ מטריצה הרמטית.
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula $A*A=AA*=A^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula $\left[A\right]_{B}=U$
+\end_inset
+
+ ו-
+\begin_inset Formula $\left[A\right]_{B}*=U*$
+\end_inset
+
+ כי 
+\begin_inset Formula $B$
+\end_inset
+
+ בסיס אוניטרי.
+\end_layout
+
+\begin_layout Standard
+מאחר ו-
+\begin_inset Formula $A$
+\end_inset
+
+הרמטית 
+\begin_inset Formula $A=A*$
+\end_inset
+
+ אז 
+\begin_inset Formula $U*=U$
+\end_inset
+
+ כלומר הן אלכסוניות עם ערכים על האלכסון הראשי מהצורה 
+\begin_inset Formula $|\lambda_{i}|^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז היא אי-שלילית.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+הע"ׂע של 
+\begin_inset Formula $A$
+\end_inset
+
+ הם 
+\begin_inset Formula 
+\[
+\left|\left(\begin{array}{cc}
+1-x & i\\
+i & 0-x
+\end{array}\right)\right|=-x\left(1-x\right)+1=x^{2}-x+1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפירוק הספקטרלי של 
+\begin_inset Formula $AA*$
+\end_inset
+
+ הוא 
+\begin_inset Formula 
+\[
+A^{*}A=\sum
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A\in M_{2}\left(\mathbb{R}\right)$
+\end_inset
+
+ אורתוגונלית.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $A*A=I$
+\end_inset
+
+.
+ נקח את העמודות של 
+\begin_inset Formula $A$
+\end_inset
+
+ בתור בסיס 
+\begin_inset Formula $B$
+\end_inset
+
+ ל-
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+.
+ העמודות אורתונורמליות אזי הן בת"ל, לפי משפט.
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula $\left[A\right]_{B}=\left(\begin{array}{cc}
+\pm1 & 0\\
+0 & \pm1
+\end{array}\right)$
+\end_inset
+
+ כי הע"ע הם 
+\begin_inset Formula $\pm1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $det\left(A\right)\underbrace{=}_{determinent\,of\,similar\,m\text{atrices}}det\left(\left[A\right]_{B}\right)=\pm1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+ְְ 
+\end_layout
+
+\end_body
+\end_document

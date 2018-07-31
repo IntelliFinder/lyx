@@ -1,0 +1,1338 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תורת הקבוצות ת"ב
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Author
+שניר הורדן
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+205689581-
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $A\subseteq\mathbb{R}$
+\end_inset
+
+ קס"ה ביחס לסדר הרגיל על 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש-
+\begin_inset Formula $A$
+\end_inset
+
+ אינה בת-מנייה.
+ כלומר 
+\begin_inset Formula $\left|A\right|>\aleph_{0}$
+\end_inset
+
+ אך לפני הנתון 
+\begin_inset Formula $A\subseteq\mathbb{R}\Rightarrow\left|A\right|\leq\aleph$
+\end_inset
+
+ אז לפי השערת הרצף 
+\begin_inset Formula $\left|A\right|=\aleph$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ קס"ה לכן לכל תת-קבוצה שלה קיים איבר ראשון.
+ )אם"ם לא קיימת תת-סדרה אינסופית יורדת(
+\end_layout
+
+\begin_layout Standard
+נחלק לשני מקרים:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+-
+\bar default
+
+\begin_inset Formula $A$
+\end_inset
+
+ אינה חסומה מלרע
+\end_layout
+
+\begin_layout Standard
+אז בוודאי קיימת תת-סדרה אינסופית יורדת לפי הסדר המושרה על 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+ סתירה לכך שהיא סדורה היטב.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-
+\begin_inset Formula $A$
+\end_inset
+
+ חסומה מלרע
+\end_layout
+
+\begin_layout Standard
+לפי שלמות המספרים הממשיים, לכל תת-קבוצה לא ריקה של הממשיים קיים סופרמום.
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצת החסמים מלרע של 
+\begin_inset Formula $A$
+\end_inset
+
+ שנסמנה 
+\begin_inset Formula $S$
+\end_inset
+
+.
+ ל-
+\begin_inset Formula $S$
+\end_inset
+
+ קיים סופרמום הנסמנו 
+\begin_inset Formula $s$
+\end_inset
+
+ שהוא האינפימום של 
+\begin_inset Formula $A$
+\end_inset
+
+ו-
+\begin_inset Formula $s\in A$
+\end_inset
+
+.
+ נימוק: 
+\begin_inset Formula $s$
+\end_inset
+
+ גדול או שווה לכל החסמים מלרע.
+ הם קטנים או שווים לכל האיברים ב-
+\begin_inset Formula $A$
+\end_inset
+
+, אז הסופרמום שלהם נמצא ב-
+\begin_inset Formula $A$
+\end_inset
+
+)שווה לאיבר ב-
+\begin_inset Formula $A$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ מעצמה 
+\begin_inset Formula $\aleph$
+\end_inset
+
+אז קיימת לה סדרה אינסופית השואפת ל-
+\begin_inset Formula $s$
+\end_inset
+
+.
+ כלומר תת-סדרה אינסופית יורדת.
+ סתירה לכך שהיא סדורה היטב.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $A$
+\end_inset
+
+ בת-מנייה.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהא 
+\begin_inset Formula $A\subseteq[0,\infty)$
+\end_inset
+
+עם יחס הסדר הרגיל על 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נניח ש-
+\begin_inset Formula $A\cap[n,n+1)$
+\end_inset
+
+ היא קס"ה לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיימת סדרה אינסופית יורדת לפי יחס הסדר הרגיל על 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי שלמות הממשיים וכפי שהוכחנו בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, לכל תת-קבוצה לא ריקה ב-
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ קיים אינפימום ב-
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+סדרה זו מתכנסת לערך כלשהו בקטע חצי סגור מלרע.
+ 
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $s-infimum\,of\,montonically\,decreasing\,sequence$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\exists n_{0}\in\mathbb{N}\,:\,s\in[n_{o},n_{0}+1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי בקטע זה קיימת סדרה אינסופית יורדת לפי יחס הסדר הרגיל על 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+סתירה להנחה.
+\end_layout
+
+\begin_layout Standard
+אזי לא קיימת תת-סדרה אינסופית יורדת לפי יחס הסדר הרגיל על 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+לכן 
+\begin_inset Formula $A$
+\end_inset
+
+ היא אכן קס"ה.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+ע"פ ההגדרה-סודר 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ הוא סודר עוקב אם קיים סודר 
+\begin_inset Formula $\beta$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $\alpha=\beta\cup\left\{ \beta\right\} $
+\end_inset
+
+, אחרת הוא סודר גבולי.
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+\begin_inset Formula $\alpha$
+\end_inset
+
+ אינו סודר עוקב אם"ם 
+\begin_inset Formula $\beta<\alpha\Rightarrow\beta+1<\alpha$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ אינו סודר עוקב 
+\bar under
+וגם 
+\bar default
+שמתקיים 
+\begin_inset Formula $\beta<\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז לא קיים סודר 
+\begin_inset Formula $\beta$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $\alpha=\beta\cup\left\{ \beta\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\alpha\neq\beta+1$
+\end_inset
+
+ לכל סודר 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+ אז לפי משפט הוא מקייים אחד בלבד מהשתיים : 
+\begin_inset Formula $\beta+1<\alpha$
+\end_inset
+
+ או 
+\begin_inset Formula $\beta+1>\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שמתקיים 
+\begin_inset Formula $\beta+1>\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אך לפי ההנחה 
+\begin_inset Formula $\beta<\alpha$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $\alpha=\beta+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+סתירה.
+\end_layout
+
+\begin_layout Standard
+לכן בהכרח מתקיים 
+\begin_inset Formula $\beta+1<\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $\forall\beta\in Ord\,:\;\beta<\alpha\Rightarrow\beta+1<\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ סודר עוקב.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\exists\beta\::\;\alpha=\beta\cup\left\{ \beta\right\} \underbrace{=}_{by\,definition\,of\,ordinal\,arithmatic}\beta+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אך לפי משפט יכול להתקיים רק אחד מבין השלושה :
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\begin_inset Formula $\alpha<\beta$
+\end_inset
+
+
+\numeric on
+2
+\numeric off
+.
+\begin_inset Formula $\alpha>\beta$
+\end_inset
+
+
+\numeric on
+3
+\numeric off
+.
+\begin_inset Formula $\alpha=\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סתירה.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ אינו סודר עוקב.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $\alpha,\beta,\gamma$
+\end_inset
+
+ סודרים.
+\end_layout
+
+\begin_layout Standard
+לפי משפט, הסודר 
+\begin_inset Formula $\alpha\cdot\beta\cdot\gamma$
+\end_inset
+
+ הוא טיפוס הסדר של הקבוצה 
+\begin_inset Formula $A\times B\times C$
+\end_inset
+
+ עם יחס הסדר 
+\begin_inset Formula $\leq$
+\end_inset
+
+ המוגדר כך:
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $\left(P_{1},\leq_{1}\right),\left(P_{2},\leq_{2}\right),\left(P_{3},\leq_{3}\right)$
+\end_inset
+
+ קס"ה כך שמתקיים 
+\begin_inset Formula $\forall a\in P_{1},b\in P_{2},c\in P_{3}\::\:a<b<c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי נקבל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ שלישייה של איברים המסודרים בסדר טוב.
+ נשים לב כי 
+\begin_inset Formula 
+\[
+\left|A\times B\times C\right|=\left|\left(A\times B\right)\times C\right|=\left|A\times\left(B\times C\right)\right|\Rightarrow A\times B\times C\sim\left(A\times B\right)\times C\sim A\times\left(B\times C\right)
+\]
+
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar under
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נימוק:
+\bar default
+ העצמה שלהן שווה אז קיימת פונקציה חח"ע ועל ביניהם.
+\end_layout
+
+\begin_layout Standard
+לכן לפי יחס הסדר שהגדרנו לעיל מתקיים שהפונקציה הזו היא גם שומרת סדר.
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula $\left(\alpha\cdot\beta\right)\cdot\gamma=\alpha\cdot\left(\beta\cdot\gamma\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה עם אינדוקציה על-סופית
+\end_layout
+
+\begin_layout Standard
+נשתמש בהגדרת סדר שהגדרנו בדרך פתרון הראשונה.
+\end_layout
+
+\begin_layout Standard
+בסיס האינדוקציה: 
+\begin_inset Formula $\emptyset\cdot\left(\emptyset\cdot\emptyset\right)=\left(\emptyset\cdot\emptyset\right)\cdot\emptyset$
+\end_inset
+
+.
+ בוודאי שמתקיים.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה 
+\begin_inset Formula $I$
+\end_inset
+
+ 
+\bar default
+האורדינלים אינם גבוליים
+\end_layout
+
+\begin_layout Standard
+הנחת האינדוקציה: נניח 
+\begin_inset Formula $\alpha\cdot(\beta\cdot\gamma)=\left(\alpha\cdot\beta\right)\cdot\gamma$
+\end_inset
+
+ .
+ אז נרצה להוכיח 
+\begin_inset Formula 
+\[
+\left(\alpha+1\right)\cdot(\left(\beta+1\right)\cdot\left(\gamma+1\right))=\left(\left(\alpha+1\right)\cdot\left(\beta+1\right)\right)\cdot\left(\gamma+1\right)
+\]
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\alpha\cdot(\beta\cdot\gamma)=\left(\alpha\cdot\beta\right)\cdot\gamma\Rightarrow exists\:bijective\:well-ordered\:function\:f:\alpha\cdot(\beta\cdot\gamma)\to\left(\alpha\cdot\beta\right)\cdot\gamma\Rightarrow
+\]
+
+\end_inset
+
+נבנה פונקציה חדשה 
+\begin_inset Formula 
+\[
+f_{new}:\left(\alpha+1\right)\cdot(\left(\beta+1\right)\cdot\left(\gamma+1\right))\to\left(\left(\alpha+1\right)\cdot\left(\beta+1\right)\right)\cdot\left(\gamma+1\right)
+\]
+
+\end_inset
+
+ אשר זהה ל-
+\begin_inset Formula $f|_{\alpha\cdot(\beta\cdot\gamma)}$
+\end_inset
+
+ נגדיר 
+\begin_inset Formula 
+\[
+f_{new}\left(\alpha\cup\left\{ \alpha\right\} \right)=\alpha\cup\left\{ \alpha\right\} ,f_{new}\left(\beta\cup\left\{ \beta\right\} \right)=\beta\cup\left\{ \beta\right\} ,f_{new}\left(\gamma\cup\left\{ \gamma\right\} \right)=\gamma\cup\left\{ \gamma\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב שבו שומרת על הסדר שהגדרנו והיא בייקציה.
+ אזי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+exists\:bijective\:well-ordered\:function\:f_{new}:\left(\alpha+1\right)\cdot(\left(\beta+1\right)\cdot\left(\gamma+1\right))\to\left(\left(\alpha+1\right)\cdot\left(\beta+1\right)\right)\cdot\left(\gamma+1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה 
+\begin_inset Formula $II$
+\end_inset
+
+- גבולי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall\theta<\alpha,\epsilon<\beta,\zeta<\gamma\,:\:\theta\cdot(\epsilon\cdot\zeta)=\left(\theta\cdot\epsilon\right)\cdot\zeta\Rightarrow\sup\left\{ \theta\cdot(\epsilon\cdot\zeta)\,|\,\theta<\alpha,\epsilon<\beta,\zeta<\gamma\right\} =\sup\left\{ \left(\theta\cdot\epsilon\right)\cdot\zeta\,|\,\theta<\alpha,\epsilon<\beta,\zeta<\gamma\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\alpha\cdot(\beta\cdot\gamma)=\left(\alpha\cdot\beta\right)\cdot\gamma
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בזו הסתיימה האינדוקציה העל-סופית.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $\beta<\gamma$
+\end_inset
+
+.
+ צ.ל.
+ 
+\begin_inset Formula $\alpha+\beta<\alpha+\gamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נוכיח באמצעות טיפוס סדר של קבוצות.
+\end_layout
+
+\begin_layout Standard
+לפי משפט, הסודר 
+\begin_inset Formula $\alpha+\beta$
+\end_inset
+
+ הוא טיפוס הסדר של הקבוצה 
+\begin_inset Formula $P_{1}=A\times\left\{ 0\right\} \cup P_{2}=B\times\left\{ 1\right\} $
+\end_inset
+
+ עם יחס הסדר 
+\begin_inset Formula $\leq$
+\end_inset
+
+ המוגדר כך:
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $\left(P_{1},\leq_{1}\right),\left(P_{2},\leq_{2}\right)$
+\end_inset
+
+ קס"ה כך שמתקיים 
+\begin_inset Formula $\forall a\in P_{1},b\in P_{2}\::\:a<b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז אם 
+\begin_inset Formula $\beta<\gamma$
+\end_inset
+
+ לא קיימת פונקצייה חח"ע, שהיא על שומרת סדר 
+\begin_inset Formula $f:\beta\to\gamma$
+\end_inset
+
+.
+ כלומר 
+\begin_inset Formula $!\exists b\in\beta\,:\,f\left(b\right)=\underbrace{\gamma\backslash\left\{ \gamma\right\} }_{largest\,ordinal\,in\,order}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכל פונקציה 
+\begin_inset Formula $g:\alpha+\beta\to\alpha+\gamma$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $g|_{\alpha}\left(x\right)=x$
+\end_inset
+
+ ו-
+\begin_inset Formula $g|_{\beta}=f$
+\end_inset
+
+.
+ לפי הסדר שהגדרנו לעיל מתקיים 
+\begin_inset Formula $g$
+\end_inset
+
+ שומרת סדר, אז לכל 
+\begin_inset Formula $g$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $g$
+\end_inset
+
+ חח"ע שומרת סדר שאינה על.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\alpha+\beta<\alpha+\gamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+.
+ נתבונן בתת-קבוצה 
+\begin_inset Formula $[0,1)$
+\end_inset
+
+.
+ נגדיר 
+\begin_inset Formula $A_{n}=\left[\frac{2^{n}-1}{2^{n}},\frac{2^{n+1}-1}{2^{n+1}}\right]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $a_{n}=\left\{ \frac{2^{n+1}-1}{2^{n+1}}-\frac{1}{k}\left(\frac{2^{n+1}-1}{2^{n+1}}-\frac{2^{n}-1}{2^{n}}\right)\::\:k\in\mathbb{N}^{+}\right\} $
+\end_inset
+
+-קבוצה סדורה.
+ 
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $f:\left(\underset{n\in\mathbb{N}^{+}}{\bigcup}\left\{ n\right\} \times a_{n}\right)\cup\left\{ \left(1,1\right)\right\} \to\mathbb{N}\times\mathbb{N}+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מוגדרת היטב:
+\bar default
+ יהיו 
+\begin_inset Formula $x,y\in\mathbb{N}\times\mathbb{N}+1$
+\end_inset
+
+ צריך להוכיח 
+\begin_inset Formula $\left(f\left(b\right)=x\right)\land\left(f\left(b\right)=y\right)\iff x=y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ האיברים ב-
+\begin_inset Formula $a_{n}$
+\end_inset
+
+ נבדלים זה מזה, והאינדקס ייחודי לכל קבוצה.
+ כמו כן, 
+\begin_inset Formula 
+\[
+\left|a_{n}\right|=\left|\mathbb{N}\right|=\aleph_{0}\Rightarrow\left|\underset{n\in\mathbb{N}^{+}}{\bigcup}\left\{ n\right\} \times a_{n}\right|=\left|\mathbb{N}\times\mathbb{N}\right|=\aleph_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(\left(n,\underbrace{a_{n}\left(i\right)}_{element\,i\,in\,set}\right)\right)=\left(n,i\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f\left(\left(1,1\right)\right)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זו פונקציה חח"ע ועל המשמרת את הסדר הרגיל על 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $\alpha>1$
+\end_inset
+
+.
+ נוכיח באינדוקציה על-סופית כי 
+\begin_inset Formula $\beta\leq\alpha^{\beta}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בסיס האינדוקציה: 
+\end_layout
+
+\begin_layout Standard
+ֵ
+\begin_inset Formula $\beta\in Ord$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+n=0\Rightarrow\underbrace{\emptyset}_{ordinal}\leq\alpha^{\emptyset}\left(empty\,set\,smaller\,or\,equal\,to\,all\,sets\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+n=1\Rightarrow\left\{ 0\right\} \underbrace{<}_{cartesian\,multiplication}\left\{ 0\right\} \times\left\{ 0\right\} \leq\alpha^{\emptyset}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+צעד האינדוקציה:
+\end_layout
+
+\begin_layout Standard
+נניח שמתקיים 
+\begin_inset Formula $\beta\leq\alpha^{\beta}$
+\end_inset
+
+.
+ אזי ,
+\begin_inset Formula 
+\[
+\beta\leq\alpha^{\beta}\Rightarrow\beta<\alpha^{\beta}\times\alpha\left(membership\,is\,left\,compatible\,with\,ordinal\,multiplication\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\beta\cup\left\{ \beta\right\} \leq\alpha^{\beta+1}\left(successor\,ordinal\right)\Rightarrow\beta+1\leq\alpha^{\beta+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה של אורדינל גבולי
+\end_layout
+
+\begin_layout Standard
+נזכור כי עבור 
+\begin_inset Formula $x$
+\end_inset
+
+ אורדינל גבולי 
+\begin_inset Formula $x=\underset{y\in x}{\bigcup}y=\sup\left\{ y\,|\,y<x\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $\alpha>1$
+\end_inset
+
+ ונוכיח 
+\begin_inset Formula $\beta\leq\alpha^{\beta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+צעד האינדוקציה:
+\begin_inset Formula 
+\[
+\forall\gamma<\beta\,:\,\gamma\leq\alpha^{\gamma}\Rightarrow\sup\left\{ \gamma\,|\,\gamma<\beta\right\} \leq\sup\left\{ \gamma\,|\,\gamma<\alpha^{\beta}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\beta\leq\alpha^{\beta}\left(def\,of\,limit\,ordinal\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\end_body
+\end_document

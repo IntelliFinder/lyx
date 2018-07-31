@@ -1,0 +1,1367 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תורת הקבוצות-תרגיל בית
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Author
+שניר הורדן-
+\numeric on
+205689581
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+סכום מינקובסקי: 
+\begin_inset Formula $A+B=\left\{ a+b|a\in A,b\in B\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+וכן: 
+\begin_inset Formula $\lambda A=\left\{ \lambda a|a\in A\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+א.
+ 
+\begin_inset Formula 
+\[
+\text{\left\{  4,7,-6\right\}  +2\left\{  0,3\right\}  =\left\{  4,7,-6\right\}  +\left\{  0,6\right\}  =\left\{  4,7,-6,0,10,13\right\}  }
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ב.
+ 
+\begin_inset Formula 
+\[
+(0,1)+[2,3]=(2,4)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ג.
+\begin_inset Formula 
+\[
+\mathbb{\mathbb{Z}=}\left\{ ...,-2,-1,0,1,2,...\right\} \Rightarrow3\mathbb{\mathbb{Z}=}\left\{ ...,-6,-3,0,3,6,...\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ד.
+\begin_inset Formula 
+\[
+\mathbb{{N}}+(-1)\mathbb{{N}=\mathbb{{Z}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ה.
+\begin_inset Formula 
+\[
+\frac{1}{3}\left[0,1\right]+\frac{2}{3}=\left[0,\frac{1}{3}\right]+\frac{2}{3}=\left[\frac{2}{3},1\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+ הטעות בהוכחה היא שרק 
+\begin_inset Formula $a\in A$
+\end_inset
+
+ וה-
+\begin_inset Formula $b$
+\end_inset
+
+ הוא 
+\begin_inset Formula $b$
+\end_inset
+
+ כלשהו.
+ הטענה שגויה כי נוכל להגדיר יחס שהוא סימטרי וטרנזיטיבי אך לא יחס שקילות.
+ לדוגמא, היחס 
+\bar under
+הדו-מקומי
+\bar default
+ 
+\begin_inset Formula $R_{n}\subseteq\mathbb{{N}}^{2}$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+R_{n}=\left\{ \left(a,b\right)|\neg(n|a)\wedge\neg(n|b),a,b\in\mathbb{{N}},a\neq b\right\} 
+\]
+
+\end_inset
+
+המחלקים הזרים 
+\bar under
+השונים
+\bar default
+ של מספר כלשהו, 
+\begin_inset Formula $n\in\mathbb{{N}}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+ב.
+ תנאי הכרחי ומספיק לכך שיחס סימטרי וטרנזיטיבי יהיה רפלקסיבי הוא שמתקיים
+ 
+\begin_inset Formula $a,b\in A$
+\end_inset
+
+ ולא רק 
+\begin_inset Formula $a\in A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+ 
+\begin_inset Formula $E_{1}\subseteq\mathbb{{Z}\times\mathbb{{Z}}}$
+\end_inset
+
+, 
+\begin_inset Formula $E_{1}=\left\{ \left(x,y\right)|xy>0\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נציג למחלקת שקילות:
+\begin_inset Formula 
+\[
+\left[x\right]=\mathbb{{N}\backslash}\left\{ 0\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $x\in\mathbb{N}\backslash\left\{ 0\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ב.
+ 
+\begin_inset Formula $E_{2}\subseteq\mathbb{{R}\times\mathbb{{R}}},E_{2}=\left\{ \left(x,y\right)|x-y\in\mathbb{Z}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציג למחלקת שקילות:
+\begin_inset Formula 
+\[
+\left[x\right]=\mathbb{Z}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $x\in\mathbb{Z}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ג.
+ 
+\begin_inset Formula $E_{3}\subseteq\mathbb{{Z^{Z}}\times\mathbb{{Z^{Z}}}},E_{3}=\left\{ \left(f,g\right)||f(x)\neq g(x)|\leq100,x\in\mathbb{Z}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זה אינו יחס שקילות.
+ הוא אינו מקיים את תכונת הטרנזיטיביות.
+\end_layout
+
+\begin_layout Proof
+נוכיח באמצעות דוגמה נגדית:
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $f,g,h\in\mathbb{Z^{Z}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $=f$
+\end_inset
+
+הכל אפסים פרט לאיברים באינדקסים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1-100
+\numeric off
+, שהם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $=g$
+\end_inset
+
+הכל אפסים פרק לאיברים באינדקסים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+60-120
+\numeric off
+, שהם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $=h$
+\end_inset
+
+הכל אפסים פרק לאיברים באינדקסים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+70-170
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, שהם 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Proof
+אז נקבל 
+\begin_inset Formula $fE_{3}g$
+\end_inset
+
+ וגם 
+\begin_inset Formula $gE_{3}h$
+\end_inset
+
+, אך לא מתקיים 
+\begin_inset Formula $fE_{3}g$
+\end_inset
+
+.
+ סתירה לתכונת הטרנזיטיביות ביחסי שקילות.
+\end_layout
+
+\begin_layout Standard
+עבור הפונקציות הבאות, קבעו האם הן מוגדרות היטב או לא:
+\end_layout
+
+\begin_layout Standard
+א.
+ 
+\begin_inset Formula $f_{1}:\mathbb{Z}_{n}\to\mathbb{Z}$
+\end_inset
+
+ המוגדרת 
+\begin_inset Formula $f_{1}\left(\left[a\right]\right)=a$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+קיום-
+\bar default
+ לכל 
+\begin_inset Formula $z\in\mathbb{Z}_{n}$
+\end_inset
+
+ קיימת מחלקת שקילות )מתכונת הרפלקסיביות( ולכן קיים פלט שהוא האיבר עצמו.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+יחידות-
+\bar default
+ יהיו 
+\begin_inset Formula $z_{1},z_{2}\in\mathbb{Z}_{n}$
+\end_inset
+
+, כך שמתקים 
+\begin_inset Formula $\left[z_{1}\right]=\left[z_{2}\right]$
+\end_inset
+
+זה ייתכן אם קיים יחס 
+\begin_inset Formula $R$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $z_{1}$
+\end_inset
+
+ ו-
+\begin_inset Formula $z_{2}$
+\end_inset
+
+ שניהם ביחס חלוקה אז נקבל שעבור אותו קלט נקבל שני פלטים שונים.
+ כלומר הפוננקציה תלויה בנציג שאנו בוחרים עבור מחלקת השקילות.
+ סתירה ליחידות.
+\end_layout
+
+\begin_layout Standard
+לכן זו אינה פונקצייה מוגרת היטב.
+\end_layout
+
+\begin_layout Standard
+ב.
+ 
+\begin_inset Formula $f_{2}:\mathbb{Z}_{n}\times\mathbb{Z}_{n}\to\mathbb{Z}_{n}$
+\end_inset
+
+ המוגדרת 
+\begin_inset Formula $f_{2}\text{\left(\left[a\right],\left[b\right]\right)=\left[a+b\right] }$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+קיום-
+\bar default
+ לכל 
+\begin_inset Formula $z\in\mathbb{Z}_{n}\times\mathbb{Z}_{n}$
+\end_inset
+
+ קיימת מחלקת שקילות שהיא מחלקת השקילות שלסכום האיברים של הנציגים של מחלקות
+ השקילות של 
+\begin_inset Formula $z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+יחידות-
+\bar default
+ עבור שני מחלקות שקילות זהות נקבל פלטים שונים התלויים בנציגים שאותם בחרנו
+ עבור המחלקות שקילות בקלט.
+\end_layout
+
+\begin_layout Standard
+לכן, זו אינה פונקציה מוגדרת היטב.
+\end_layout
+
+\begin_layout Standard
+ג.
+ 
+\begin_inset Formula $f_{3}:P(P(\mathbb{N}))\to P(\mathbb{N})$
+\end_inset
+
+ המוגדרת על ידי 
+\begin_inset Formula $f_{3}(X)=\bigcap X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+קיום-
+\bar default
+ לכל קבוצה 
+\begin_inset Formula $X\in P(P(\mathbb{N}))$
+\end_inset
+
+ נוכל לקבל את האיחוד של האיברים שלה ולכן יהיה קיים פלט לכל איבר בתחום.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+יחידות-
+\bar default
+ לכל איבר בתחום יש דרך יחידה להצגה באיחוד של האיברים שלו.
+\end_layout
+
+\begin_layout Standard
+לכן, פונקציה זו מוגדרת היטב.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+א.
+ התמונה של הפונקציה היא 
+\begin_inset Formula $\text{\left[-2,2\right]}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נימוק:
+\bar default
+ פונקציית הסינוס היא פונקציה מחזורית אשר תמונתה היא 
+\begin_inset Formula $\left[-1,1\right]$
+\end_inset
+
+ אם נכפיל אותה פי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקבל את הדרוש.
+\end_layout
+
+\begin_layout Standard
+ב.
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נימוק:
+\bar default
+ הפונקצייה מתארת את כל המספרים הרציונאליים, גם השליליים למרות שהמכנה תמיד
+ חיובי.
+ וכן מתקיים 
+\begin_inset Formula $\mathbb{Q\subset\mathbb{R}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ג.
+ 
+\begin_inset Formula $[0,\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נימוק:
+\bar default
+ הפלט הוא העצמה של הקלט.
+ עצמה של מספר מרוכב היא מספר ממשי ועבור כל המספרים המרוכבים נקבל את כל העצמות
+ האפשריות שהן כל הממשיים.
+\end_layout
+
+\begin_layout Standard
+ד.
+ 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נימוק:
+\bar default
+ פונקציית הטנגנס היא בעלת אסימפטוטות אנכיות ב-
+\begin_inset Formula $\frac{\pi}{2},-\frac{\pi}{2}$
+\end_inset
+
+, לכן עבור התחום הנ"ל תמונתה מכסה את כל הממשיים.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+לפי ההגדרה קבוצת קנטור היא:ֵ
+\begin_inset Formula 
+\[
+C_{\text{n }}=\frac{1}{3}C_{n-1}+(\frac{2}{3}+\frac{1}{3}C_{n-1})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כאשר 
+\begin_inset Formula $C_{0}=\left[0,1\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נתבונן בקבוצה 
+\begin_inset Formula $C=\frac{1}{3}C\bigcup\left(\frac{2}{3}+\frac{1}{3}C\right)$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $C=\stackrel[n=0]{\infty}{\bigcap}C_{n}=liminfC_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נשים לב כי 
+\begin_inset Formula $\stackrel[n=0]{\infty}{\bigcap}C_{n}\to C_{\infty}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $C_{\infty}$
+\end_inset
+
+ הוא גבול כלשהו, מאחר ו-
+\begin_inset Formula $C_{n}\subset C_{n-1}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+.
+ נוכיח זאת באינדוקציה:
+\end_layout
+
+\begin_layout Proof
+בסיס: 
+\begin_inset Formula $n=1$
+\end_inset
+
+ אזי מתקיים 
+\begin_inset Formula $C_{1}=\left[0,\frac{1}{3}\right]\bigcup\left[\frac{2}{3},1\right]\subset\left[0,1\right]=C_{0}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+צעד האינדוקציה:
+\bar default
+ נניח נכונות עבור 
+\begin_inset Formula $n\geq2$
+\end_inset
+
+ ונוכיח עבור 
+\begin_inset Formula $n+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+C_{n}\subset C_{n-1}\Rightarrow\frac{1}{3}C_{n}+(\frac{2}{3}+\frac{1}{3}C_{n})\subset\frac{1}{3}C_{n-1}+(\frac{2}{3}+\frac{1}{3}C_{n-1})\Rightarrow C_{n+1}\subset C_{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+בזו הסתיימה האינדוקציה.
+\end_layout
+
+\begin_layout Proof
+לכן 
+\begin_inset Formula 
+\begin{align*}
+C & =\stackrel[n=0]{\infty}{\bigcap}C_{n}=\stackrel[n=1]{\infty}{\bigcap}\frac{1}{3}C_{n-1}+(\frac{2}{3}+\frac{1}{3}C_{n-1})\underbrace{=}_{limit\Rightarrow index-makes-no-difference}\stackrel[n=0]{\infty}{\bigcap}\frac{1}{3}C_{n}+(\frac{2}{3}+\frac{1}{3}C_{n})\\
+ & \underbrace{=}_{arithmetic-of-limits}\frac{1}{3}C+(\frac{2}{3}+\frac{1}{3}C)\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+6
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+א.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נתבונן בביטוי 
+\begin_inset Formula $E_{n}=\left\{ \left(\bar{a},\bar{b}\right)\in X_{n}^{n}|\exists\lambda\in\mathbb{R}\left(\bar{a}=\lambda\bar{b}\right)\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+
+\bar under
+סימטריות-
+\bar default
+ נראה כי אם 
+\begin_inset Formula $\bar{a}\sim\bar{b}$
+\end_inset
+
+ אז 
+\begin_inset Formula $\bar{b}\sim\bar{a}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח כי 
+\begin_inset Formula $\bar{a}\sim\bar{b}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula 
+\[
+\bar{a}\sim\bar{b}\iff\exists\lambda\in\mathbb{R}\left(\bar{a}=\lambda\bar{b}\right)\iff\exists\lambda_{1}\in\mathbb{R}\left(\lambda_{1}\bar{a}=\bar{b}\right)\iff\bar{b}\sim\bar{a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\left(2\right)}$
+\end_inset
+
+
+\bar under
+רפלקסיביות-
+\bar default
+ נראה כי 
+\begin_inset Formula $\bar{a}\sim\bar{a}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+\bar{a}=\lambda\bar{a} & \lambda=1\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(3\right)$
+\end_inset
+
+
+\bar under
+טרנזיטיביות
+\bar default
+-
+\end_layout
+
+\begin_layout Standard
+נניח כי 
+\begin_inset Formula $\bar{a}\sim\bar{b}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\bar{b}\sim\bar{c}$
+\end_inset
+
+.
+ אזי
+\begin_inset Formula 
+\[
+\exists\lambda\in\mathbb{R}\left(\bar{a}=\lambda\bar{b}\right)\land\exists\lambda_{1}\in\mathbb{R}\left(\lambda_{1}\bar{c}=\bar{b}\right)\Rightarrow a=\lambda\lambda_{1}c
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיים 
+\begin_inset Formula $\lambda\lambda_{1}\in\mathbb{R}$
+\end_inset
+
+)סגירות לכפל מעל הממשיים( אז מצאנו קבוע ממשי המקיים את היחס.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+ב.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהי הפונקציה 
+\begin_inset Formula $\psi:\left(\mathbb{P}^{n}\mathbb{R}\backslash H_{n}\right)\to\mathbb{R}^{n}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\psi\left(\left[\bar{a}\right]\right)=\left(\frac{a_{1}}{a_{n+1}},...,\frac{a_{n}}{a_{n+1}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+הוכחה מוגדרת היטב:
+\end_layout
+
+\begin_layout Standard
+ראשית, אין חילוק ב-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כי 
+\begin_inset Formula $\bar{a}\notin H_{n}\Rightarrow a_{n+1}\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה קיום של פלט לכל קלט,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bar{a}=\left(a_{1},...,a_{n+1}\right)$
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula $\bar{a}\in\mathbb{R}^{n}\backslash\left\{ 0\right\} $
+\end_inset
+
+ אז יהיה פלט לא טריויאלי לכל 
+\begin_inset Formula $\bar{a}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+
+\bar under
+הוכחת חח"ׂע ועל
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נראה יחידות של הפלט עבור כל קלט של 
+\begin_inset Formula $\psi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $\left[\bar{a}\right]=\left[\bar{b}\right]$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $\exists\lambda\left(\bar{a}=\lambda\bar{b}\right)$
+\end_inset
+
+.
+ אזי,
+\begin_inset Formula 
+\[
+\left(\frac{a_{1}}{a_{n+1}},...,\frac{a_{n}}{a_{n+1}}\right)\underbrace{=}_{\bar{b}\notin H_{n}\Rightarrow b_{n+1}\neq0}\left(\frac{\lambda b_{1}}{\lambda b_{n+1}},...,\frac{\lambda b_{n}}{\lambda b_{n+1}}\right)\underbrace{=}_{reduction-of-\lambda}\left(\frac{b_{1}}{b_{n+1}},...,\frac{b_{n}}{b_{n+1}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הראנו כי לכל נציג של מחלקת שקילות הפלט זהה.
+ הוכחנו חח"ע.
+\end_layout
+
+\begin_layout Standard
+נראה כי לכל 
+\begin_inset Formula $\bar{a}\in\mathbb{R}^{n}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $\left[\bar{b}\right]\in\left(\mathbb{P}^{n}\mathbb{R}\backslash H_{n}\right)$
+\end_inset
+
+ כך שמתקיים 
+\begin_inset Formula $\psi\left(\left[\bar{b}\right]\right)=\bar{a}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נשים לב כי 
+\begin_inset Formula $\text{\left[\bar{b}\right]=\left[\left(\lambda a_{1},...,\lambda a_{n},\lambda\right)\right]\in\left(\mathbb{P}^{n}\mathbb{R}\backslash H_{n}\right)}$
+\end_inset
+
+כאשר 
+\begin_inset Formula $\lambda\neq0\in\mathbb{R}$
+\end_inset
+
+ עונה על תנאי זה.
+\end_layout
+
+\begin_layout Standard
+אז הפונקציה היא על.
+\end_layout
+
+\begin_layout Standard
+ג.
+ תהי 
+\begin_inset Formula $\psi:H_{n}\to\mathbb{P}^{n-1}\mathbb{R}$
+\end_inset
+
+ המוגדרת כך:
+\begin_inset Formula 
+\[
+\psi\left(\left[\bar{a}\right]\right)=\left[\left(a_{1},...,a_{n-1}\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זו פונקציה חח"ע ועל.
+\end_layout
+
+\begin_layout Standard
+ד.
+ קבוצת הנציגים היא קבוצת הנקודות במעגל היחידה.
+ אלו מייצגים את כל הוקטורים הקיימים ב-
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+ כי אם נכפיל נקודה כלשהי בסקלר כלשהו נגיע לכל וקטור במישור, זהו חתך של מרחב
+ המנה.
+\end_layout
+
+\begin_layout Standard
+כל האיברים בקבוצה הנ"ל פרט ל-
+\begin_inset Formula $\left(1,0\right)$
+\end_inset
+
+ עוברים ל-
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ על ידי 
+\begin_inset Formula $\psi$
+\end_inset
+
+.
+ 
+\begin_inset Formula $H_{1}=\left\{ \left(1,0\right)\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ה.
+ קבוצת הנציגים הנ"ל הן ספרת היחידה, 
+\begin_inset Formula $H_{2}=\left\{ \left(x,y,0\right)|x^{2}+y^{2}=1\right\} $
+\end_inset
+
+ כלומר מעגל היחידה, וכל האיברים הנ"ל עוברים ל-
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+ על ידי 
+\begin_inset Formula $\psi$
+\end_inset
+
+ פרט לאיברים ב-
+\begin_inset Formula $H_{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

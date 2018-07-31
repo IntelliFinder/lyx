@@ -1,0 +1,386 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $f$
+\end_inset
+
+ תבנית סימטרית
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V$
+\end_inset
+
+ מ"ו ממימד סופי מעל 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ 
+\begin_inset Formula $f$
+\end_inset
+
+ תבנית סימטרית על 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ 
+\begin_inset Formula $W\subseteq V$
+\end_inset
+
+ ת"מ.
+ הגדרנו 
+\begin_inset Formula $W^{\perp}=\left\{ v\in V\,:\,f\left(v,w\right)=0\,\forall w\in W\right\} $
+\end_inset
+
+.
+ ראינו כי 
+\begin_inset Formula $W^{\perp}$
+\end_inset
+
+ תמ"ו של 
+\begin_inset Formula $V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כמו כן 
+\begin_inset Formula 
+\[
+W\subseteq W^{\perp^{\perp}}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+U\subseteq W\Rightarrow W^{\perp}\subseteq U^{\perp}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+דוגמא
+\begin_inset Formula 
+\[
+f\left(u,v\right)=u^{t}\left(\begin{array}{cc}
+0 & 1\\
+1 & 0
+\end{array}\right)v
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $W=span\left\{ \left(\begin{array}{c}
+1\\
+0
+\end{array}\right)\right\} $
+\end_inset
+
+ אז 
+\begin_inset Formula $f|_{W}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הערה: תמ"ו 
+\begin_inset Formula $W\subseteq V$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $f|_{W}=0$
+\end_inset
+
+ נקרא תת-מרחב איזוטרופי-לגראנגיאן )ביחס ל-
+\begin_inset Formula $f$
+\end_inset
+
+(.
+ ייתכן שמתקיים 
+\begin_inset Formula $W\cap W^{\perp}\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם יש לנו תבנית סימטרית ניתן למצוא עבורה מייצגת אלכסונית.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תבנית ריבועית
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V$
+\end_inset
+
+ מ"ו מעל 
+\begin_inset Formula $\mathbb{F}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $f$
+\end_inset
+
+ תבנית בילינארית על 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ 
+\bar under
+התבנית הריבועית
+\bar default
+ השייכת ל-
+\begin_inset Formula $f$
+\end_inset
+
+ היא הפונקציה 
+\begin_inset Formula $q:V\to\mathbb{F}$
+\end_inset
+
+ המוגדרת ע"י 
+\begin_inset Formula $q\left(v\right)=f\left(v,v\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לדוגמא אם 
+\begin_inset Formula $V$
+\end_inset
+
+ מרחב אוקלידי עם מ"פ סטנ אזי
+\begin_inset Formula 
+\[
+q\left(v\right)=||v||^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בדוגמא הקודמת מתקיים 
+\begin_inset Formula $q\left(\left(\begin{array}{c}
+x\\
+y
+\end{array}\right)\right)=2xy$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם נגדיר תבנית על 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ ע"י 
+\begin_inset Formula $f\left(u,v\right)=u^{t}\left(\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right)v$
+\end_inset
+
+ אז 
+\begin_inset Formula $q\left(\begin{array}{c}
+x\\
+y
+\end{array}\right)=ax^{2}+\left(b+c\right)x+bx^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(u,v\right)=u^{t}\left(\begin{array}{cc}
+1 & 2\\
+3 & 4
+\end{array}\right)v,g\left(u,v\right)=u^{t}\left(\begin{array}{cc}
+1 & 0\\
+5 & 4
+\end{array}\right)v
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שתיהן מייצגות אותה תבנית ריבועית.
+\begin_inset Formula $qudratic\:form$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+q\left(\begin{array}{c}
+x\\
+y
+\end{array}\right)=x^{2}+5xy+y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טענה
+\end_layout
+
+\begin_layout Standard
+קיימת התאמה אחד לאחד בין תבניות בילינאריות סימטריות לבין תבניות ריבועיות.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נגדיר
+\begin_inset Formula 
+\[
+f\left(u,v\right)=\frac{1}{4}\left(q\left(u,v\right)+q\left(u-v\right)\right)=\frac{1}{2}\left(q\left(u,v\right)-q\left(v\right)-q\left(u\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה שהיא בילינארית.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{2}\left(f\left(u+v,v+u\right)-f\left(v,u\right)-f\left(u,v\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זו נקראת התבנית הקוטבית )המתאימה ל-
+\begin_inset Formula $q$
+\end_inset
+
+(
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,2674 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+אלגברה ב-גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Author
+שניר הורדן-
+\numeric on
+205689581
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+ א.
+ 
+\series default
+נבטא את המ"ו 
+\begin_inset Formula $W$
+\end_inset
+
+בוקטורי קואורדינטות:
+\begin_inset Formula 
+\[
+W=span\left\{ x^{4}-x^{2},3x^{4}-x^{3}+1\right\} =span\left\{ \left(\begin{array}{c}
+1\\
+0\\
+-1\\
+0\\
+0
+\end{array}\right),\left(\begin{array}{c}
+3\\
+-1\\
+0\\
+0\\
+1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נמצא משלים לבסיס באמצעות וקטורי קואורדינטות:
+\begin_inset Formula 
+\[
+\left\{ \left(\begin{array}{c}
+0\\
+1\\
+0\\
+1\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+1\\
+0\\
+1
+\end{array}\right),\left(\begin{array}{c}
+1\\
+0\\
+1\\
+0\\
+0
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים 
+\begin_inset Formula $u_{i}\bigcap\stackrel[i\neq j]{}{\sum}u_{j}=\{0\}$
+\end_inset
+
+ לכן הסכום הוא ישר )הוקטורים בת"ל(.
+\end_layout
+
+\begin_layout Standard
+נמיר לבסיס מעל הפולינומים הממשיים כנדרש.
+ אזי נגדיר:
+\begin_inset Formula 
+\[
+V=span\left\{ x^{2}+1,x^{3}+x,x^{2}+x^{4}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.ב.
+
+\series default
+ יהא 
+\begin_inset Formula $V$
+\end_inset
+
+ מ"ו מעל שדה אינסופי 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ נניח כי 
+\begin_inset Formula $W=span\left\{ w_{1},...,w_{k}\right\} $
+\end_inset
+
+תת-מרחב של 
+\begin_inset Formula $V$
+\end_inset
+
+ שאינו טריוויאלי )אינו 
+\begin_inset Formula $\{0\}$
+\end_inset
+
+ או 
+\begin_inset Formula $V$
+\end_inset
+
+(.
+ 
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $\left\{ u_{1},...,,u_{n}\right\} $
+\end_inset
+
+ וקטורים בת"ל ל-
+\begin_inset Formula $W$
+\end_inset
+
+.
+ כך ש-
+\begin_inset Formula $dim(V)=n+k$
+\end_inset
+
+.
+ כעת נקח וקטור כלשהו 
+\begin_inset Formula $u_{i}$
+\end_inset
+
+ ונכפיל אותו בקבוע 
+\begin_inset Formula $\omega\neq0\in F$
+\end_inset
+
+.
+ נקבל: 
+\begin_inset Formula 
+\[
+U=span\left\{ u_{1},..,\omega u_{i}.,u_{n}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מאחר ו-
+\begin_inset Formula $F$
+\end_inset
+
+ שדה אינסופי יש אינסוף דרכים לעשות זאת וקיבלנו משלים ישר ל-
+\begin_inset Formula $W$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.א.
+ 
+\series default
+יהי 
+\begin_inset Formula $\mathbb{F}\subseteq\mathbb{C}$
+\end_inset
+
+ שדה ויהי 
+\begin_inset Formula $V$
+\end_inset
+
+ מ"ו מעל 
+\begin_inset Formula $\mathbb{F}$
+\end_inset
+
+.יהיו 
+\begin_inset Formula $P_{i}:V\to V$
+\end_inset
+
+ אופרטורי הטלה כך ש-
+\begin_inset Formula $\stackrel[i=1]{n}{\sum}P_{i}=\mathbb{I}$
+\end_inset
+
+.
+ צ.ל.
+ לכל 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+מתקיים 
+\begin_inset Formula $P_{i}\circ P_{j}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+עלינו להוכיח כי 
+\begin_inset Formula $P_{i}\circ P_{j}=0$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נתון כי מתקיים 
+\begin_inset Formula $P_{i}^{2}=P_{i}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $0\leq i\leq n$
+\end_inset
+
+, מתכונות של הטלות.
+ כמו כן, לפי משפט שהוכחנו בהרצאה, 
+\begin_inset Formula $P$
+\end_inset
+
+ לכסין ומתקיים 
+\begin_inset Formula $dim\left(ImP_{i}\right)=tr\left(P_{i}\right)=rank\left(P_{i}\right)$
+\end_inset
+
+.
+ אזי, מתקיים:
+\begin_inset Formula 
+\begin{align*}
+dimV & =dim\mathbb{I}=dim\left(\stackrel[i=1]{n}{\sum}ImP_{i}\right)\underbrace{=}_{proven-in-class}tr\left(\stackrel[i=1]{n}{\sum}ImP_{i}\right)\\
+ & \underbrace{=}_{property-of-trace-Algebra1}\stackrel[i=1]{n}{\sum}tr\left(ImP_{i}\right)=\stackrel[i=1]{n}{\sum}dim(ImP_{i})\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+זו תכונה הכרחית של סכום ישר שהוכחה בגליון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.לכן, מתקיים 
+\begin_inset Formula $ImP_{i}\bigcap\stackrel[k\neq i]{}{\sum}ImP_{k}=\left\{ 0\right\} $
+\end_inset
+
+ 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+.
+ נותר להוכיח שמתקיים ש-ַ
+\begin_inset Formula $P_{i}$
+\end_inset
+
+ הטלה על 
+\begin_inset Formula $ImP_{i}$
+\end_inset
+
+ במקביל ל-
+\begin_inset Formula $\stackrel[k\neq i]{}{\sum}ImP_{k}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+יהא '
+\begin_inset Formula $w\in V$
+\end_inset
+
+.
+ נניח כי
+\begin_inset Formula $w\in\stackrel[k\neq i]{}{\sum}ImP_{k}$
+\end_inset
+
+, אזי 
+\begin_inset Formula $w\in\stackrel[k\neq i]{}{\sum}ImP_{k}\Rightarrow w=\stackrel[i\neq k]{}{\sum}w_{k}$
+\end_inset
+
+.לכן אזי כאשר נפעיל את 
+\begin_inset Formula $P_{i}$
+\end_inset
+
+ על 
+\begin_inset Formula $w$
+\end_inset
+
+ נקבל _
+\begin_inset Formula 
+\begin{align*}
+P_{i}\left(w\right)\underbrace{=}_{w\in\stackrel[k\neq i]{}{\sum}ImP_{k}}P_{i}\left(\stackrel[k\neq i]{}{\sum}w_{k}\right)\underbrace{\Rightarrow}_{question2B}w & \in ImP_{i}\Rightarrow w\in\stackrel[k\neq i]{}{\sum}ImP_{k}\bigcap ImP_{i}\\
+ & \Rightarrow w=0\Rightarrow P_{i}\left(w\right)=P_{i}\left(\stackrel[k\neq i]{}{\sum}w_{k}\right)\underbrace{=}_{\forall i|P_{i}(0)=0}0\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+זאת אומרת,
+\begin_inset Formula 
+\[
+\stackrel[k\neq i]{}{\sum}w_{k}\in KerP_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+יש לנו את ההכלה 
+\begin_inset Formula $\stackrel[k\neq i]{}{\sum}ImP_{k}\subset KerP_{i}$
+\end_inset
+
+ כעת נותר להוכיח שוויון בין שני תתי-המרחבים.
+ נוכיח באמצעות שוויון מימדים:
+\begin_inset Formula 
+\begin{align*}
+dim\left(\stackrel[k\neq i]{}{\sum}ImP_{k}\right)\underbrace{=}_{direct-sum}\stackrel[k\neq i]{}{\sum}dim\left(ImP_{k}\right) & =\stackrel[k=1]{n}{\sum}dim\left(ImP_{k}\right)-ImP_{i}\\
+=dimV-dimImP_{i}\underbrace{=}_{dimension-theorem}dimKerP_{i}\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+לכן ההטלה היא על 
+\begin_inset Formula $ImP_{i}$
+\end_inset
+
+ במקביל ל-
+\begin_inset Formula $\stackrel[k\neq i]{}{\sum}P_{k}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+לכן מתקיים עבור 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ , הניתן לפירוק בצורה אחידה 
+\begin_inset Formula $v=w_{1}+...+w_{n}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $w_{i}\in W_{i}=ImP_{i}$
+\end_inset
+
+, מתקיים,
+\begin_inset Formula 
+\begin{align*}
+P_{i}\circ P_{j}(v) & \underbrace{=}_{\forall k\neq j|P_{j}(w_{k})=0}P_{i}\circ P_{j}(w_{j})\overbrace{=}^{\exists w_{J}|P_{j}(v)=w_{J}}P_{i}(w_{J})\underbrace{=}_{w_{J}\in KerP_{i}}\vec{0}\\
+\\
+\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כאשר 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.ב.
+
+\series default
+ תהי 
+\begin_inset Formula $P:V\to V$
+\end_inset
+
+ הטלה על 
+\begin_inset Formula $W$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נוכיח את שני הכיוונים:
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $w\in W$
+\end_inset
+
+.
+ נראה הכלה דו כיוונית.
+\end_layout
+
+\begin_layout Proof
+מאחר ו-
+\begin_inset Formula $P$
+\end_inset
+
+ הטלה מתקיים:
+\begin_inset Formula 
+\[
+P^{2}(w)=p(w)\Rightarrow P^{2}(w)-P(w)=0\Rightarrow P(P(w)-w)=0\Rightarrow P(w)-w\in KerP
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+מאחר ו-
+\begin_inset Formula $W=ImP$
+\end_inset
+
+ אז מתקיים 
+\begin_inset Formula $P(w)\in ImP$
+\end_inset
+
+ וגם 
+\begin_inset Formula $-w\in ImP$
+\end_inset
+
+ )כפל בסקלר(.
+ אז 
+\begin_inset Formula $P(w)-w\in ImP$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+אך מכיוון ש-
+\begin_inset Formula $P$
+\end_inset
+
+הטלה מתקיים 
+\begin_inset Formula $ImP\bigcap KerP=\{0\}$
+\end_inset
+
+.
+ לכן:
+\begin_inset Formula 
+\[
+P(w)-w=0\Rightarrow P(w)=w
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+הכיוון השני ברור כי 
+\begin_inset Formula $ImP=W$
+\end_inset
+
+ אז בוודאי 
+\begin_inset Formula $w\in W$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+בזו הסתיימה ההוכחה.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.ג.
+
+\series default
+ עלינו להוכיח כי 
+\begin_inset Formula $T$
+\end_inset
+
+ הוא הטלה.
+ לפי ההגדרה ז"א שמתקיים, 
+\begin_inset Formula $T^{2}=T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי הנתון 
+\begin_inset Formula $T$
+\end_inset
+
+ הוא אופרטור לינארי עם ׂע"ׂע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ ו-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ בלבד.
+ 
+\begin_inset Formula $T$
+\end_inset
+
+ לכסינה אז היא דומה לאלכסונית.
+\end_layout
+
+\begin_layout Standard
+אזי קיימת טרנספורמציה הפיכה 
+\begin_inset Formula $Q$
+\end_inset
+
+וטרנספורציה אלכסונית 
+\begin_inset Formula $D$
+\end_inset
+
+כך ש
+\series bold
+-
+\series default
+
+\begin_inset Formula 
+\[
+D^{2}\underbrace{=}_{SeeProofBelow}D=QTQ^{-1}=\left(QTQ^{-1}\right)^{2}\underbrace{=}_{Proven-in-AlgebraI}QT^{2}Q^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נכפיל את שני האגפים ב-
+\begin_inset Formula $Q$
+\end_inset
+
+ מימין ו-
+\begin_inset Formula $Q^{-1}$
+\end_inset
+
+ משמאל ונקבל 
+\begin_inset Formula $T=T^{2}$
+\end_inset
+
+, כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טענת עזר:
+\bar default
+ 
+\begin_inset Formula $D=D^{2}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $D$
+\end_inset
+
+אלכסונית ובעלת ערכים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0,1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בלבד על האלכסון הראשי.
+\end_layout
+
+\begin_layout Standard
+לפי הגדרת כפל מטריצות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+[D^{2}]_{ii}=[DD]_{ii}\underbrace{=}_{D-is-diagonal}[D]_{ii}[D]_{ii}=\begin{cases}
+1 & if-[D]_{ii}=1\\
+0 & [D]_{ii}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\begin{array}{cccccc}
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{array}\right)^{2}=\left(\begin{array}{cccccc}
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{array}\right)^{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+א.
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $V$
+\end_inset
+
+ מ"ו, יהא 
+\begin_inset Formula $B=\left\{ b_{1},...,b_{n}\right\} $
+\end_inset
+
+ בסיס שלו ו-
+\begin_inset Formula $T:V\to V$
+\end_inset
+
+אופרטור לינארי.
+\end_layout
+
+\begin_layout Proof
+ראשית, נוכיח כי כל תת-מרחב של 
+\begin_inset Formula $T$
+\end_inset
+
+ הוא 
+\begin_inset Formula $T$
+\end_inset
+
+ שמור.
+\end_layout
+
+\begin_layout Proof
+ידוע כי לכל קבוצת וקטורים בת"ל 
+\begin_inset Formula $\left\{ b_{1},...,b_{k}\right\} $
+\end_inset
+
+ כאשר 
+\begin_inset Formula $k=n-1$
+\end_inset
+
+ ו-
+\begin_inset Formula $b_{i}\in V$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $T\left(span\left\{ b_{1},...,b_{k}\right\} \right)\subseteq span\left\{ b_{1},...,b_{k}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נשים לב כי 
+\begin_inset Formula $b_{1}=\left\{ b_{1},...,b_{n-1}\right\} \bigcap B\backslash\left\{ b_{n-1}\right\} \bigcap B\backslash\left\{ b_{n-2}\right\} \bigcap...\bigcap B\backslash\left\{ b_{2}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+זה נכון לכל 
+\begin_inset Formula $b_{i}\in B$
+\end_inset
+
+ כלשהו.
+\end_layout
+
+\begin_layout Proof
+לכן, לפי תורת הקבוצות,
+\begin_inset Formula 
+\begin{align*}
+T\left(span\left\{ b_{i}\right\} \right) & =T\left(span\left\{ \left\{ b_{1},...,b_{n-1}\right\} \bigcap B\backslash\left\{ b_{n-1}\right\} \bigcap B\backslash\left\{ b_{n-2}\right\} \bigcap...\bigcap B\backslash\left\{ b_{2}\right\} \right\} \right)\\
+ & \underbrace{=}_{linearity}T\left(span\left\{ b_{1},...,b_{n-1}\right\} \right)\bigcap T\left(span\left\{ B\backslash\left\{ b_{n-1}\right\} \right\} \right)\bigcap...\bigcap T\left(span\left\{ B\backslash\left\{ b_{n-1}\right\} \right\} \right)\\
+ & \subseteq span\left\{ \left\{ b_{1},...,b_{n-1}\right\} \bigcap B\backslash\left\{ b_{n-1}\right\} \bigcap B\backslash\left\{ b_{n-2}\right\} \bigcap...\bigcap B\backslash\left\{ b_{2}\right\} \right\} =span\left\{ b_{i}\right\} 
+\end{align*}
+
+\end_inset
+
+וכן מתקיים:
+\begin_inset Formula 
+\[
+T\left(span\left\{ B\backslash\left\{ b_{1}\right\} \bigcup B\backslash\left\{ b_{2}\right\} \right\} \right)=T\left(span\left\{ B\right\} \right)\subseteq span\left\{ B\backslash\left\{ b_{1}\right\} \bigcup B\backslash\left\{ b_{2}\right\} \right\} =span\left\{ B\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+בדרך הראשונה נוכל להראות עבור מימד בגודל 
+\begin_inset Formula $k$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $k\leq n-1$
+\end_inset
+
+ שכל תת-מרחב ממימד 
+\begin_inset Formula $k$
+\end_inset
+
+ הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+T
+\lang hebrew
+-שמור.
+ הוכנו כי גם כל תת-מרחב ממימד 
+\begin_inset Formula $n$
+\end_inset
+
+ הוא 
+\begin_inset Formula $T$
+\end_inset
+
+-שמור.
+ לכן כל תת-מרחב של 
+\begin_inset Formula $V$
+\end_inset
+
+ הוא 
+\begin_inset Formula $T$
+\end_inset
+
+-שמור.
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $v\neq0\in V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+מאחר וכל תת-מרחב וקטורי הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+T
+\lang hebrew
+-שמור אז מתקיים בפרט עבור 
+\begin_inset Formula $v$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+T(v)\underbrace{=}_{single-vector}\lambda v
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+עבור 
+\begin_inset Formula $\lambda\neq0\in\mathbb{F}$
+\end_inset
+
+ כלשהי, כי 
+\begin_inset Formula $v\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $v_{1}\neq0\in V$
+\end_inset
+
+.
+ באופן דומה הוא מקיים שקיים 
+\begin_inset Formula $\lambda_{v_{1}}\in\mathbb{F}$
+\end_inset
+
+עבורה מתקיים 
+\begin_inset Formula $T\left(v_{1}\right)=\lambda_{v_{1}}v_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+I
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-
+\bar default
+ 
+\begin_inset Formula $v_{1},v$
+\end_inset
+
+ הם בת"ל.
+\end_layout
+
+\begin_layout Proof
+אז מתקיים 
+\begin_inset Formula $T(v_{1}+v)=\lambda_{+}(v_{1}+v)$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\lambda_{+}\in\mathbb{F}$
+\end_inset
+
+ כי כל תת-מרחב הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+T
+\lang hebrew
+-שמור.
+\end_layout
+
+\begin_layout Proof
+לכן מכך, מהרשום לעיל, ומכך ש-
+\begin_inset Formula $T$
+\end_inset
+
+ טרנספורמציה לינארית נקבל, 
+\begin_inset Formula 
+\[
+T(v_{1}+v)=\lambda_{+}(v_{1}+v)=T(v_{1})+T(v)=\lambda_{v_{1}}v_{1}+\lambda v
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+לכן, 
+\begin_inset Formula 
+\[
+\lambda_{+}(v_{1}+v)=\lambda_{v_{1}}v_{1}+\lambda v\Rightarrow\left(\lambda_{+}-\lambda_{v_{1}}\right)v_{1}+\left(\lambda_{+}-\lambda\right)v=0\Rightarrow\lambda_{+}=\lambda,\lambda_{+}=\lambda_{v_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+אזי לכל וקטור בת"ל עם 
+\begin_inset Formula $v$
+\end_inset
+
+ נקבל טרנספורמציה סקלרית זהה.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+II
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Formula $v=\alpha v_{1}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\alpha\neq0\in\mathbb{F}$
+\end_inset
+
+.
+ )הם ת"ל והסקלר אינו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כי 
+\begin_inset Formula $v$
+\end_inset
+
+ אינו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+(
+\end_layout
+
+\begin_layout Proof
+אז מתקיים 
+\begin_inset Formula 
+\[
+\lambda v=T\left(v\right)=T\left(\alpha v_{1}\right)\underbrace{=}_{linearity}\alpha T\left(v_{1}\right)=\alpha\lambda_{v_{1}}v_{1}=\lambda_{v_{1}}\alpha v_{1}\underbrace{\Rightarrow}_{equality}\lambda_{v_{1}}=\lambda
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+III
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-
+\bar default
+ 
+\begin_inset Formula $v=0$
+\end_inset
+
+ )כלומר 
+\begin_inset Formula $V=\left\{ 0\right\} $
+\end_inset
+
+ ( ואז בוודאי מתקיים כי זו טרנספורמציית ה-
+\numeric on
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+לכן, 
+\begin_inset Formula $T(v)=\lambda v$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $T=\lambda\mathbb{I}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\lambda\in\mathbb{F}$
+\end_inset
+
+.
+ מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.ב.
+
+\series default
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $B$
+\end_inset
+
+ בסיס המקיים 
+\begin_inset Formula $T_{B},S_{B}$
+\end_inset
+
+ אלכסוניות סימולטנית.
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula $S_{B}T_{B}=T_{B}S_{B}$
+\end_inset
+
+ כי שתיהן אלכסוניות )מחישוב ישיר(.
+ מאחר ומצאנו בסיס המקיים זאת זה נכון לכל בסיס של 
+\begin_inset Formula $V$
+\end_inset
+
+, כי הן לכסינות כלומר כל טרנספורמציה בבסיס כלשהו דומה לאלכסונית שלה 
+\begin_inset Formula $S_{B}=PSP^{-1}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $P$
+\end_inset
+
+ הפיכה כלשהי.לכן, 
+\begin_inset Formula $ST=TS$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתון כי 
+\begin_inset Formula $ST=TS$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ראשית, נראה כי כל מ"ע 
+\begin_inset Formula $W_{i}$
+\end_inset
+
+של 
+\begin_inset Formula $T$
+\end_inset
+
+ הוא 
+\begin_inset Formula $S$
+\end_inset
+
+-שמור.
+ נתון כי 
+\begin_inset Formula $T$
+\end_inset
+
+ לכסינה לכן ניתן לפרק אותה לסכום ישר של תתי-מרחבים עצמיים, לפי משפט הפירוק
+ הספקטרלי.
+ כלומר:
+\begin_inset Formula 
+\[
+\begin{cases}
+V=\stackrel[i=1]{n}{\oplus}W_{\lambda_{i}} & W_{\lambda_{i}}=\left\{ v\in V|Tv=\lambda_{i}v\right\} \end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טענת עזר #
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+:
+\bar default
+ יהיו 
+\begin_inset Formula $S,T:V\to V$
+\end_inset
+
+ אופרטורים לינאריים לכסינים.
+ אם 
+\begin_inset Formula $ST=TS$
+\end_inset
+
+ אז הם משמרים את המרחבים העצמיים אחד של השני, כלומר עבור 
+\begin_inset Formula $W_{\lambda}\subseteq T\left(V\right)$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $S\left(W_{\lambda}\right)\subseteq W_{\lambda}$
+\end_inset
+
+, ולהפך.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה #
+\numeric on
+1
+\numeric off
+ : 
+\bar default
+יהי 
+\begin_inset Formula $v\in V$
+\end_inset
+
+.
+ נתבונן בביטוי:
+\begin_inset Formula 
+\[
+Tv=\lambda v\Rightarrow T(Sv)=STv=S\lambda v=\lambda(Sv)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula $S$
+\end_inset
+
+ שולחת כל וקטור במ"ע של 
+\begin_inset Formula $T$
+\end_inset
+
+ לוקטור במ"ע של 
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טענת עזר #
+\numeric on
+2
+\numeric off
+:
+\bar default
+ יהי 
+\begin_inset Formula $V$
+\end_inset
+
+מ"ו )ממימד סופי( , יהי 
+\begin_inset Formula $T:V\to V$
+\end_inset
+
+ אופרטור לינארי לכסין ו-
+\begin_inset Formula $W\subseteq V$
+\end_inset
+
+תת-מרחב 
+\begin_inset Formula $T$
+\end_inset
+
+-שמור.
+ אז האופרטור 
+\begin_inset Formula $T|_{W}:W\to W$
+\end_inset
+
+ הוא לכסין.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה #
+\numeric on
+2
+\numeric off
+: 
+\bar default
+יהא 
+\begin_inset Formula $m_{T}(x)$
+\end_inset
+
+ הפולינום המינימלי של 
+\begin_inset Formula $T$
+\end_inset
+
+ו-
+\begin_inset Formula $m_{T|_{W}}(x)$
+\end_inset
+
+ הפולינום המינימלי של 
+\begin_inset Formula $T|_{W}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נוכיח כי הפולינום המינימלי של 
+\begin_inset Formula $T|_{W}$
+\end_inset
+
+ מחלק את הפולינום המינימלי של 
+\begin_inset Formula $T$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $m_{T|_{W}}(x)|m_{T}(x)$
+\end_inset
+
+.
+ אם נוכיח זאת אז בוודאי ש-
+\begin_inset Formula $T|_{W}$
+\end_inset
+
+ לכסין כי הוא מחלק פולינום עם גורמים לינאריים שונים יחידים )ממעלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+( אז גורמיו הם בהכרח גורמים לינארים שונים יחידים )ממעלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+(-זאת לפי תכונה של פולינומים- אז לפי משפט שהוכחנו בהרצאה הוא לכסין.
+ 
+\end_layout
+
+\begin_layout Standard
+נשים לב כי 
+\begin_inset Formula $T$
+\end_inset
+
+ מאפס )"הורג"( את 
+\begin_inset Formula $m_{T|_{W}}(x)$
+\end_inset
+
+כאשר 
+\begin_inset Formula $T$
+\end_inset
+
+היא מעל 
+\begin_inset Formula $W$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $m_{T|_{W}}(T|_{W})=0$
+\end_inset
+
+.
+ אז כאשר 
+\begin_inset Formula $T$
+\end_inset
+
+היא מעל 
+\begin_inset Formula $V$
+\end_inset
+
+ נקבל שמתקיים 
+\begin_inset Formula $m_{T|_{W}}\left(T\right)=0$
+\end_inset
+
+.
+ לכן מתקיים ש-
+\begin_inset Formula $m|T_{W}$
+\end_inset
+
+ מורכב מגורמים לינארים שונים המוכלים ב-
+\begin_inset Formula $m_{T}(x)$
+\end_inset
+
+.
+ כלומר הוא מחלק אותו.
+\end_layout
+
+\begin_layout Standard
+לכן, 
+\begin_inset Formula $T|_{W}$
+\end_inset
+
+ הוא לכסין.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+נתבונן על 
+\begin_inset Formula $S|_{W_{\text{ן }}}$
+\end_inset
+
+.
+ מצאנו לעיל כי 
+\begin_inset Formula $S|_{W_{i}}$
+\end_inset
+
+ הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+T
+\lang hebrew
+-שמור לפי טענה #
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ושהוא לכסין )כי המרחב העצמי 
+\begin_inset Formula $W_{i}$
+\end_inset
+
+ 
+\begin_inset Formula $T$
+\end_inset
+
+-שמור( לפי טענה #
+\numeric on
+2
+\numeric off
+.
+ עלינו להוכיח כי הבסיס של הוקטורים העצמיים של 
+\begin_inset Formula $T$
+\end_inset
+
+ משותף לשתי הטרנספורמציות.
+\end_layout
+
+\begin_layout Standard
+נשים לב כי גם 
+\begin_inset Formula $T|_{W_{\lambda_{i}}}$
+\end_inset
+
+ ו-
+\begin_inset Formula $S|_{W_{\lambda_{i}}}$
+\end_inset
+
+ מתחלפות בכפל כי שתיהן לכסינות ומהנתון ש-
+\begin_inset Formula $ST=TS$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן, לפי טענה #
+\numeric on
+2
+\numeric off
+, קיים בסיס 
+\begin_inset Formula $W_{\lambda_{i}}$
+\end_inset
+
+ של ו"ע המלכסן את 
+\begin_inset Formula $S|_{W_{i}}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ כמו כן אותו בסיס מלכסן גם את 
+\begin_inset Formula $T|_{W_{i}}$
+\end_inset
+
+, כי 
+\bar under
+כל
+\bar default
+ הוקטורים ב-
+\begin_inset Formula $W_{\lambda_{i}}$
+\end_inset
+
+ הם וקטורים עצמיים של 
+\begin_inset Formula $T|_{W_{i}}$
+\end_inset
+
+ כי לפי טענה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הם משמרים את המרחבים העצמיים אחד של השני.
+ אז מצאנו בסיס משותף המלכסן את 
+\begin_inset Formula $T|_{W_{i}}$
+\end_inset
+
+ ואת 
+\begin_inset Formula $S|_{W_{i}}$
+\end_inset
+
+ סימולטנית.
+\end_layout
+
+\begin_layout Standard
+נזכר כי המרחבים העצמיים 
+\begin_inset Formula $W_{\lambda_{i}}$
+\end_inset
+
+ הם בת"ל והסכום הישר שלהם הוא כל המרחב 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ לכן אם נרוץ על המרחבים העצמיים 
+\begin_inset Formula $W_{\lambda_{i}}$
+\end_inset
+
+ נקבל בסיס של ו"ע המלכסן סימולטנית את 
+\begin_inset Formula $S$
+\end_inset
+
+ ו-
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מאחר והבסיס מורכב מו"ע של 
+\begin_inset Formula $S$
+\end_inset
+
+ ו-
+\begin_inset Formula $T$
+\end_inset
+
+ אז שתיהן אלכסוניות במטריצה המייצגת לפי בסיס זה.
+ 
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\series default
+\numeric off
+.
+
+\series bold
+ 
+\series default
+יהי 
+\begin_inset Formula $T:M_{2x2}(\Re)\to M_{2x2}(\Re)$
+\end_inset
+
+ אופרטור לינארי הנתון ע"י 
+\begin_inset Formula $T(A)=2A^{t}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לפי משפט הפירוק הספקטרלי:
+\begin_inset Formula 
+\[
+T=\stackrel[i=1]{4}{\sum}\lambda_{i}P_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ראשית, נמיר את בסיס המטריצות לבסיס קואורדינטות:
+\begin_inset Formula 
+\[
+T(\left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right))=\left(\begin{array}{c}
+2\\
+0\\
+0\\
+0
+\end{array}\right),T(\left(\begin{array}{c}
+0\\
+1\\
+0\\
+0
+\end{array}\right))=\left(\begin{array}{c}
+0\\
+0\\
+2\\
+0
+\end{array}\right),T(\left(\begin{array}{c}
+0\\
+0\\
+1\\
+0
+\end{array}\right))=\left(\begin{array}{c}
+0\\
+2\\
+0\\
+0
+\end{array}\right),T(\left(\begin{array}{c}
+0\\
+0\\
+0\\
+1
+\end{array}\right))=\left(\begin{array}{c}
+0\\
+0\\
+0\\
+2
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T_{E}=\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נמצא את הערכים העצמיים
+\begin_inset Formula 
+\begin{align*}
+p_{\delta}(T) & =det(T_{E}-x\mathbb{I})=\left|\begin{array}{cccc}
+2-x & 0 & 0 & 0\\
+0 & -x & 2 & 0\\
+0 & 2 & -x & 0\\
+0 & 0 & 0 & 2-x
+\end{array}\right|=\left|\begin{array}{cccc}
+2-x & 0 & 0 & 0\\
+0 & -x & 2 & 0\\
+0 & 2 & -x & 0\\
+0 & 0 & 0 & 2-x
+\end{array}\right|=\\
+= & -\left|\begin{array}{cccc}
+2-x & 0 & 0 & 0\\
+0 & 2 & -x & 0\\
+0 & -x & 2 & 0\\
+0 & 0 & 0 & 2-x
+\end{array}\right|=-\left|\begin{array}{cccc}
+2-x & 0 & 0 & 0\\
+0 & 2 & -x & 0\\
+0 & 0 & 2-\frac{x^{2}}{2} & 0\\
+0 & 0 & 0 & 2-x
+\end{array}\right|=\left(2-x\right)^{2}\left(4-x^{2}\right)\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז הערכים העצמיים הם: 
+\begin_inset Formula $\begin{cases}
+\lambda_{1}=2 & \text{amount:}3\\
+\lambda_{2}=-2 & amount:1
+\end{cases}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמצא את הבסיס לפי הערכים העצמיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ker(T-2\mathbb{I})=Ker\left(\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & -2 & 2 & 0\\
+0 & 2 & -2 & 0\\
+0 & 0 & 0 & 0
+\end{array}\right)=span\left\{ \left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+1\\
+1\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+0\\
+1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Ker(T+2\mathbb{I})=Ker\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 2 & 2 & 0\\
+0 & 2 & 2 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)=span\left\{ \left(\begin{array}{c}
+0\\
+1\\
+-1\\
+0
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B=\left\{ \left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+1\\
+1\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+1\\
+-1\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+0\\
+0\\
+1
+\end{array}\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נביע את הוקטור הכללי:
+\begin_inset Formula 
+\[
+\left(\begin{array}{c}
+x\\
+y\\
+z\\
+w
+\end{array}\right)=\zeta_{1}\left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right)+\zeta_{2}\left(\begin{array}{c}
+0\\
+1\\
+1\\
+0
+\end{array}\right)+\zeta_{3}\left(\begin{array}{c}
+0\\
+1\\
+-1\\
+0
+\end{array}\right)+\zeta_{4}\left(\begin{array}{c}
+0\\
+0\\
+0\\
+1
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נפתור את מע המשוואות:
+\begin_inset Formula 
+\[
+\begin{cases}
+\zeta_{1}=x\\
+\zeta_{2}+\zeta_{3}=y\\
+\zeta_{2}-\zeta_{3}=z\\
+\zeta_{4}=w
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל:
+\begin_inset Formula 
+\[
+2\zeta_{2}=y+z\land2\zeta_{3}=y-z\Rightarrow\zeta_{2}=\frac{y+z}{2},\zeta_{3}=\frac{y-z}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן,
+\begin_inset Formula 
+\[
+\left(\begin{array}{c}
+x\\
+y\\
+z\\
+w
+\end{array}\right)=x\left(\begin{array}{c}
+1\\
+0\\
+0\\
+0
+\end{array}\right)+\frac{y+z}{2}\left(\begin{array}{c}
+0\\
+1\\
+1\\
+0
+\end{array}\right)+\frac{y-z}{2}\left(\begin{array}{c}
+0\\
+1\\
+-1\\
+0
+\end{array}\right)+w\left(\begin{array}{c}
+0\\
+0\\
+0\\
+1
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב את וקטורי הבסיס ואז 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ תהיה המטריצה שסוכמים עד הוקטור השלישי כולל, ו-
+\begin_inset Formula $P_{2}$
+\end_inset
+
+ הוא הוקטור הרביעי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{1}=\left(\begin{array}{cccc}
+1 & 0 & 0 & 0\\
+0 & \frac{1}{2} & \frac{1}{2} & 0\\
+0 & \frac{1}{2} & \frac{1}{2} & 0\\
+0 & 0 & 0 & 1
+\end{array}\right),P_{2}=\left(\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & \frac{1}{2} & -\frac{1}{2} & 0\\
+0 & -\frac{1}{2} & \frac{1}{2} & 0\\
+0 & 0 & 0 & 0
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשתמש באינטרפולציית לגראנג', 
+\begin_inset Formula 
+\[
+\phi_{i}(T)=P_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula 
+\[
+\phi_{i}(x)=\stackrel[i\neq k]{}{\prod}\frac{x-\lambda_{k}}{\lambda_{i}-\lambda_{k}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן,
+\begin_inset Formula 
+\begin{align*}
+P_{1} & =\phi_{1}(T)=\stackrel[i\neq k]{}{\prod}\frac{\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)-\lambda_{k}\mathbb{I}_{4\times4}}{\lambda_{1}-\lambda_{k}}=\frac{\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)-\lambda_{2}\mathbb{I}_{4\times4}}{\lambda_{1}-\lambda_{2}}\\
+ & =\frac{\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)-\left(\begin{array}{cccc}
+-2 & 0 & 0 & 0\\
+0 & -2 & 0 & 0\\
+0 & 0 & -2 & 0\\
+0 & 0 & 0 & -2
+\end{array}\right)}{2--2}=\left(\begin{array}{cccc}
+1 & 0 & 0 & 0\\
+0 & \frac{1}{2} & \frac{1}{2} & 0\\
+0 & \frac{1}{2} & \frac{1}{2} & 0\\
+0 & 0 & 0 & 1
+\end{array}\right)\\
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+P_{2} & =\phi_{2}(T)=\stackrel[i\neq k]{}{\prod}\frac{\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)-\lambda_{k}\mathbb{I}_{4\times4}}{\lambda_{2}-\lambda_{k}}=\frac{\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)-\lambda_{1}\mathbb{I}_{4\times4}}{\lambda_{2}-\lambda_{1}}\\
+ & =\frac{\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)-\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)}{-2-2}=\left(\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & \frac{1}{2} & -\frac{1}{2} & 0\\
+0 & -\frac{1}{2} & \frac{1}{2} & 0\\
+0 & 0 & 0 & 0
+\end{array}\right)\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+והפירוק הספקטרלי הוא
+\begin_inset Formula 
+\[
+T=\lambda_{1}P_{1}+\lambda_{2}P_{2}=2\left(\begin{array}{cccc}
+1 & 0 & 0 & 0\\
+0 & \frac{1}{2} & \frac{1}{2} & 0\\
+0 & \frac{1}{2} & \frac{1}{2} & 0\\
+0 & 0 & 0 & 1
+\end{array}\right)-2\left(\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & \frac{1}{2} & -\frac{1}{2} & 0\\
+0 & -\frac{1}{2} & \frac{1}{2} & 0\\
+0 & 0 & 0 & 0
+\end{array}\right)=\left(\begin{array}{cccc}
+2 & 0 & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & 0 & 2
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\end_body
+\end_document

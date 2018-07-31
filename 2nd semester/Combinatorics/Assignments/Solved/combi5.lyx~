@@ -1,0 +1,642 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+קומבי תרגיל
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Author
+שניר הורדן
+\backslash
+ליעד סלומון-
+\numeric on
+205689581
+\numeric off
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אם האות במקום ה-
+\begin_inset Formula $n$
+\end_inset
+
+-י היא 
+\begin_inset Formula $z$
+\end_inset
+
+ אז אם המילה חוקית נקבל מילה חוקית באורך 
+\begin_inset Formula $n-1$
+\end_inset
+
+ אותיות אחריה, אם היא 
+\begin_inset Formula $x$
+\end_inset
+
+ אז אסור שהרצף החוקי הגדול ביותר של 
+\begin_inset Formula $x$
+\end_inset
+
+ יגיע אחריה וכנ"ל עבור 
+\begin_inset Formula $y$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נגדיר נוסחאת נסיגה:
+\begin_inset Formula 
+\[
+f\left(n\right)=\begin{cases}
+ & n\geq3\\
+f\left(0\right)=1\\
+f\left(1\right)=1\\
+f\left(2\right)=3\\
+f\left(4\right)=8
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $H_{n}=2H_{n-2}-H_{n-4}$
+\end_inset
+
+ עם תנאי ההתחלה 
+\begin_inset Formula $H_{3}=3,H_{2}=2,H_{0}=H_{1}=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נציב 
+\begin_inset Formula $H_{\text{n }}=q^{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נקבל,
+\begin_inset Formula 
+\[
+q^{n}=2q^{n-2}-q^{n-4}\Rightarrow q^{n-4}\left(q^{4}-2q^{2}+1\right)=0\Rightarrow q^{4}-2q^{2}+1=0\Rightarrow\begin{cases}
+\left(\text{t-}1\right)^{2}=0 & t=q^{2}\Rightarrow t=1\Rightarrow q^{2}=1\Rightarrow q=\pm1\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{n}=A\left(1\right)^{n}+Bn\left(1\right)^{n}+C\left(-1\right)^{n}+Dn\left(-1\right)^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב את התנאים ההתחלתיים ונקבל,
+\begin_inset Formula 
+\begin{align*}
+1 & =A+C\\
+1 & =A+B-C-D\\
+2 & =A+2B+C+2D\\
+3 & =A+3B-C-3D
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיבלנו מע משוואות אז נציב במטריצה ונגיע לצורה קנונית 
+\begin_inset Formula $\left(Reduced-Row-Echelon-Form\right)$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left(\begin{array}{ccccc}
+1 & 0 & 1 & 0 & 1\\
+1 & 1 & -1 & -1 & 1\\
+1 & 2 & 1 & 2 & 2\\
+1 & 3 & -1 & -3 & 3
+\end{array}\right)\to\left(\begin{array}{ccccc}
+1 & 0 & 0 & 0 & \frac{1}{2}\\
+0 & 1 & 0 & 0 & \frac{3}{4}\\
+0 & 0 & 1 & 0 & \frac{1}{2}\\
+0 & 0 & 0 & 1 & -\frac{1}{4}
+\end{array}\right)\Rightarrow\begin{cases}
+A= & \frac{1}{2}\\
+B= & \frac{3}{4}\\
+C= & \frac{1}{2}\\
+D= & -\frac{1}{4}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לסיכום,
+\begin_inset Formula 
+\[
+H_{n}=\frac{1}{2}+\frac{3}{4}n+\frac{3}{4}\left(-1\right)^{n}-\frac{1}{4}n\left(-1\right)^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נבדוק
+\bar default
+ לפי הנוסחאת נסיגה נקבל
+\begin_inset Formula 
+\[
+H_{4}=2H_{2}-H_{0}\Rightarrow H_{4}=2\times2-1=3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי המשוואה שהסקנו נקבל
+\begin_inset Formula 
+\[
+H_{4}=\frac{1}{2}+\frac{3}{4}4+\frac{1}{2}\left(-1\right)^{4}-\frac{1}{4}4\left(-1\right)^{4}=\frac{1}{2}+3+\frac{1}{2}-1=3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $n\geq2$
+\end_inset
+
+ אנשים במסיבה וכל אחד לחץ את ידו של מישהו.
+\end_layout
+
+\begin_layout Proof
+נשתמש בעקרון שובך היונים.
+\end_layout
+
+\begin_layout Proof
+נגדיר תאים כך -
+\begin_inset Formula $\left\{ 1,...,\left(n-1\right)\right\} $
+\end_inset
+
+.
+ כל תא הוא כמות לחיצות הידיים שאדם מסוים ביצע במהלך המפגש.
+ כל אחד לחץ ידיים עם מישהו וכן קיימים לפחות שני אנשים בקבוצה.
+\end_layout
+
+\begin_layout Proof
+כל אדם לחץ אחד כמות של אחת מהאפשרויות האלה של ידיים, וקיימים 
+\begin_inset Formula $n$
+\end_inset
+
+ אנשים )יונים( במפגש וכל אחד לחץ את ידו של לפחות מישהו אחר אחד אז קיימים
+ שני אנשים שלחצו מספר שווה של ידיים.
+\end_layout
+
+\begin_layout Proof
+כלומר קיים תא עם 
+\begin_inset Formula $\lceil\frac{n}{n-1}\rceil=2$
+\end_inset
+
+אנשים )יונים(.
+\end_layout
+
+\begin_layout Proof
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אפשרי.
+\end_layout
+
+\begin_layout Standard
+נגדיר תאים הם שני משבצות סמוכות בלוח, והיונים הן הקוביות דומינו.
+\end_layout
+
+\begin_layout Standard
+נניח כי יש לנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+32
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אבני דומינו.
+\end_layout
+
+\begin_layout Standard
+נקבל כי קיים תא עם 
+\begin_inset Formula $\lceil\frac{32}{31}\rceil=2$
+\end_inset
+
+, מתא זה נוריד אבן דומינו אחת ונקבל שכל התאים מלאים.
+\end_layout
+
+\begin_layout Standard
+אז ניצן לפרוש את לוח השחמט כנדרש.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+תהינה 
+\begin_inset Formula $A\subseteq\left\{ 10,...,99\right\} $
+\end_inset
+
+ כך שמתקיים 
+\begin_inset Formula $|A|=10$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+א.
+ קיימות 
+\begin_inset Formula $\left(\begin{array}{c}
+89\\
+10
+\end{array}\right)$
+\end_inset
+
+ תתי-קבוצות מעצמה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+נגדיר יונים הם מספר התתי-קבוצות ה
+\bar under
+שונות
+\bar default
+ והתאים הם סכומים.
+\end_layout
+
+\begin_layout Proof
+לכל קבוצה מעצמה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+קיימים 
+\begin_inset Formula $2^{10}$
+\end_inset
+
+ תתי-קבוצות לפי הלמה של קנטור.
+ קיימים 
+\begin_inset Formula $\stackrel[i=10]{99}{\sum}i=4905\Rightarrow10\to4905\Rightarrow4895$
+\end_inset
+
+סכומים )תאים(.
+\end_layout
+
+\begin_layout Proof
+לכן 
+\begin_inset Formula $\lceil\frac{2^{10}}{4895}\rceil\geq2$
+\end_inset
+
+ אז קיימות שני תתי-קבוצות בעלות אותו הסכום.
+\end_layout
+
+\begin_layout Standard
+ב.זה אפשרי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל 
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\end_body
+\end_document

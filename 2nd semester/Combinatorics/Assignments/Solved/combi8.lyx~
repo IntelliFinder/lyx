@@ -1,0 +1,889 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+קומבי גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+104286
+\end_layout
+
+\begin_layout Date
+שניר הורדן-
+\numeric on
+205689581
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+ֹיהי 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+ גרף עם 
+\begin_inset Formula $n$
+\end_inset
+
+ קודקודים שבו ערכיות כל קודקוד היא לפחות 
+\begin_inset Formula $\frac{n-1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נשתמש בעקרון שובך היונים.
+ נסמן
+\begin_inset Formula 
+\[
+n-pigeons
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left\{ \frac{n-1}{2},\frac{n-1}{2}+1,...,n-1\right\} -holes
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+אזי קיים תא עם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יונים לפחות.
+ אז נקבל ערכיות של 
+\begin_inset Formula $\frac{n-1}{2}\times2=\left(n-1\right)$
+\end_inset
+
+ לפחות עבור שני קודקודים אז בהכרח קיים רכיב שקילות יחיד.
+ אילו היו קיימים שני רכיבי קשירות אז היינו מקבלים ערכיות מקסימלית משותפת
+ של שני הקודקודים 
+\begin_inset Formula $n-2$
+\end_inset
+
+.
+ סתירה לכך שמצאנו ערכיות משותפת של 
+\begin_inset Formula $n-1$
+\end_inset
+
+ שגדולה מהמספר המקסימלי כביכול.
+ אזי קיים רכיב קשירות אחד.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+נתון גרף 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+.
+ נבנה גרף 
+\begin_inset Formula $L\left(G\right)$
+\end_inset
+
+ באופן הבא:
+\end_layout
+
+\begin_layout Proof
+הקודקודים של 
+\begin_inset Formula $L\left(G\right)$
+\end_inset
+
+ מיצגים את הצלעות של 
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+שני קודקודים של 
+\begin_inset Formula $L\left(G\right)$
+\end_inset
+
+ מחוברים בצלע אםם לשתי הצלעות שהם מייצגים בגרף 
+\begin_inset Formula $G$
+\end_inset
+
+ יש קודקוד משותף.
+\end_layout
+
+\begin_layout Proof
+נניח 
+\begin_inset Formula $G$
+\end_inset
+
+ אוילריאני.
+\end_layout
+
+\begin_layout Proof
+אזי ל-
+\begin_inset Formula $G$
+\end_inset
+
+ קיים מסלול אוילריאני סגור וגם הערכיות של כל קודקוד היא זוגית.
+\end_layout
+
+\begin_layout Proof
+תהי 
+\begin_inset Formula $e\in E$
+\end_inset
+
+ .
+ צלע זו מחוברת בהכרח לשני קודקודים ע"פ הגדרה, 
+\begin_inset Formula $v_{1},v_{2}\in V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+מתקיים 
+\begin_inset Formula $deg\left(v_{1}\right)\land deg\left(v_{2}\right)\quad are\quad even$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+אזי 
+\begin_inset Formula 
+\[
+deg\left(v_{1}\right)+deg\left(v_{2}\right)-\underbrace{2}_{removed\quad degrees\quad of\quad connecting\quad edge}\quad is\quad even
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+לכן לפי הגדרת 
+\begin_inset Formula $L\left(G\right)$
+\end_inset
+
+, כל קודקודי 
+\begin_inset Formula $L\left(G\right)$
+\end_inset
+
+ הם ממעלה זוגית.
+ 
+\end_layout
+
+\begin_layout Proof
+אזי 
+\begin_inset Formula $L\left(G\right)$
+\end_inset
+
+ אוילריאני.
+\end_layout
+
+\begin_layout Standard
+.ב.
+\end_layout
+
+\begin_layout Standard
+הכיוון ההפוך אינו מתקיים.
+\end_layout
+
+\begin_layout Standard
+נפריך באמצעות דוגמא נגדית:
+\begin_inset Formula 
+\begin{align*}
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+ גרף.
+\end_layout
+
+\begin_layout Proof
+עלינו להוכיח 
+\begin_inset Formula $G$
+\end_inset
+
+ קיימת אוריאנטציה מאוזנת אםם כל הערכויות ב-
+\begin_inset Formula $G$
+\end_inset
+
+ זוגיות.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נניח כי קיימת אוריאנטציה מאוזנת.
+ אז מתקיים לכל 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $d_{+}\left(v\right)=d_{-}\left(v\right)$
+\end_inset
+
+.
+ נסמן 
+\begin_inset Formula $x=d_{+}\left(v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נשים לב כי 
+\begin_inset Formula $deg\left(v\right)=d_{+}\left(v\right)+d_{-}\left(v\right)=2x$
+\end_inset
+
+ זה תמיד מספר זוגי.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נניח כי 
+\begin_inset Formula $\forall v\in V\left(deg\left(v\right)\quad is\quad even\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+הגרף אינו בהכרח קשיר, לכן לא נוכל להשתמש במפשט שהוכנו בכיתה, אז נתבונן בכל
+ מרכיב קשירות בנפרד.
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $k=\left(V_{k},E_{k}\right)$
+\end_inset
+
+ מרכב קישרות ארביטררי של 
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+מתקיים 
+\begin_inset Formula $\forall v_{k}\in V_{k}\left(deg\left(v_{k}\right)\quad is\quad even\right)$
+\end_inset
+
+ וגם המרכיב קשיר.
+\end_layout
+
+\begin_layout Proof
+אז לפי משפט קיים בו מסלול אוילריאני סגור.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+טענת עזר
+\bar default
+-יהי 
+\begin_inset Formula $G_{k}$
+\end_inset
+
+ גרף קשיר.
+ אם 
+\begin_inset Formula $G_{k}$
+\end_inset
+
+ אוילריאני אז לגרף 
+\begin_inset Formula $G_{k}$
+\end_inset
+
+ קיימת אוריאנטציה זוגית.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+הוכחת טענת העזר
+\end_layout
+
+\begin_layout Proof
+נבחר קודקוד כלשהו 
+\begin_inset Formula $v_{k}\in V_{k}$
+\end_inset
+
+ ונתחיל ונסיים בו את המסלול האוילריאני.
+ 
+\end_layout
+
+\begin_layout Proof
+לפי הגדרה מסלול אוילריאני מכסה את כל כל הצלעות ב-
+\begin_inset Formula $G_{k}$
+\end_inset
+
+.
+ הוא מהצורה
+\begin_inset Formula 
+\[
+v_{k_{1}}e_{k_{1}}v_{k_{2}}e_{k_{2}}...e_{k_{n}}v_{k_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נסמן כל 
+\begin_inset Formula $e_{k_{i-1}}$
+\end_inset
+
+ שמשמאל ל-
+\begin_inset Formula $v_{k_{i}}$
+\end_inset
+
+ בתור צלע המכוונת פנימה שלו, וכל 
+\begin_inset Formula $e_{k_{i+1}}$
+\end_inset
+
+ בתור צלע המכוונת החוצה שלו.
+\end_layout
+
+\begin_layout Proof
+אז לכל 
+\begin_inset Formula $v_{k}$
+\end_inset
+
+ מתאימים מספר כלשהו של
+\bar under
+ זוגות 
+\bar default
+של צלעות שאחת מהן מכוונת פנימה והשנייה החוצה, בהתאמה.
+ עבור הקודקודים שאינם נקודת המוצא זה בוודאי מתקיים.
+ עבור קודקוד המוצא כפי שניתן לראות לעיל 
+\begin_inset Formula $\left(e_{k_{!}},e_{k_{2}}\right)$
+\end_inset
+
+ הן זוג צלעות כך שאחת מכוונת פנימה ואחת החוצה.
+\end_layout
+
+\begin_layout Proof
+מ.ש.ל.
+\end_layout
+
+\begin_layout Proof
+בהסתמך על טענת העזר ומכך שבחרנו מרכיב קשירות כללי של 
+\begin_inset Formula $G$
+\end_inset
+
+ אנו מכסים את כל הקודקודים ב-
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נסיק כי 
+\begin_inset Formula $G$
+\end_inset
+
+ בעל אוריאנטצייה מאוזנת.
+\end_layout
+
+\begin_layout Proof
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+ ערכי 
+\begin_inset Formula $p,q$
+\end_inset
+
+ כך שקיים מסלול אוילרייאני סגור
+\begin_inset Formula 
+\[
+\begin{cases}
+p & is\quad even\\
+q & is\quad even
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+)או להפך(.
+\end_layout
+
+\begin_layout Standard
+ב.לפי משפט, 
+\begin_inset Formula $G$
+\end_inset
+
+ קיים מסלול אוילריאני שאינו סגור אםם לכל הקודקודים קיימת ערכיות זוגית פרט
+ לשניים.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p-odd$
+\end_inset
+
+ וגם 
+\begin_inset Formula $q=2$
+\end_inset
+
+ או להפך.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+תהי 
+\begin_inset Formula $S\subseteq A$
+\end_inset
+
+.
+ עלינו להוכיח 
+\begin_inset Formula $\left|S\right|\leq\left|N\left(S\right)\right|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+מקרה 
+\begin_inset Formula $I$
+\end_inset
+
+ 
+\begin_inset Formula $\left|S\right|\leq\lceil\frac{n}{2}\rceil$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כל בן ב-
+\begin_inset Formula $S$
+\end_inset
+
+ מכיר לפחות 
+\begin_inset Formula $\lceil\frac{n}{2}\rceil$
+\end_inset
+
+ בנות אז 
+\begin_inset Formula $\left|N\left(S\right)\right|\geq\lceil\frac{n}{2}\rceil$
+\end_inset
+
+ אז בוודאי מתקיים 
+\begin_inset Formula $\left|S\right|\leq\left|N\left(S\right)\right|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+אילו 
+\begin_inset Formula $S=\emptyset$
+\end_inset
+
+ אז מתקיים שוויון.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+מקרה 
+\begin_inset Formula $II$
+\end_inset
+
+ 
+\begin_inset Formula $n\geq\left|S\right|>\lceil\frac{n}{2}\rceil$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נניח בשלילה שקיימת קבוצה 
+\begin_inset Formula $S$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $\left|N\left(S\right)\right|<\left|S\right|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נתבונן בקבוצה 
+\begin_inset Formula $B\backslash N\left(S\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $x\in B\backslash N\left(S\right)$
+\end_inset
+
+.
+ לפי הנתון 
+\begin_inset Formula $\left|x\right|\geq\lceil\frac{n}{2}\rceil$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+מאחר ו-
+\begin_inset Formula $\left|S\right|>\lceil\frac{n}{2}\rceil$
+\end_inset
+
+ אזי 
+\begin_inset Formula $\left|A\backslash S\right|<\frac{n}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+לכן, בהכרח קיימים 
+\begin_inset Formula $a\in S$
+\end_inset
+
+, 
+\begin_inset Formula $e\in E$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $e=\left\{ a,x\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+זו בסתירה לכך ש-
+\begin_inset Formula $x\notin N\left(S\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+לכן 
+\begin_inset Formula $\forall S\subseteq A\left(\left|S\right|\leq\left|N\grave{(S)}\right|\right)$
+\end_inset
+
+ ולפי משפט 
+\begin_inset Formula $Hall$
+\end_inset
+
+ קיים זיווג.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

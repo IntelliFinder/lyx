@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512507533 source:c:\users\snir\technion\hw2q2\hw2q2.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

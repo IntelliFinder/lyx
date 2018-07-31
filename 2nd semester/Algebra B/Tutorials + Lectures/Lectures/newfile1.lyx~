@@ -1,0 +1,5589 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+אלגברה לינארית ב - אביב
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2018
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ סיכומים
+\end_layout
+
+\begin_layout Author
+שניר הורדן
+\end_layout
+
+\begin_layout Date
+
+\numeric on
+12.4.18
+\end_layout
+
+\begin_layout Subsection*
+שבוע 
+\numeric on
+1
+\end_layout
+
+\begin_layout Subsection
+השלמות מאלגברה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ א
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+'
+\lang hebrew
+, המטריצה הצמודה , כלל קרמר
+\end_layout
+
+\begin_layout Standard
+יהי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\begin_inset Formula $F$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ שדה כלשהו )למשל הממשיים( ותהי
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ 
+\begin_inset Formula $A\,\in M(F)$
+\end_inset
+
+ מטריצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n x n
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ שהכניסות שלה הן מעל איברי השדה 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+F
+\lang hebrew
+.
+ נראה כעת דרך נוספת לחשוב על הדטרמיננטה, שתשרת אותנו בהמשך כשנדון במשפט
+ קיילי-המילטון.
+\end_layout
+
+\begin_layout Definition
+נגדיר מטריצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n x n
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שתסומן 
+\begin_inset Formula $adj(A)$
+\end_inset
+
+ 
+\bar under
+המטריצה הצמודה הקלאסית
+\bar default
+ של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+המוגדרת באופן הבא:
+\end_layout
+
+\begin_layout Definition
+\begin_inset Formula $[adj(A)]_{ij}=(-1)^{i+j}M_{ij}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $M$
+\end_inset
+
+הוא המינור ה -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i,j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וזהו ה-
+\lang english
+det
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של המטריצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+x (n-1)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+(n-1)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ המתקבלת מ-ְ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ לאחר 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar under
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מחיקת שורה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועמודה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Standard
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{ccc}
+1 & 0 & 2\\
+2 & 1 & 2\\
+3 & 1 & 2
+\end{array}$
+\end_inset
+
+ְ
+\begin_inset Formula $A=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נרצה לחשב את 
+\begin_inset Formula $adjA$
+\end_inset
+
+ְ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\begin{array}{ccc}
+0 & 2 & -2\\
+2 & -4 & 2\\
+-1 & -1 & 1
+\end{array}$
+\end_inset
+
+
+\begin_inset Formula $=\begin{array}{ccc}
+det\begin{array}{cc}
+1 & 2\\
+1 & 2
+\end{array} & det\begin{array}{cc}
+2 & 2\\
+3 & 2
+\end{array} & det\begin{array}{cc}
+2 & 1\\
+3 & 1
+\end{array}^{t}\\
+\\
+\\
+\end{array}$
+\end_inset
+
+
+\begin_inset Formula $adjA=\begin{array}{ccc}
+M_{11} & -M_{12} & M_{13}\\
+-M_{21} & M_{22} & -M_{23}\\
+M_{31} & -M_{32} & M_{33}
+\end{array}^{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula $A*adjA=adjA*A=det(A)*I$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+
+\bar under
+מסקנה
+\bar default
+ אם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ הפיכה אז ההפכית שלה היא 
+\begin_inset Formula $A^{-1}=\frac{adj(A)}{det(A)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Remarks
+עבור המקרה הפרטי של 
+\begin_inset Formula $\begin{array}{cc}
+a & b\\
+c & d
+\end{array}$
+\end_inset
+
+ ההפכי הוא 
+\begin_inset Formula $\begin{array}{cc}
+d & -b\\
+-c & a
+\end{array}*\frac{1}{det(A)}$
+\end_inset
+
+)
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הפיכה ולכן שונה מ-
+\numeric on
+0
+\numeric off
+(.
+\end_layout
+
+\begin_layout Remarks
+ֹֹֹֹֹ
+\bar under
+משמעות מתמטיתֹ:ֹ
+\bar default
+ מנוסחה זו רואים שפעולת ההופכי היא רציפה ואף גזירה )כמנה של פולינומים(.
+ עובדה זו תהיה נקודת בסיס עבורינו בקורסים עתידיים כגון חבורות אלגבריות,
+ גיאומטריה אלגברית.
+ משמעות נוספת היא שאנו מקבלים נוסחה מפורשת וסגורה עבור מטריצה הופכית)בניגוד
+ לשיטת גאוס שלמדנו באלגברה א', שהייתה אלגוריתמית(.
+ לדבר חשיבות עבור בדיקת יציבות של חישובים נומריים, בעיות פרקטיות המתוארות
+ על ידי מטריצה התלויה בפרמטר ועוד.
+ נשים לב שעל פי הנוסחה, אם לוקחים את כניסות A מתוך קבוצה הסגורה לכפל ולחיבור
+ )קבוצה כזו נקראת חוג, למשל השלמים( אז גם ערכי 
+\begin_inset Formula $det(A),adj(A)$
+\end_inset
+
+ הם מתוך הקבוצה הנ"ל.
+ הדוגמה הבאה ממחישה שימוש לכך.
+\end_layout
+
+\begin_layout Remarks
+
+\bar under
+דוגמא:
+\bar default
+ תהי 
+\begin_inset Formula $A\in M_{nxn}(Z)$
+\end_inset
+
+ .
+ הראו כי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הפיכה עם 
+\begin_inset Formula $A^{-1}\in M_{nxn}(Z)$
+\end_inset
+
+ אם"ם 
+\begin_inset Formula $det(A)=\pm1$
+\end_inset
+
+.
+ פתרנו זו בתרגול.
+\end_layout
+
+\begin_layout Proof
+נראה כי 
+\begin_inset Formula $A*adj(A)=det(A)*I$
+\end_inset
+
+ השוויון השני שקול לכך.
+ נצטרך להראות כי:
+\bar under
+צפוף
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $[A*adj(A)]_{ij}=\begin{cases}
+det(A) & i=j\begin{cases}
+0 & i\neq j\end{cases}\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נסמן 
+\begin_inset Formula $A=(A_{ij})$
+\end_inset
+
+אז על פי הגדרת כפל מטריצות נקבל כי הביטוי 
+\begin_inset Formula $[A*adj(A)]_{ij}$
+\end_inset
+
+ הוא בעצם כפל השורה ה
+\lang english
+i-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ ב-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בעמודה ה-
+\lang english
+j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ב-
+\begin_inset Formula $adj(A)$
+\end_inset
+
+.
+ אזי נקבל:
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $[A*adj(A)]_{ij}=\stackrel[k=1]{n}{\sum}a_{ik}(adj(A))_{kj}=\stackrel[k=1]{n}{\sum}a_{ik}(-1)^{j+k}M_{jk}^{A}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נפריד למקרים:
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $[A*adj(A)]_{ii}=\stackrel[k=1]{n}{\sum}(-1)^{k+i}a_{ik}M_{ik}^{A}=det(A)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כאשר הביטוי הוא בדיוק הדטרמיננטה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ לפי פיתוח של השורה ה-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\lang hebrew
+.
+ כעת נבצע טריק קטן:
+\end_layout
+
+\begin_layout Proof
+אם 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+ אז נחליף את השורה ה-
+\lang english
+j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בשורה-
+\lang english
+i
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ במטריצה 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ הזהה ל
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פרט לשינוי זה.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $b_{ml}=\begin{cases}
+a_{il} & m=j\begin{cases}
+a_{ml} & m\neq j\end{cases}\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+מאחר ול-
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יש שתי שורות זהות הדטרמיננטה שלה מתאפסת, נפתח אותה לפי השורה ה-
+\lang english
+j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+:
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $0=det(B)=\stackrel[k=1]{n}{\sum}(-1)^{k+j}a_{ik}M_{jk}^{B}=\stackrel[k=1]{n}{\sum}(-1)^{k+j}a_{ik}M_{jk}^{A}=[A*adj(A)]_{ij}\begin{cases}
+when & i\neq j\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+הצדקה: הסתמכנו על כך שבמעבר השלישי איברי מטריצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+זה בשורה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+זהים לאיברי מטריצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בשורה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ולכן 
+\begin_inset Formula $a_{ik}=b_{jk}$
+\end_inset
+
+.
+ אז המינורים שווים, כי ההבדל היחיד בין המטריצות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+B
+\lang hebrew
+ הוא שורה ה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ של 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שאותה מחקנו בפיתוח המינור 
+\end_layout
+
+\begin_layout Theorem
+
+\bar under
+כלל קרמר
+\end_layout
+
+\begin_layout Theorem
+תהי 
+\begin_inset Formula $A\in M_{nxn}(F)$
+\end_inset
+
+ 
+\bar under
+הפיכה.
+
+\bar default
+ יהי 
+\begin_inset Formula $\vec{b}\in F^{n}$
+\end_inset
+
+ונתבונן במערכת 
+\begin_inset Formula $A\vec{x}=\vec{b}$
+\end_inset
+
+.
+ )
+\lang english
+n
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משוואות עם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נעלמים(.
+\end_layout
+
+\begin_layout Theorem
+כאשר 
+\begin_inset Formula $\vec{x}=\left(\begin{array}{c}
+x_{1}\\
+.\\
+.\\
+x_{n}
+\end{array}\right)$
+\end_inset
+
+וקטור הנעלמים.
+ כלל קרמר נותן לנו נוסחא סגורה למציאת הנעלמים )בניגוד למשל לאלגוריתם גאוס(.
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula $ $
+\end_inset
+
+אזי יש לה פתרון יחיד )מאלגברה א
+\lang english
+'
+\lang hebrew
+( ומתקיים:
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula $x_{i}=\frac{det(C_{i})}{det(A)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+כאשר 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+היא המטריצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ בהחלפת העמודה ה
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ בוקטור 
+\begin_inset Formula $\vec{x}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Theorem
+דוגמא:
+\end_layout
+
+\begin_layout Theorem
+נביט במערכת:
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula $\begin{cases}
+\begin{array}{cc}
+2x_{1}-x_{2} & =1\\
+3x_{1}+5x_{2} & =7
+\end{array}\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+אז נקבל :
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula $A=\left(\begin{array}{cc}
+2 & -1\\
+3 & 5
+\end{array}\right),\vec{b}=\left(\begin{array}{c}
+1\\
+7
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+ומכאן:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $C_{1}=\left(\begin{array}{cc}
+1 & -1\\
+7 & 5
+\end{array}\right),C_{2}=\left(\begin{array}{cc}
+2 & 1\\
+3 & 7
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{1}=\frac{det(C_{1})}{det(A)}=\frac{5+7}{10+3}=\frac{12}{13}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{2}=\frac{11}{13}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Remarks
+כלל קרמר מניב תוצרות שונות מאוד לכניסות שונות.
+ לכן אינו יעיל לחישובים נומריים.
+\end_layout
+
+\begin_layout Proof
+דרך #
+\numeric on
+1
+\numeric off
+: חישוב ישיר לפי הטענה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.1
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+דרך #
+\numeric on
+2
+\numeric off
+: תהי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ הפיכה, נגדיר 
+\begin_inset Formula $T:F^{n}\rightarrow F^{n}$
+\end_inset
+
+ כך:
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $T(x_{1},...,x_{n})=\left(\begin{array}{ccccc}
+\frac{det(B_{1})}{det(A)}, & \frac{det(B_{2})}{det(A)}, & . & .., & \frac{det(B_{n})}{det(A)}\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+כאשר 
+\begin_inset Formula $B_{i}$
+\end_inset
+
+מוגדרת כמו 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+עלינו להוכיח כי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+T
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+טרנספורמציה לינארית וכן שהיא מתנהגת כמו הפונקציה 
+\begin_inset Formula $A^{-1}\vec{v}$
+\end_inset
+
+.
+ כלומר 
+\begin_inset Formula $T(\vec{v})=A^{-1}\vec{v}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+אם נתבונן במע
+\lang english
+'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משוואות נשים לב כי זה תנאי הכרחי לכך שהפתרון הוא כמתואר בטענה.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+הוכחת לינאריות
+\bar default
+:
+\end_layout
+
+\begin_layout Proof
+צ.ל.: 
+\begin_inset Formula $T(\vec{v}+\vec{u})=T(\vec{v})+T(\vec{u})$
+\end_inset
+
+ וגם עבור 
+\begin_inset Formula $a\in F$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $T(a\vec{v})=aT(\vec{v})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+לפי חו'י דטרמיננטה נקבל:
+\end_layout
+
+\begin_layout Proof
+)
+\numeric on
+1
+\numeric off
+(
+\begin_inset Formula $det\left(\begin{array}{ccccc}
+. & . & . & . & .\\
+. & . & . & . & .\\
+\vec{v_{1}} & \vec{v_{2}} & \vec{av_{i}} & . & \vec{v_{n}}\\
+. & . & . & . & .\\
+. & . & . & . & .
+\end{array}\right)=a*det\left(\begin{array}{ccccc}
+. & . & . & . & .\\
+. & . & . & . & .\\
+\vec{v_{1}} & \vec{v_{2}} & \vec{v_{i}} & . & \vec{v_{n}}\\
+. & . & . & . & .\\
+. & . & . & . & .
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+)
+\numeric on
+2
+\numeric off
+( 
+\begin_inset Formula $det\left(\begin{array}{ccccc}
+. & . & . & . & .\\
+. & . & . & . & .\\
+\vec{v_{1}} & \vec{v_{2}} & \vec{v_{i}} & . & \vec{v_{n}}\\
+. & . & . & . & .\\
+. & . & . & . & .
+\end{array}\right)+\text{det\left(\begin{array}{ccccc}
+ .  &  .  &  .  &  .  &  .\\
+ .  &  .  &  .  &  .  &  .\\
+ \vec{w_{1}}  &  \vec{w_{2}}  &  \vec{w_{i}}  &  .  &  \vec{w}\\
+ .  &  .  &  .  &  .  &  .\\
+ .  &  .  &  .  &  .  &  . 
+\end{array}\right)}=det\left(\begin{array}{ccccc}
+. & . & . & . & .\\
+. & . & . & . & .\\
+\vec{v_{1}}+\vec{w_{1}} & . & . & . & \vec{v_{n}}+\vec{w_{n}}\\
+. & . & . & . & .\\
+. & . & . & . & .
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+לכן קיבלנו כי הטרנספורציה לינארית.
+ כעת נראה כי הטרנספורמציה הפיכה:
+\end_layout
+
+\begin_layout Proof
+נקח בסיס 
+\begin_inset Formula $C=\left\{ \varphi_{1},...,\varphi_{n}\right\} $
+\end_inset
+
+כאשּר 
+\begin_inset Formula $\varphi_{i}$
+\end_inset
+
+הוא העמודה ה -
+\lang english
+i
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+במטריצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\lang hebrew
+.
+ מאחר והיא הפיכה קיימות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ עמודות בת"ל מעל 
+\begin_inset Formula $F^{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+לכן מתקיים 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A^{-1}(\varphi_{i})=\left(\begin{array}{c}
+0\\
+0\\
+0\\
+1\\
+.\\
+.\\
+0
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כאשר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נמצא במקום ה-
+\lang english
+i
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Proof
+מצד שני: 
+\begin_inset Formula $[T(\varphi_{i})]_{C}=\left(\begin{array}{c}
+0\\
+0\\
+0\\
+1\\
+.\\
+.\\
+0
+\end{array}\right)$
+\end_inset
+
+.
+ כי הביטוי 
+\begin_inset Formula $\frac{det(B_{k})}{det(A)}=0$
+\end_inset
+
+כאשר 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+ עבור שורה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומתקיים 
+\begin_inset Formula $\frac{det(B_{k})}{det(A)}=1$
+\end_inset
+
+ עבור 
+\begin_inset Formula $i=j$
+\end_inset
+
+כי זו אותה מטריצה בדיוק.
+\end_layout
+
+\begin_layout Subsection
+משפט קיילי המילטון
+\end_layout
+
+\begin_layout Theorem
+
+\bar under
+קיילי המילטון
+\bar default
+ : יהי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+F
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שדה ן-
+\begin_inset Formula $A\in M_{nxn}(F)$
+\end_inset
+
+מטריצה מסדר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n x n
+\lang hebrew
+.
+ נסמן את הפ"א של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ע"י 
+\begin_inset Formula $p(x)=det(xI-A)$
+\end_inset
+
+.
+ אזי מתקיים 
+\begin_inset Formula $p(A)=0_{nxn}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Remarks
+נשין לב לכמה מקרים:
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+לא ניתן
+\bar default
+ להוכיח את הטענה ע"י הצבה 
+\begin_inset Formula $x=A$
+\end_inset
+
+כי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+x
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הוא סקלר ולא ניתן להציב מטריצה במקומו.אז נקבל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מטריצות של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שהיא מטריצה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+nxn
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ופעולת הדטרמיננטה לא מוגדרת.
+\end_layout
+
+\begin_layout Itemize
+ידוע לנו כי המרחב
+\begin_inset Formula $M_{nxn}(F)$
+\end_inset
+
+הוא בעצמו 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+כי יש כמו זו של כניסות למטריצהו כי יש פולינום מדרגה
+\begin_inset Formula $n^{2}$
+\end_inset
+
+אשר המטריצה מאפסת אותו.
+ לכן זאת אומרת שנוכל למצוא צירוף לינארי של איברים מהקבוצה 
+\begin_inset Formula $\{A^{0},A^{1},...,A^{n^{2}}\}$
+\end_inset
+
+שצירוף לינארי )לא טריביאלי( שלהם מתאפס.
+ כעת נוכל לדעת במפורש איזה פולינום מתאפס.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שימושים והכללות:
+\end_layout
+
+\begin_layout Itemize
+כעת הגדרנו את המשפ מעל שדה אך בקורסים מתקדמים נגדירו מעל חוג קומוטטיביים.
+ הכללה זו נקראת למת נקיימה.
+\end_layout
+
+\begin_layout Itemize
+שימושים נכללים בתחומי האלגברה)
+\lang english
+Polynomial dentities
+\lang hebrew
+( אמגליזה פונקציונאלית, תורת הבקרה, ועוד.
+\end_layout
+
+\begin_layout Standard
+ֹֹֹ
+\bar under
+דוגמא:
+\bar default
+ נתבונן במטריצה
+\begin_inset Formula 
+\[
+A=\left(\begin{array}{cc}
+1 & 3\\
+0 & 2
+\end{array}\right)
+\]
+
+\end_inset
+
+ הפ"א שלה הוא 
+\begin_inset Formula 
+\[
+p(x)=(x-1)(x-2)=x^{2}-3x+2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ואכן מתקיים :
+\begin_inset Formula 
+\[
+p(A)=A^{2}-3A+2I=\left(\begin{array}{cc}
+1 & 3\\
+0 & 2
+\end{array}\right)^{2}-3\left(\begin{array}{cc}
+1 & 3\\
+0 & 2
+\end{array}\right)+2\left(\begin{array}{cc}
+1 & 0\\
+0 & 1
+\end{array}\right)=\left(\begin{array}{cc}
+1 & 9\\
+0 & 4
+\end{array}\right)-\left(\begin{array}{cc}
+3 & 9\\
+0 & 6
+\end{array}\right)+\left(\begin{array}{cc}
+2 & 0\\
+0 & 2
+\end{array}\right)=\left(\begin{array}{cc}
+0 & 0\\
+0 & 0
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+ 
+\bar under
+הערה:
+\bar default
+ המשפט מאפשר לחשב את
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $A^{-1}$
+\end_inset
+
+כצ"ל של חזקות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\lang hebrew
+.
+ למשל עבור הדוגמא:
+\begin_inset Formula 
+\[
+A^{3}-3A=2I\Rightarrow A\left(\frac{A^{2}}{2}-\frac{3}{2}I\right)=I
+\]
+
+\end_inset
+
+ולכן ההפכית היא 
+\begin_inset Formula $A^{-1}=\left(\frac{A^{2}}{2}-\frac{3}{2}I\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הקדמה למשפט:
+\bar default
+ במשלך המשפט נשתמש בזהות מאינפי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של סדרה גיאומטרית אינסופית כאשר 
+\begin_inset Formula $q<1$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+1+x+x^{2}...=\frac{1}{1-x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר הביטוי בצד ימין הוא למעשה פולינום אינסופי )טור פורמאלי(.
+ נוכל גם להתייחס לביטוי 
+\begin_inset Formula $1-x$
+\end_inset
+
+כטור פורמאלי שכל איבריו מתאפסים פרט לשניים הראשונים.
+ לכן נקבל:
+\begin_inset Formula 
+\[
+(1-x)(1+x+x^{2}...)=1-x+x-x^{2}+x^{2}-x^{3}+x^{3}...=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ֹלכן נוכל לנתייחס לשני טורים פורמאליים אלה כהופכיים אחד של השני.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה:
+\bar default
+ באופן כללי עבור שני טורים פורמאליים פעולת הכפל מוגדרת כך:
+\begin_inset Formula 
+\[
+\left(\stackrel[i=0]{\infty}{\sum}a_{i}x^{i}\right)\left(\stackrel[i=0]{\infty}{\sum}b_{i}x^{i}\right)=\stackrel[i=0]{\infty}{\sum}c_{i}x^{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $c_{i}$
+\end_inset
+
+מוגדר כך:
+\begin_inset Formula 
+\[
+c_{i}=\stackrel[k=0]{i}{\sum}a_{k}b_{i-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נמשיך בהקדמה:
+\bar default
+ קיבלנו כי הטורים 
+\begin_inset Formula $\stackrel[i=0]{\infty}{\sum}x^{i}$
+\end_inset
+
+ו-
+\begin_inset Formula $(1-x)$
+\end_inset
+
+הם הופכיים אחד של השני מעל שדה כלשהו.
+ כעת נתבונן בהם מעל שדה המטריצות )מסדר כלשהו(.
+ מפורשות נתבונן על טור מהצורה:
+\begin_inset Formula 
+\[
+I+Ax+A^{2}x^{2}+...
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וכמו שהראנו לעיל נקבל:
+\begin_inset Formula 
+\[
+(xI-A)(I+A+A^{2}+...)=I
+\]
+
+\end_inset
+
+נעזר בכך במהלך ההוכחה.
+\end_layout
+
+\begin_layout Proof
+נסמן את הפולינום האופייני: 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+p(x)=a_{0}x^{0}+a_{1}x^{1}+...+a_{n}x^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+עלינו לחשב את הביטוי
+\begin_inset Formula 
+\[
+det(xI-A)=det(x(\frac{I}{x}-A)=x^{n}det(\frac{I}{x}-A)=a_{0}\frac{1}{x^{0}}+a_{1}\frac{1}{x^{1}}+...+a_{n}\frac{1}{x^{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כעת נעזר בזהות הידועה )משפט
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.3
+\numeric off
+(:
+\begin_inset Formula 
+\[
+Adj(A)A=det(A)I
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נציב בזהות את 
+\begin_inset Formula $(xI-A)$
+\end_inset
+
+ונקבל:ְ
+\begin_inset Formula 
+\[
+Adj(xI-A)(xI-A)=det(xI-A)I
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נעזר בהפכי שמצאנו בהקדמה להכחה ונקבל:
+\begin_inset Formula 
+\[
+det(xI-A)(I+A+A^{2}+...)=Adj(xI-A)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נשים לב כי הכניסות של ה-
+\lang english
+adjoint
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הםפולינומים ממעלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n-1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כי זו דרגת המינור המופיע בכל אחד מהכניסות והוא דטרמיננטה ממעלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n-1
+\lang hebrew
+.
+ אז נוכל לבטא את ה-
+\lang english
+adj
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בתור סכום פולינומים עד דרגה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n-1
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+המחשה לאבחנה:
+\bar default
+ לדוגמא עבור 
+\begin_inset Formula $A=\left(\begin{array}{cc}
+1 & 3\\
+0 & 2
+\end{array}\right)$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+I-xA=\left(\begin{array}{cc}
+1-x & -3x\\
+0 & 1-2x
+\end{array}\right)\Longrightarrow Adj(I-xA)=\left(\begin{array}{cc}
+1-2x & 3x\\
+0 & 1-x
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נוכל לכתוב זו כטור פורמאלי כך שערכי האיברים לאחר האינדקס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הראשון הוא:
+\begin_inset Formula 
+\[
+\left(\begin{array}{cc}
+1-2x & 3x\\
+0 & 1-x
+\end{array}\right)=\left(\begin{array}{cc}
+1 & 0\\
+0 & 1
+\end{array}\right)+\left(\begin{array}{cc}
+-2x & 3x\\
+0 & -x
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+בחזרה להוכחה:
+\bar default
+ 
+\end_layout
+
+\begin_layout Proof
+עבור 
+\begin_inset Formula $i=n$
+\end_inset
+
+נקבל באגף ימין
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)רשמנו דלהלן את 
+\begin_inset Formula $B_{i}$
+\end_inset
+
+להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לכל 
+\begin_inset Formula $i\geq n$
+\end_inset
+
+( :
+\begin_inset Formula 
+\[
+(a_{n}+a_{n-1}x+...+a_{0}x^{n})(I+A+A^{2}+...)=\stackrel[i=1]{\infty}{\sum}B_{i}x^{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כעת נשווה את המדקמים של אגף שמאל למקדם 
+\begin_inset Formula $B_{n}=0$
+\end_inset
+
+לעיל ולפי הגדרת המקדם ע"פ ביצוע קונבולוציה:
+\begin_inset Formula 
+\[
+p(A)=a_{n}A^{n}+a_{n-1}A^{n-1}+...+a_{0}I=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה:
+\bar default
+ למשפט קייטי המילטון יש הוכחות רבות.
+ לדוגמא הוכחה טופולוגית עבור מטריצות מעל 
+\begin_inset Formula $\mathbb{\ensuremath{\mathbb{C}}}$
+\end_inset
+
+מסתמכת על הטיעונים הבאים:
+\end_layout
+
+\begin_layout Itemize
+אם 
+\begin_inset Formula $D\in M_{nxn}(\mathbb{C})$
+\end_inset
+
+ אלכסונית אז בוודאי מתקיים כי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+D
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מאפסת את הפולינום האופייני שלה - נובע מחישוב ישיר.
+\end_layout
+
+\begin_layout Itemize
+אם 
+\begin_inset Formula $A\in M_{nxn}(\mathbb{C})$
+\end_inset
+
+ 
+\bar under
+לכסינה
+\bar default
+ אז קיימת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+)
+\lang hebrew
+
+\begin_inset Formula $P\in M_{nxn}(\mathbb{\mathbb{\mathbb{C}}}$
+\end_inset
+
+ 
+\bar under
+הפיכה כך
+\bar default
+ שמתקיים 
+\begin_inset Formula $D=P^{-1}AP$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+אז נקבל 
+\begin_inset Formula $p(D)=p(P^{-1}AP)=P^{-1}p(A)P=P^{-1}0_{nxn}P=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+מאחר ומרחב המטריצות הלכסינות מעל 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+
+\bar under
+צפוף
+\bar default
+, זה נכון לגבי כל המטריצות.)הוכחה זו עוברת דרך טופולוגיית זריסקי(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה:
+\bar default
+ יכולנו גם להשתמש בכל שדה סגור אלגברית אך הטיעון לגבי צפיפות המטריצות לא
+ תקף למשל מעל 
+\begin_inset Formula $\Re$
+\end_inset
+
+,למשל.
+\end_layout
+
+\begin_layout Section*
+שבוע
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+סכומים יהשרים, הטלות, ומרחבים 
+\lang english
+T
+\lang hebrew
+-שמורים
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הגדרה:
+\bar default
+ יהי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $V$
+\end_inset
+
+מ"ו סוף-מימדי מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+, יהיו 
+\begin_inset Formula $W_{1},W_{2,..,}W_{n}\subseteq V$
+\end_inset
+
+תתי-מרחבים.
+ נאמר כי הסכום:
+\begin_inset Formula 
+\[
+\stackrel[i=1]{t}{\sum}W_{i}=\{w_{1}+w_{2}+...+w_{t}\brokenvert w_{i}\in W_{i}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הוא סכום ישר, אם
+\begin_inset Formula 
+\[
+W_{i}\cap\stackrel[k=1]{t}{\sum}W_{k}=\left\{ 0\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $1\leq i\leq t$
+\end_inset
+
+.
+ במקרה זה נסמן
+\begin_inset Formula 
+\[
+\stackrel[i=1]{t}{\bigoplus}W_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נזכיר שבאלגברה א ראינו גרסה פשוטה יותר של הגדרה זו, בה עסקנו רק בשני תתי-מרחבים
+ 
+\begin_inset Formula $W_{1},W_{2}\subseteq V$
+\end_inset
+
+.
+ ואמרנו שהסכום ישר אם"ם 
+\begin_inset Formula $W_{1}+W_{2}=V$
+\end_inset
+
+וגם 
+\begin_inset Formula $W_{!}\bigcap W_{2}=\{0\}$
+\end_inset
+
+.
+ אך במקרה שבו מספר התתי-מרחבים גדול מ-
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לא נוכל להסתמך על ההגדרה 
+\begin_inset Formula $W_{i}\bigcap W_{j}=\{0)$
+\end_inset
+
+.
+ ראה דוגמא בגליון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Lemma
+)הוכח בגליון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(
+\end_layout
+
+\begin_layout Lemma
+התנאים הבאים שקולים:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\stackrel[i=1]{t}{\sum}W_{i}$
+\end_inset
+
+הוא סכום ישר.
+\end_layout
+
+\begin_layout Enumerate
+לכל 
+\begin_inset Formula $v\in\stackrel[i=1]{t}{\sum}W_{i}$
+\end_inset
+
+יש הצגה יחידה כסכום 
+\begin_inset Formula $v=w_{1+}w_{2}+...+w_{t}$
+\end_inset
+
+כאשר 
+\begin_inset Formula $w_{i}\in W_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+ְ
+\begin_inset Formula $dim\left(\stackrel[i=1]{t}{\sum}W_{i}\right)=\stackrel[i=1]{t}{\sum}dim\left(W_{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הגדרה:
+\bar default
+ יהי 
+\begin_inset Formula $V$
+\end_inset
+
+מ"ו ו-
+\begin_inset Formula $W\subset V$
+\end_inset
+
+תת-מרחב.
+ נאמר כי תת מרחב 
+\begin_inset Formula $U\subset V$
+\end_inset
+
+הוא 
+\bar under
+משלים ישר
+\bar default
+ של 
+\begin_inset Formula $W$
+\end_inset
+
+אם 
+\begin_inset Formula $V=W\oplus U$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה:
+\bar default
+ נשים לב שלמרחב הנתון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+W
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יכולים להיות כמה משלימים ישרים שונים.
+ למשל בדוגמא לעיל, בנוסף למשלים הישר 
+\begin_inset Formula $U$
+\end_inset
+
+, ניתן לבחור כל ישר העובר דרל הראשית ואינו מקביל לציר ה-
+\lang english
+x
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+למשל 
+\begin_inset Formula $\vec{U}=span\left\{ \left(\begin{array}{c}
+1\\
+1
+\end{array}\right)\right\} $
+\end_inset
+
+ וגם מתקיים 
+\begin_inset Formula $\Re^{2}=W\oplus\vec{U}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הגדרה:
+\bar default
+ יהי 
+\begin_inset Formula $P:V\rightarrow V$
+\end_inset
+
+אופרטור לינארי, נאמר כי 
+\begin_inset Formula $P$
+\end_inset
+
+הוא 
+\bar under
+הטלה על תת_מרחב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+W
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+במקביל לתת-מרחב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+U
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אם:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P^{2}=P
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ImP=W
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+KerP=U
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+אם 
+\begin_inset Formula $P:V\rightarrow V$
+\end_inset
+
+הטלה על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+W
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ במקביל ל-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+U
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז 
+\begin_inset Formula $V=U\oplus W$
+\end_inset
+
+)הסכום הוא ישר(.
+\end_layout
+
+\begin_layout Proof
+עלינו להראות 
+\begin_inset Formula $(1)V=U+W(2)U\bigcap W=\{0\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+מאלגברה א
+\lang english
+'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יש לנו את המשפט 
+\begin_inset Formula $dim(U+W)=dimU+dimW-dimU\bigcap W$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+וכן יש לנו את המשפט שנכון לכל טרנספורמציה לינארית )ובפרט הטלה(:
+\begin_inset Formula 
+\[
+dimV=dim(ImP)+dim(KerT)=dim(W)+dim(U)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+לכן כל מה שעלינו להוכיח זה: 
+\begin_inset Formula $dim(U\bigcap W)=\{0\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+יהי 
+\begin_inset Formula $v\in U\bigcap W$
+\end_inset
+
+.
+ ז"א 
+\begin_inset Formula $v\in U$
+\end_inset
+
+וגם 
+\begin_inset Formula $v\in W$
+\end_inset
+
+.
+ לכן נקבל כי 
+\begin_inset Formula $P(v)=0$
+\end_inset
+
+וגם שקיים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $x\in W$
+\end_inset
+
+כך ש-
+\begin_inset Formula $P(x)=v$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+0=P(v)=P(P(x))=P^{2}(x)=P(x)=v
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כפי שדרשנו לעיל, ולכן נקבל 
+\begin_inset Formula $dim(V)=dim(U+W)$
+\end_inset
+
+ אזי 
+\begin_inset Formula $V=W+U$
+\end_inset
+
+ כי 
+\begin_inset Formula $U,W\subset V$
+\end_inset
+
+.
+ לכן, 
+\begin_inset Formula $V=W\oplus U$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה:
+\bar default
+ המוטיבציה לנושא ההטלות הייתה להסיק תחת התנאים שיש לנו מרחב שהוא סכום ישר
+ של תתי מרחבים אחרים, מהי הטרנספורציה על רכיב כלשהו בוקטור מסוים.
+ נוכל לעשות זאת מכיוון שיש לנו ייצוג יחיד לכל וקטור.
+ כלומר 
+\begin_inset Formula $P(v=u+w)=P(w)+P(u)=P(u)=u$
+\end_inset
+
+.
+ בהכוחה לעיל הראנו שלכל 
+\begin_inset Formula $u\in U\subset V$
+\end_inset
+
+נקבל 
+\begin_inset Formula $P(u)=u$
+\end_inset
+
+, בהתאם למוטיבציה שלנו לשימוש בהטלות.
+ הגדרת ההטלה הייתה מדויקת לצרכינו.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תכונות שימושיות של הטלות לינאריות:
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $P:V\to V$
+\end_inset
+
+אופרטור הטלה )על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+W
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+במקביל ל-
+\lang english
+U
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ב
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\numeric on
+2
+\numeric off
+(
+\end_layout
+
+\begin_layout Enumerate
+אזי 
+\begin_inset Formula $I-P:V\to V$
+\end_inset
+
+הטלה על 
+\begin_inset Formula $U$
+\end_inset
+
+במקביל ל-
+\begin_inset Formula $W$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+יהי 
+\begin_inset Formula $v\in V$
+\end_inset
+
+.
+ 
+\begin_inset Formula $P(v)=v\iff v\in W$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+יהי 
+\begin_inset Formula $V$
+\end_inset
+
+מ"ו מעל שדה 
+\begin_inset Formula $F\subset V$
+\end_inset
+
+אזי 
+\begin_inset Formula $P$
+\end_inset
+
+לכסין ומתקיים 
+\begin_inset Formula $rank(P)\coloneqq dim(Im(P))=tr(P)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+הוכחת טענה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Proof
+נבדוק קיום תכונות ההטלה הלינארית:
+\begin_inset Formula 
+\[
+(I-P)^{2}=I^{2}-IP-PI+P^{2}=I-P-P+P=I-P
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+לכן זו הטלה על 
+\begin_inset Formula $U$
+\end_inset
+
+במקביל ל-
+\begin_inset Formula $W$
+\end_inset
+
+.
+ כי זו הטלה וידוע כי קיימות שתי הטלות-כי יש שתי תתי-מרחבים- ואחת מהן ידועה.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+הוכחת טענה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+יהי 
+\begin_inset Formula $v\in W$
+\end_inset
+
+.
+ לפי המשפט הקודם ידוע כי 
+\begin_inset Formula $V=U\oplus W$
+\end_inset
+
+.
+ 
+\begin_inset Formula $P$
+\end_inset
+
+הטלה לכן
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+P^{2}=P\Rightarrow P^{2}(v)-P(v)=0\Rightarrow P(P(v)-v)=0\Rightarrow P(v)-v\in KerP=U
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+אך מצד שני, 
+\begin_inset Formula 
+\[
+P(v)-v\in W=ImP
+\]
+
+\end_inset
+
+מאחר ו
+\begin_inset Formula $U\bigcap W=\{0\}$
+\end_inset
+
+אז נקבל 
+\begin_inset Formula $P(v)-v=0\Rightarrow P(v)=v$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+
+\bar under
+הוכחת טענה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Proof
+ראינו לעיל כי 
+\begin_inset Formula $V=dimImP\oplus dimKerP$
+\end_inset
+
+.
+ נשתמש בעובדה זו לבנות מטריצה מייצגת של 
+\begin_inset Formula $P$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נסמן 
+\begin_inset Formula $k=dimImP$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+יהא 
+\begin_inset Formula $\{v_{1},...,v_{k}\}$
+\end_inset
+
+בסיס ל-
+\begin_inset Formula $ImP$
+\end_inset
+
+.
+ אז מתקיים כי 
+\begin_inset Formula $\{u_{1},...,u_{n-k}\}$
+\end_inset
+
+ הוא בסיס ל-
+\begin_inset Formula $KerP$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+לכן 
+\begin_inset Formula $B=\{v_{1},...,v_{k},u_{1},...,u_{n-k}\}$
+\end_inset
+
+בסיס ל-
+\begin_inset Formula $V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+מאחר ומתקיים:
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\begin{align*}
+P(v_{1}) & =v_{1}\\
+P(v_{2}) & =v_{2}\\
+. & .\\
+P(v_{k}) & =1\\
+. & .\\
+P(u_{1}) & =0\\
+. & .\\
+P(u_{n-k}) & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נקבל כי
+\begin_inset Formula $\left\{ \right\} $
+\end_inset
+
+
+\begin_inset Formula 
+\[
+P_{B}\left(\begin{array}{ccccc}
+1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & . & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & .
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+זו מטריצה מייצגת בבסיס 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ קיבלנו מטריצת בלוקים המורכבת ממטריצה 
+\begin_inset Formula $(k\times k)$
+\end_inset
+
+של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומטריצה 
+\begin_inset Formula $(n-k)\times(n-k)$
+\end_inset
+
+ של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Proof
+לכן מתקיים 
+\begin_inset Formula $k=dimImP_{B}=traceP_{B}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+ברור שַ-
+\begin_inset Formula $P$
+\end_inset
+
+לכסין )
+\series bold
+
+\begin_inset Formula $B$
+\end_inset
+
+
+\series default
+הוא בסיס מלכסן(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תרגיל:
+\bar default
+ יהי 
+\begin_inset Formula $V\subseteq\Re^{3}$
+\end_inset
+
+.
+ תהיינה 
+\begin_inset Formula $W=span\left\{ v_{1}=\left(\begin{array}{c}
+1\\
+1\\
+1
+\end{array}\right)\right\} $
+\end_inset
+
+ ו 
+\begin_inset Formula $W=span\left\{ u_{1}=\left(\begin{array}{c}
+1\\
+0\\
+1
+\end{array}\right),u_{2}=\left(\begin{array}{c}
+1\\
+1\\
+0
+\end{array}\right)\right\} $
+\end_inset
+
+.
+ חשבו את ההטלה 
+\begin_inset Formula $P$
+\end_inset
+
+על 
+\begin_inset Formula $W$
+\end_inset
+
+במקביל ל-
+\begin_inset Formula $U$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+השיטה הקלאסית זה עם חישוב ישיר כאשר 
+\begin_inset Formula $P(u_{1})=P(u_{2})=0$
+\end_inset
+
+ ונמצא וקטור מקביל ל
+\begin_inset Formula $v_{!}$
+\end_inset
+
+.
+ אך זו שיטה מסורבלת.
+\end_layout
+
+\begin_layout Standard
+נפתור בשטיאה אלגוריתמית שניצור מטריצת מעבר לפי הוקטורים, בעזרת מטריצת מעבר
+ נעביר לבסיס הסטנדרטי וסיימנו.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+פתרון:
+\bar default
+ נקח בסיס 
+\begin_inset Formula $B=\{u_{1},u_{2},v_{1}\}$
+\end_inset
+
+ל-
+\begin_inset Formula $\Re^{3}$
+\end_inset
+
+.)הוקטורים הם בת"ל(.
+ לפי תכונה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של הטענה לעיל ראינו כי מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{B}=\left(\begin{array}{ccc}
+1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת נשתמש במטריצת מעבר:
+\begin_inset Formula 
+\[
+P_{E}=QP_{B}Q^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים כי 
+\begin_inset Formula $Qv_{B}=v_{E}$
+\end_inset
+
+ לכן עמודות 
+\begin_inset Formula $Q$
+\end_inset
+
+הם וקטורי בסיס של 
+\begin_inset Formula $V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q=\left(\begin{array}{ccc}
+. & . & .\\
+u_{1} & v_{1} & v_{2}\\
+. & . & .
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לאחר חישוב נקבל:
+\begin_inset Formula 
+\[
+P_{E}=\left(\begin{array}{ccc}
+-1 & 1 & 1\\
+-1 & 1 & 1\\
+-1 & 1 & 1
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן:
+\begin_inset Formula 
+\[
+P\left(\begin{array}{c}
+x\\
+y\\
+z
+\end{array}\right)=\left(\begin{array}{c}
+y+z-x\\
+y+z-x\\
+y+z-x
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וסיימנו.
+\end_layout
+
+\end_body
+\end_document

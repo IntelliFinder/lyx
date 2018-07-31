@@ -1,0 +1,561 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תיקונים קומבי
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ א.
+ אין צורך לחלק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ב
+\numeric on
+4
+\numeric off
+ כי הסידורים אינם תלויים בסיבוב-כל סיבוב מניב אפשרות אחרת.
+\end_layout
+
+\begin_layout Standard
+ג.
+ אם נתסכל על השאלה כשני שולחנות נפרדים בגודל של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שנמזג אותם ואז תצא התוצאה אז נבחין כי סיבוב השולחן מיותר לכן כמות האפשרויות
+ שיש לי לסדר את הבנים בשולחן "המשותף" מיותרת.
+ כנ"ל גם עבור הבנות אך סיבוב של הבנים מכסה גם סיבוב של הבנות לכן נחלק רק
+ ב-
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+ד.
+ 
+\bar under
+חלוקה למקרים:
+\end_layout
+
+\begin_layout Itemize
+הילה יושבת ב-א
+\lang english
+'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\end_layout
+
+\begin_layout Standard
+לורד יש שני אפשרויות ישיבה וגם יש סימטריות לכן מס
+\lang english
+'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+האפשרויות הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $6\times4\times3!)/6$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Itemize
+הילה יושבת ב-ב
+\lang english
+'
+\end_layout
+
+\begin_layout Standard
+לורד יש אפשרות אחת אך גם סימטריות לכן מס
+\lang english
+'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+האפשרויות הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $(6\times2\times3!)/6$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+חילקנו ב-
+\numeric on
+6
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כדאי להתחשב בסיבוב.
+\end_layout
+
+\begin_layout Standard
+נחבר ונקבל 
+\begin_inset Formula $6\times3!=36$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+.
+ עלינו למצוא את כל התתי-קבוצות בעלות שני איברים זהים.
+\end_layout
+
+\begin_layout Itemize
+נבחר שני איברים שהם יהיו המשותפים
+\begin_inset Formula $\left(\begin{array}{c}
+n\\
+2
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+נתחשב בכל הקומבינציות של התתי-קבוצות כך שעצמת חיתוך הקבוצות תשאר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\stackrel[i=0]{n-2}{\sum}\left(\begin{array}{c}
+n-2\\
+i
+\end{array}\right)2^{n-2-i}=3^{n-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+זה שקול להגדרת פונקציה מעל 
+\begin_inset Formula $\left\{ 0,1,2\right\} $
+\end_inset
+
+כך שלאחר שנבחר שני איברים נעבור על כל השאר ונסמן:
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+0
+\numeric off
+-שייך ל-
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-1
+\numeric off
+שייך ל-
+\lang english
+B
+\lang hebrew
+ 
+\numeric on
+2-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לא שייך לשניהם
+\end_layout
+
+\begin_layout Itemize
+לסכום: 
+\begin_inset Formula $\left(\begin{array}{c}
+n\\
+2
+\end{array}\right)3^{n-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ יש לחלק את כמות האפשרויות ב-
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כי ניתן להפוך את השיפוד אך להוסיף אחד כי יש מצב יחיד של סימטריות אותו ספרנו
+ יתר על המידה.
+ תשובה:
+\begin_inset Formula $16$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

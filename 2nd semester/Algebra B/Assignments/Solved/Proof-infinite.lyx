@@ -1,0 +1,163 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נוכיח שלא קיים 
+\begin_inset Formula $v_{0}$
+\end_inset
+
+ יחיד המקיים זאת.
+ כלומר נגדיר עבור 
+\begin_inset Formula $p\left(x\right)=\stackrel[i=1]{n}{\sum}a_{i}x^{i}\in\mathbb{R}\left[x\right]$
+\end_inset
+
+, 
+\begin_inset Formula $q\left(x\right)=\stackrel[i=1]{m}{\sum}b_{i}x_{i}$
+\end_inset
+
+ , 
+\begin_inset Formula $a_{i},b_{i}\in\mathbb{R}$
+\end_inset
+
+)שני פולינומים כלשהם( את המכפלה הפנימית 
+\begin_inset Formula $\stackrel[i=1]{min\left\{ m,n\right\} }{\sum}a_{i}b_{i}$
+\end_inset
+
+.
+ אז נקבל כי זו מגדירה פונקציונאל לינארי עבור כל 
+\begin_inset Formula $q\left(x\right)$
+\end_inset
+
+ בסתירה למשפט הטוען שקיים איזשהו איבר יחיד )במקרה זה פולינום יחיד המקיים
+ זו(.
+\end_layout
+
+\begin_layout Standard
+נוכיח לינאריות:
+\begin_inset Formula 
+\[
+T\left(\alpha v\right)=\stackrel[i=1]{min\left\{ m,n\right\} }{\sum}\alpha a_{i}b_{i}=\alpha\stackrel[i=1]{min\left\{ m,n\right\} }{\sum}a_{i}b_{i}T\left(v\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+T\left(u+v\right)=\stackrel[i=1]{min\left\{ m,n\right\} }{\sum}a_{i}b_{i}+\stackrel[i=1]{min\left\{ m,n\right\} }{\sum}c_{i}b_{i}=\stackrel[i=1]{min\left\{ m,n\right\} }{\sum}a_{i}b_{i}+c_{i}b_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המכפלה הפנימית בוודאי מוגדרת כי זהו כפל וקטורים סטנדרטי מעל 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+שניר הורדן
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+205689581
+\end_layout
+
+\end_body
+\end_document

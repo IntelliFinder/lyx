@@ -1,0 +1,2226 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+קומבי גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Author
+ליעד סלומון - שניר הורדן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+205689581-326991890
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\series default
+\numeric off
+.א.
+ תהא 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ פונקציה רקורסיבית המוגדרת כך:
+\begin_inset Formula 
+\[
+\begin{cases}
+f(n)=f(n-1)+f(n-2) & n\geq3\\
+f(1)=2\\
+f(2)=3
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הצדקה:
+\bar default
+ נגדיר רצף בינארי כמסודר אם הוא מקיים את התנאי שאין בו רצף של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+11
+\numeric off
+.
+ בצעד הראשון עלינו לבחור אחת משתי אפשרויות : 
+\begin_inset Formula $1$
+\end_inset
+
+ או
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ אם זה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\bar under
+המילה מסודרת
+\bar default
+ אז בהכרח מגיע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לאחר מכן ונקבל רצף מסודר באורך 
+\begin_inset Formula $n-2$
+\end_inset
+
+.
+ אם זה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז יש רצף בינארי מסודר של 
+\begin_inset Formula $n-1$
+\end_inset
+
+ איברים אחריו.
+ לפי עקרון החיבור נקבל כי ערך הפונקציה שווה לערך הפונקציה במקום אחד אחורה
+ ועוד הערך של הפונקציה שתי מקומות אחורה.
+\end_layout
+
+\begin_layout Standard
+בזו סיימנו.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.ב.
+ תהא 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ פונקציה רקורסיבית המוגדרת כך:
+\begin_inset Formula 
+\[
+\begin{cases}
+f(n)=f(n-1)+f(n-2)+1 & n\geq4\\
+f(1)=2\\
+f(2)=4\\
+f(3)=7
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הצדקה:
+\bar default
+ נגדיר רצף בינארי כמסודר אם הוא מקיים את התנאי שאין בו רצף של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+001
+\numeric off
+.
+ אם מילה כלשהי מתחילה ב-
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar under
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והמילה מסודרת 
+\bar default
+אז ה-
+\begin_inset Formula $n-1$
+\end_inset
+
+ איברים אחריה היא מילה מסודרת.
+ אם היא מתחילה ב-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז יש שני אפשרויות: אם השנייה היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז יש לנו מילה מסודרת באורך 
+\begin_inset Formula $n-2$
+\end_inset
+
+ אחריו.
+ אם הספרה השנייה היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז לא יכול להגיע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עד סוף המילה.
+ לכן, זו מילה אחת נוספת )שכולה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(.
+\end_layout
+
+\begin_layout Standard
+בזו סיימנו.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.ג.
+ תהא 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ פונקציה רקורסיבית המוגדרת כך: 
+\begin_inset Formula 
+\[
+\begin{cases}
+f(n)=\stackrel[i=1]{n-1}{\sum}f(i) & n\geq5\\
+f(1)=2\\
+f(2)=4\\
+f(3)=8\\
+f(4)=15
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הצדקה:
+\bar default
+ נגדיר רצף בינארי כמסודר אם הוא מקיים את התנאי שאין בו רצף של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0011
+\numeric off
+.
+ אם מילה כלשהי מתחילה ב-
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar under
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והמילה מסודרת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז ה-
+\begin_inset Formula $n-1$
+\end_inset
+
+ איברים אחריו היא מילה מסודרת.
+ אם המילה מתחילה ב-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז יש שני אפשרויות: אם הספרה השנייה היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז יש לנו מילה מסודרת באורך 
+\begin_inset Formula $n-2$
+\end_inset
+
+ אחריה.
+ אם הספרה השנייה היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז קיימות שתי אפשרויות: אם הספרה השלישית היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז בהכרח מגיע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אחריו )הספרה הרביעית( ואז 
+\bar under
+בהנחה שהמילה מסודרת
+\bar default
+ יש מילה מסודרת באורך 
+\begin_inset Formula $n-4$
+\end_inset
+
+.
+ אם הספרה השלישית היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ אז יש שני אפשרויות: 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ הספרה הרביעית היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ואז אם המילה מסודרת אז נקבל מילה מסודרת באורך 
+\begin_inset Formula $n-4$
+\end_inset
+
+.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ הספרה הרביעית היא 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+, ואז לספרה הבאה קיימות שתי אפשרויות.
+ תהליך זה חוזר על עצמו חלילה )רקורסיבית( עד שנגיע לאיבר האחרון.
+ כלומר שאם הגענו לשלב זה אז מוכל להמשיך עד סוף המילה עד שנקבל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ לכן עלינו להתחשב בכל האפשרויות האלו.
+ כלומר לסכום עד לסוף המילה.
+\end_layout
+
+\begin_layout Standard
+בזו סיימנו.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+המצולע הקמור מקובע לכן נוכל לבחור צלע כלשהי ללא התייחסות לסיבוב.
+ נבחר צלע כלשהי.
+ יש שתי אפשרויות:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ ירוק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+ אדום.
+ אם היא ירוקה אז שני הצלעות לידה )הסמוכות לה( הן בהכרח אדומות.
+ אילו לא, )אחת מהן לפחות ירוקה( אז היינו מקבלים רצף של שתי צלעות ירוקות.
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+אם היא אדומה אז הצלעות הסמוכות לה יכולות להיות בכל צבע.
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $j(x)$
+\end_inset
+
+ פונקציית כל האפשרויות של בחירה של צבעים.
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $g(x)$
+\end_inset
+
+ כפונקציה המתאימה לאפשרות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\begin_inset Formula $h(x)$
+\end_inset
+
+ כפונקציה המתאימה לאפשרות 
+\numeric on
+2
+\numeric off
+.
+ אזי, לפי עקרון החיבור,
+\begin_inset Formula 
+\[
+j(x)=g(x)+h(x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב כי עבור 
+\begin_inset Formula $g$
+\end_inset
+
+ נקבל כי יש לנו 
+\begin_inset Formula $n-1$
+\end_inset
+
+אפשרויות לבחירת רצף של צלעות כנדרש מבלי להתייחס לעובדה שזה מצולע כלל אלא
+ כפונקציה בינארית.
+ נימוק: האיבר הראשון והאחרון אינם משפיעים אחד על משנהו לכן אם נתאים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $1-Green,0-Red$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ , אז נקבל הגדרה רקורסיבית בדומה לסעיף א בשאלה 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+עקרון זה מתקיים באופן זהה עבור 
+\begin_inset Formula $h$
+\end_inset
+
+ אך עבור 
+\begin_inset Formula $n-2$
+\end_inset
+
+ איברים.
+\end_layout
+
+\begin_layout Standard
+אז נקבל,
+\begin_inset Formula 
+\[
+\begin{cases}
+f(n)=f(n-1)+f(n-2) & n\geq3\\
+f(1)=2\\
+f(2)=3
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כהפונקציה הרקורסיבית.
+ במהלך הראשון יש לנו שני אפשרויות אז לפי עקרון החיבור, אזי,
+\begin_inset Formula 
+\[
+j(x)=f(x-1)+f(x-3)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן
+\begin_inset Formula 
+\[
+j(10)=f(9)+f(7)=F_{11}+F_{9}=34+89=123
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $F_{i}$
+\end_inset
+
+הוא המספר ה-
+\begin_inset Formula $i$
+\end_inset
+
+ בסדרת פיבונאצ
+\lang english
+'
+\lang hebrew
+י.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Proof
+נוכיח באינדוקציה.
+\end_layout
+
+\begin_layout Proof
+בסיס האינדוקציה: כאשר 
+\begin_inset Formula $n=2\text{ }$
+\end_inset
+
+ )אם 
+\begin_inset Formula $n=1$
+\end_inset
+
+ יהיה חילוק ב-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כי האיבר ה-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בסדרת פיבונאצ
+\lang english
+'
+\lang hebrew
+י הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+(.
+ נקבל ע"פ הנוסחא:
+\begin_inset Formula 
+\[
+F_{n+1}F_{n-1}=F_{n}^{2}+(-1)^{n+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+שמתקיים 
+\begin_inset Formula $F_{n+1}=\frac{F_{n}^{2}+(-1)^{n+1}}{F_{n-1}}\Rightarrow F_{3}=\frac{1+1}{1}=2$
+\end_inset
+
+.
+ זו תוצאה זהה לנוסחאת פיבונצ
+\lang english
+'
+\lang hebrew
+י הקלאסית -
+\begin_inset Formula $F_{n+2}=F_{n+1}+F_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+נניח נכונות עבור
+\lang english
+
+\begin_inset Formula $n>1$
+\end_inset
+
+
+\lang hebrew
+.
+ נוכיח עבור 
+\begin_inset Formula $n+1$
+\end_inset
+
+.
+ נעזר ב"נוסחאת פיבונאצי הקלאסית", כדלהלן,
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\begin{align*}
+F_{n+2}F_{n} & =\left(F_{n+1}+F_{n}\right)F_{n}=F_{n+1}F_{n}+F_{n}^{2}=F_{n+1}F_{n}+F_{n+1}F_{n-1}-(-1)^{n+1}\\
+= & F_{n+1}\left(F_{n}+F_{n-1}\right)-(-1)^{n+1}=F_{n+1}^{2}+(-1)^{n+2}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+בזו הסתיימה האינדוקציה.
+\end_layout
+
+\begin_layout Proof
+*..*
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+)א( נתבונן ב
+\begin_inset Formula $n\geq1$
+\end_inset
+
+ מעגלים במישור כך שכל שניים מהם נחתכים )בשתי נקודות שונות לא משיקות אחת
+ לשנייה( ואף שלשה מעגלים אינם נחתכים בנקודה אחת.
+\end_layout
+
+\begin_layout Standard
+נשים לב כי כל פעם שמוסיפים מעגל אנחנו מעבירים קו החותך כל מעגל הקיים במישור
+ כפי שמתואר לעיל.
+ כל נקודת חיתוך כזו מצביעה על קטע כלשהו שהקו מפצל שטח לשני שטחים.
+ אז מתווספים 
+\begin_inset Formula $2\circ n$
+\end_inset
+
+ שטחים חדשים רקורסיבית כאשר מוסיפים מעגל נוסף.
+\end_layout
+
+\begin_layout Standard
+אזי פונקציית הרקורסיה הינה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+R_{n+1}=R_{n}+2n & n\geq1\\
+R_{1}=2\\
+R_{2}=4
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+)ב( נבצע הצבה חוזרת:ּ
+\begin_inset Formula 
+\begin{align*}
+R_{n+1} & =R_{n}+2n=R_{n-1}+2(n-1)+2n=R_{n-2}+2(n-2)+2(n-1)+2n\\
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=R_{1}+2\circ1+...+2(n-2)+2(n-1)+2n=2+\stackrel[i=1]{n}{\sum}2i=2+2\stackrel[i=1]{n}{\sum}i=2+2\frac{n(n+1)}{2}=2+n(n+1)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Proof
+נוכיח את נוסחאת הנסיגה האינדוקציה:
+\end_layout
+
+\begin_layout Proof
+בסיס האינדוקציה: עבור 
+\begin_inset Formula $n=0$
+\end_inset
+
+, נקבל 
+\begin_inset Formula 
+\[
+R_{1}=2+0(1+0)=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+עבור 
+\begin_inset Formula $n=1$
+\end_inset
+
+ נקבל
+\begin_inset Formula 
+\[
+R_{2}=2+1(1+1)=4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+זה אכן מתקיים.
+\end_layout
+
+\begin_layout Proof
+נניח נכונות עבור 
+\begin_inset Formula $n\geq3$
+\end_inset
+
+.
+ נוכיח עבור 
+\begin_inset Formula $n+1$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+R_{n+2}=R_{n+1}+2(n+1)\underbrace{=}_{By-assumption}2+n(n+1)+2(n+1)\underbrace{=}_{Distribution}2+(n+2)(n+1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $n\geq3$
+\end_inset
+
+ נקודות על מעגל כך שהמרחק בין כל שתי נקודות סמוכות זהה.
+ נחשב את כמות המצולעים המשוכללים על 
+\begin_inset Formula $n$
+\end_inset
+
+ הנקודות הנ"ל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(n)=\llcorner\frac{n}{2}(1-\frac{1}{p_{1}})...(1-\frac{1}{p_{k}})\lrcorner
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נימוק:
+\bar default
+ צריך לבנות מצולע שכל צלעותיו שוות אורך.
+ נמספר את הנקודות 
+\begin_inset Formula $(0,1,2...n)$
+\end_inset
+
+.
+ לא משנה מהיכן נתחיל כי נוכל לסובב את המצולע.
+ התחלנו מאפס בה''כ, ועשינו קפיצה באורך j אז כל שאר הקפיצות חייבות להיות
+ באותו אורך j כדי שזה יהיה מצולע כדרוש.
+ אילו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+j
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אינו זר ל-
+\lang english
+
+\begin_inset Formula $n$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז נחזור לנקודת המוצא ללא מעבר על כל הנקודות במצולע.
+ אם מספר כלשהו מחלק את 
+\begin_inset Formula $n$
+\end_inset
+
+אז נדרש רק המנה הזו כדאי לחזור חזרה לנקודת המוצא.
+ מספר זה בהכרח קטן מ-
+\begin_inset Formula $n$
+\end_inset
+
+לכן לא עברנו על כל הנקודות במצולע.
+ מאחר והמספר זר הוא לא יחזור חזרה לנקודת המוצא לאחר פחות מ-
+\begin_inset Formula $n$
+\end_inset
+
+ קפיצות, 
+\bar under
+אילו 
+\bar default
+הוא כן אז הוא לא היה זר ל-
+\begin_inset Formula $n$
+\end_inset
+
+.
+ נקביל זו לחשבון מודולו 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ נתחיל מ-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ונוסיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+j בכל איטרציה.
+ כאשר נגיע ל-
+\begin_inset Formula $n$
+\end_inset
+
+, הגענו חזרה לנקודה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+במצולע )נקודצ המוצא(, וכל סכימה כזו אינה מניבה את אותו המספר פעמיים.
+ כלומר ישנה דרך יחידה לעשות זו.
+ אך נוכל גם לשלים את אותו ה-
+\begin_inset Formula $j$
+\end_inset
+
+ ל-
+\begin_inset Formula $n$
+\end_inset
+
+ ונקבל איבר זר אחר ל-
+\begin_inset Formula $n$
+\end_inset
+
+ שהוא אותו המצולע רק בכיוון ההפוך.
+ אז יש הצגה יחידה לזוג מספרים זרים ל-
+\begin_inset Formula $n$
+\end_inset
+
+ השונים זה מזה.
+ אזי עלינו לחלק את תוצאת פונקציית אויילר ב-
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\end_body
+\end_document

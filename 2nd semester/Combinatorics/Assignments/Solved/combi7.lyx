@@ -1,0 +1,863 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+קומבי
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\end_layout
+
+\begin_layout Author
+ליעד סלומון-שניר הורדן
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+ נתאר בנייה של עץ זה:
+\end_layout
+
+\begin_layout Standard
+נתחיל מצורת הבסיס כאשר 
+\begin_inset Formula $n=4$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+\\
+\\
+\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת נבחר עלה כלשהו 
+\begin_inset Formula $\left(B,C,D\right)$
+\end_inset
+
+ ונחבר אליו שני צלעות.
+ נקבל עץ הנראה כך:
+\begin_inset Formula 
+\begin{align*}
+\\
+\\
+\\
+\\
+\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוסיף שני קודקודים, נבחר עלה כלשהו ונחבר אליו שני צלעות מכל אחד מהקודקודים
+ שהוספנו אליו.
+ נמשיך כך רקורסיבית עד שנגיע ל-
+\begin_inset Formula $n$
+\end_inset
+
+ קודקודים.
+\end_layout
+
+\begin_layout Standard
+קיבלנו עץ עם 
+\begin_inset Formula $n\geq4$
+\end_inset
+
+ זוגי של קודקודים.
+\end_layout
+
+\begin_layout Standard
+ב.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+לא קיים עץ כזה.
+ נניח בשלילה כי 
+\begin_inset Formula $n$
+\end_inset
+
+ אי זוגי ו
+\bar under
+לכל
+\bar default
+ קודקוד שאינו עלה יש ערכיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נסמן:
+\begin_inset Formula 
+\begin{align*}
+l-number\quad of\quad leaves\\
+n-l-number\quad of\quad non-leaves
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיימים שני מקרים:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $l$
+\end_inset
+
+ זוגי ו-
+\begin_inset Formula $n-l$
+\end_inset
+
+ אי זוגי 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $l$
+\end_inset
+
+ אי-זוגי ו-
+\begin_inset Formula $n-l$
+\end_inset
+
+ זוגי
+\end_layout
+
+\begin_layout Standard
+נראה איך נגיע לסתירה משני המקרים האלו:
+\end_layout
+
+\begin_layout Enumerate
+נקבל סה"כ 
+\begin_inset Formula 
+\[
+1\times l+3\times\left(n-l\right)=even\quad number+(odd\times odd)=even+odd=odd
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+נקבל סה"כ
+\begin_inset Formula 
+\[
+1\times l+3\times\left(n-l\right)=odd\quad number+(odd\times ecen)=odd+even=odd
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בשני המקרים קיבלנו מספר ערכויות אי זוגי בסתירה למשפט 
+\begin_inset Formula $\left|V\right|=2\left|E\right|$
+\end_inset
+
+ המחייב כמות זוגית של ערכויות.
+\end_layout
+
+\begin_layout Standard
+בזו סיימנו.
+ 
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+א.
+\begin_inset Formula 
+\begin{align*}
+\\
+\\
+\\
+\\
+\\
+\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ב.
+ בכל סדרה בינארית יש אפשרות אחת בלבד להפוך אותה לסדרה שנבדלת ממנה בקואורדינטה
+ אחת בדיוק לכל אחת מן הערכים בה.
+ כלומר 
+\begin_inset Formula $n$
+\end_inset
+
+ אפשרויות לכל הקואורדינטות.
+\end_layout
+
+\begin_layout Standard
+ג.
+ נחשוב על קוביה ממימד n כקוביה ממימד 
+\begin_inset Formula $n-1$
+\end_inset
+
+ בתנועה.
+ נקודה בתנועה יוצרת קטע, קטע בתנועה יוצא ריבוע וריבוע בתנועה יוצר קוביה
+ וכן הלאה, נקבל קוביה ממימד n.
+ לקובייה ממימד 2 )ריבוע( יש 4 צלעות, ובתנועה, מ-4 הקודקודים של הריבוע נוצרו
+ צלעות חדשות.
+ כך שיש לנו 4 צלעות מהריבוע לפני התנועה, 4 אחרי התנועה ו4 שנוספו תוך כדי
+ התנועה.
+\end_layout
+
+\begin_layout Standard
+אם נזיז קוביה אז מספר הצלעות שיהיו לקוביה החדשה )שהיא בתנועה( היא פעמיים
+ המספר הצלעות של הקוביה ממימד נמוך יותר ועוד הקודקודים שהיו בתנועה.
+ ע"פ הסעיף הקודם, מספר הצלעות שיוצאות מכל קודקוד שווה לn, ומספר הקודקודים
+ הינו
+\begin_inset Formula $2^{n}$
+\end_inset
+
+ נכפיל אותם ונקבל
+\begin_inset Formula $n2^{n}$
+\end_inset
+
+ , אך ספרנו כל צלע פעמיים, לכן נחלק ב-2 ונקבל שמספר הצלעות בקוביה החדשה
+ ה-n מימדי הוא 
+\begin_inset Formula $n2^{n-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+)בדיקה עבור 
+\begin_inset Formula $n=1,2$
+\end_inset
+
+ עובדת.(
+\end_layout
+
+\begin_layout Standard
+ד.
+ גּּרף הוא גרף קשיר אם קיים קיים מסלול בין כל שני נקודות.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $Q_{n}$
+\end_inset
+
+ גרף.
+ יהיו 
+\begin_inset Formula $x,y\in V$
+\end_inset
+
+.
+ כל קודקוד הוא 
+\begin_inset Formula $\left\{ 0,1\right\} ^{n}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נבנה מסלול מ-
+\begin_inset Formula $x$
+\end_inset
+
+ל-
+\begin_inset Formula $y$
+\end_inset
+
+.
+ נתחיל מ-
+\begin_inset Formula $x$
+\end_inset
+
+ ונספור את כמות ה-
+\begin_inset Formula $1$
+\end_inset
+
+ ובאותו אופן עבור 
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתחיל מהנקודה עם הכמות המינימלית של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ לפי ההגדרה, קיימת צלע בין כל קודקוד השונה מהאחר בספרה אחת.
+\end_layout
+
+\begin_layout Standard
+נגדיר את כל הקודקודים עם אותה כמות של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-ים בתור "שלב".
+\end_layout
+
+\begin_layout Standard
+לכל איבר ב-"שלב" יש קישור לשלב שמתחתיו ומעליו.
+ 
+\end_layout
+
+\begin_layout Standard
+אם קיים מסלול ישיר ביניהם, סיימנו.
+\end_layout
+
+\begin_layout Standard
+אם לא אז נאלץ לעלות מספר כלשהו של שלבים מעל השלב הדרוש ואז לרדת חזרה.
+ מובטח שיהיה קיים מסלול כזה כי 
+\bar under
+קיים מסלול בין האיבר היחיד בשלב הגבוה ביותר 
+\begin_inset Formula $h=\left\{ 1_{1},...,1_{n}\right\} $
+\end_inset
+
+ לכל שאר האיברים.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה:
+\bar default
+ יהי 
+\begin_inset Formula $x\neq h\in V$
+\end_inset
+
+.
+ נראה כי קיים מסלול כלשהו בין 
+\begin_inset Formula $x$
+\end_inset
+
+ל-
+\begin_inset Formula $h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה כי קיים מסלול כזה לכל איבר בשלב כלשהו באינדוקציה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בסיס האינדוקציה:
+\bar default
+ אילו 
+\begin_inset Formula $x$
+\end_inset
+
+ בשלב האחד לפני האחרון, אז חייב להיות מסלול כי כל האיברים בשלב זה שונים
+ בספרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מ-
+\begin_inset Formula $h$
+\end_inset
+
+ אז מחוברים ל-
+\begin_inset Formula $h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הנחת האינדוקציה:
+\bar default
+ נניח נכונות עבור שלב 
+\begin_inset Formula $n-k$
+\end_inset
+
+ .
+ נוכיח עבור 
+\begin_inset Formula $n-k-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה קיים מסלול לכל איבר מ-
+\begin_inset Formula $\text{h}$
+\end_inset
+
+ ל-
+\begin_inset Formula $n-k$
+\end_inset
+
+.
+ נתבונן באיברים בשלב 
+\begin_inset Formula $n-k-1$
+\end_inset
+
+.
+ אם נשנה ספרת אפס כלשהי לאחת נקבל איבר בשלב 
+\begin_inset Formula $n-k$
+\end_inset
+
+.
+ כל האפשרויות 
+\begin_inset Formula $\left(\begin{array}{c}
+n\\
+n-k-1
+\end{array}\right)$
+\end_inset
+
+ של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $1$
+\end_inset
+
+-ים נמצאים בשלב זה, אם נשנה את אחד האפסים עבור כל אחד מהאיברים בשלב 
+\begin_inset Formula $n-k-1$
+\end_inset
+
+ נקבל את כל האיברים בשלב 
+\begin_inset Formula $n-k$
+\end_inset
+
+.
+ מאחר ויש חיבור עבור כל שינוי כזה בין קודקודים-יש צלעות המחברות בין השלבים.
+\end_layout
+
+\begin_layout Standard
+בזו הסתיימה האינדוקציה.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.ּ
+\end_layout
+
+\begin_layout Standard
+ה.
+ לפי משפט גרף קשיר הוא אוילריאני אם"ם כל הערכויות זוגיות.
+ אזי עבור לכל 
+\begin_inset Formula $n$
+\end_inset
+
+ זוגי 
+\begin_inset Formula $Q_{n}$
+\end_inset
+
+ הוא גרף אולריאני.
+ אז קיים מסלול אוילריאני סגור ע"פ הגדרה של גרף אוילריאני.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+לא ייתכן.
+ נתבונן בלוח 
+\begin_inset Formula $8\times8$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+כל משבצת היא קודקוד בגרף המחוברת לקודקוד מעליה מימינה משמאלה ומלמטה.
+\end_layout
+
+\begin_layout Standard
+מעין מטריצה 
+\begin_inset Formula $8\times8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי משפט, גרף הוא אוילריאני אם"ם כל הערכויות זוגיות.
+\end_layout
+
+\begin_layout Standard
+אך עבור כל הקודקודים בפינה )אלו שבאו במקום המשבצות בצדדים( יש ערכיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כי אין להם אחד מן הכיוונים.
+\end_layout
+
+\begin_layout Standard
+עבורם לא קיים מסלול המתחיל ומסתיים באותה משבצת ללא חזרות )מסלול אוילריאני
+ סגור(.
+\end_layout
+
+\begin_layout Standard
+כנ"ל עבור המקרה 
+\begin_inset Formula $m\times n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בזו סיימנו
+\end_layout
+
+\end_body
+\end_document

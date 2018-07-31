@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1513694941 source:c:\users\snir\technion\hw3\hw3q1.c
+	<stdio.h>
+	<stdbool.h>
+	<assert.h>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1515088702 source:c:\users\snir\technion\hw4\hw3q1.c
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
+
+1515693212 source:c:\users\snir\technion\cs\hw4\hw3q1.c
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
+

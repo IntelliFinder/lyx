@@ -1,0 +1,1039 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+קומבי ת"ב
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+11
+\numeric off
+ 
+\end_layout
+
+\begin_layout Author
+שניר הורדן-ליעד סלומון
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נתונות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקודות במישור כך שאף שתיים מהן אינן נמצאות על ישר המקביל לאחד הצירים.
+\end_layout
+
+\begin_layout Standard
+צריך להוכיח שקיים מלבן שצלעותיו מקבילות לצירים, שניים מקודקודיו הם מבין
+ הנקודות הנתונות ופנימו נמצאת עוד אחת )לפחות( מן הנקודות הנתונות.
+\end_layout
+
+\begin_layout Standard
+נקביל את פתרון השאלה לסוגיה הנ"ל: 
+\end_layout
+
+\begin_layout Standard
+סדרה של מספרים כך שאף מספר אינו חוזר על עצמו )אף שני נקודות אינן נמצאות
+ על אותו ישר המקביל לציר המאוזן( ואין שני איברים באותו מקום בסדרה )אף שני
+ נקודות אינן נמצאות על אותו ישר המקביל לציר המאונך(.
+\end_layout
+
+\begin_layout Standard
+לפי משפט 
+\begin_inset Formula $Erdos-Szekeres$
+\end_inset
+
+, קיימת תת-סדרה מונוטונית לא-עולה 
+\bar under
+או
+\bar default
+ תת-סדרה מונוטונית עולה.
+ לפי תנאי השאלה אף שני נקודות נמצאות על אותו קו מקביל לאחד הצירים אז נסיק
+ שקיימת תת-סדרה מונוטונית 
+\bar under
+יורדת
+\bar default
+ או תת-סדרה מונוטונית עולה.
+ מאחר ויש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+איברים בסדרה )נקודות במישור( אז מספר האיברים בסדרות
+\begin_inset Formula $\left(k-inc.,\;n-dec.\right)$
+\end_inset
+
+ הוא 
+\begin_inset Formula $\left(k-1\right)\left(n-1\right)+1=5$
+\end_inset
+
+ זה מתקיים עבור 
+\begin_inset Formula $k=3,n=3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבחר אחת מהן.
+ אז זו מגדירה מלבן כך שהאיברים הראשון והאחרון שלה מגדירים מלבן שביניהם מתקבלת
+ נקודה נוספת, שהיא בתוך המלבן שנוצר.
+\bar under
+פירוט:
+\bar default
+ נמתח קו מקביל לציר האנכי והמאוזן מכל אחד מהאיברים הראשון והאחרון.
+ המלבן מוגדר ע"י שני נקודות אלה והחיתוך בין הישרים הנ"ל.
+ בתוך מלבן זה שמותאם לסדרה באורך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ קיימת נקודה )איבר בסדרה( בתוך המלבן.
+ אם הסדרה מונוטונית עולה אז האיבר הראשון יהיה הנמוך ביותר ולהפך אם הסדרה
+ היא המונוטונית עולה.
+ בכל מקרה, האיבר האמצעי בסדרה הוא זה שבתוך המלבן שנוצר.
+\end_layout
+
+\begin_layout Standard
+ב.
+\end_layout
+
+\begin_layout Standard
+דוגמא נגדית למקרה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקודות 
+\begin_inset Formula $\left(0,1\right)\to\left(1,4\right)\to\left(2,-2\right)\to\left(3,0\right)$
+\end_inset
+
+.
+ כלומר זיגזג של נקודות במישור.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $G_{1}=\left(V,E_{1}\right),G_{2}=\left(V,E_{2}\right)$
+\end_inset
+
+ שני גרפים על אותה קבוצת קודקודים.
+ נגדיר גרף חדש 
+\begin_inset Formula $G=\left(V,E_{1}\cup E_{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $\chi-minimum\:coloring\:number$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+ 
+\begin_inset Formula $\chi\left(G\right)\leq\chi\left(G_{1}\right)\chi\left(G_{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $E_{1}=E_{2}$
+\end_inset
+
+ אז טריויאלי.
+\end_layout
+
+\begin_layout Standard
+המקרה בו 
+\begin_inset Formula $\chi\left(G_{1}\right)\chi\left(G_{2}\right)$
+\end_inset
+
+ הוא הקטן ביותר הוא כאשר 
+\begin_inset Formula $E_{1}\cap E_{2}=\left\{ 0\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נרצה להראות שניתן לצבוע את 
+\begin_inset Formula $K_{n}=\left(V,E\right)$
+\end_inset
+
+ ב-
+\begin_inset Formula $\chi\left(G_{1}\right)\chi\left(G_{2}\right)$
+\end_inset
+
+ צבעים.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{1}:V\left(G\right)\to\left[n\right]-colors\:in\;G_{1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f_{2}:V\left(\overline{G}\right)\to\left[m\right]-colors\:in\:G_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שני צביעות מינימליות.
+\end_layout
+
+\begin_layout Standard
+נרצה להוכיח קיום של 
+\begin_inset Formula $f:V\to\left[n\right]\times\left[m\right]$
+\end_inset
+
+ המקיימת תנאי צביעה, נגדיר 
+\begin_inset Formula $f\left(v\right)=\left(f_{1}\left(v\right),f_{2}\left(v\right)\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נוכיח שזו צביעה, כלומר לכל 
+\begin_inset Formula $\left\{ u,v\right\} \in E$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $f\left(v\right)\neq f\left(u\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $\left\{ u,v\right\} \in E$
+\end_inset
+
+.
+ אז מאחר והיא שייכת לגרף השלם מתקיים, 
+\begin_inset Formula $\left\{ u,v\right\} \in E_{G_{1}}$
+\end_inset
+
+ או 
+\begin_inset Formula $\left\{ u,v\right\} \in E_{G_{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula 
+\[
+f\left(v\right)=\left(c_{i},x\right)\:or\:f\left(u\right)=\left(c_{k},y\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f\left(v\right)=\left(x,c_{i}\right)\:or\:f\left(u\right)=\left(y,c_{k}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $x,y$
+\end_inset
+
+ צבעים כלשהן יכול להיות אותו הצבע, ו-
+\begin_inset Formula $c_{i},c_{j}$
+\end_inset
+
+ צבעים שונים.
+\end_layout
+
+\begin_layout Standard
+בכל מקרה מתקיים 
+\begin_inset Formula $f\left(u\right)\neq f\left(v\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+ב.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נרצה להראות שניתן לצבוע את 
+\begin_inset Formula $K_{n}=\left(V,E\right)$
+\end_inset
+
+ ב-
+\begin_inset Formula $\chi\left(G\right)\chi\left(\overline{G}\right)$
+\end_inset
+
+ צבעים.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{1}:V\left(G\right)\to\left[n\right]-colors\:in\;G
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f_{2}:V\left(\overline{G}\right)\to\left[m\right]-colors\:in\:\overline{G}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שני צביעות מינימליות.
+\end_layout
+
+\begin_layout Standard
+נרצה להוכיח קיום של 
+\begin_inset Formula $f:V\to\left[n\right]\times\left[m\right]$
+\end_inset
+
+ המקיימת תנאי צביעה, נגדיר 
+\begin_inset Formula $f\left(v\right)=\left(f_{1}\left(v\right),f_{2}\left(v\right)\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נוכיח שזו צביעה, כלומר לכל 
+\begin_inset Formula $\left\{ u,v\right\} \in E$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $f\left(v\right)\neq f\left(u\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $\left\{ u,v\right\} \in E$
+\end_inset
+
+.
+ אז מאחר והיא שייכת לגרף השלם מתקיימת אחת מן השתיים, 
+\begin_inset Formula $\left\{ u,v\right\} \in E_{G}$
+\end_inset
+
+ או 
+\begin_inset Formula $\left\{ u,v\right\} \in E_{\overline{G}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula 
+\[
+f\left(v\right)=\left(c_{i},x\right)\:or\:f\left(u\right)=\left(c_{k},y\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f\left(v\right)=\left(x,c_{i}\right)\:or\:f\left(u\right)=\left(y,c_{k}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $x,y$
+\end_inset
+
+ צבעים כלשהן יכול להיות אותו הצבע, ו-
+\begin_inset Formula $c_{i},c_{j}$
+\end_inset
+
+ צבעים שונים.
+\end_layout
+
+\begin_layout Standard
+בכל מקרה מתקיים 
+\begin_inset Formula $f\left(u\right)\neq f\left(v\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+רעיון נוסף:
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+ 
+\begin_inset Formula $\chi\left(G\right)\chi\left(\overline{G}\right)\geq\left|V\right|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $max\left\{ \chi\left(G\right)\right\} =\left|V\right|$
+\end_inset
+
+ במקרה, לדוגמא, של הגרף השלם.
+\end_layout
+
+\begin_layout Standard
+לפי סעיף א לכל גרף ובפרט לגרף השלם מתקיים , 
+\begin_inset Formula $\left|V\right|=\max\left\{ \chi\left(G\right)\right\} \leq\chi\left(G_{1}\right)\chi\left(G_{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נשים לב שהגרף השמאלי הוא גרף מושרה, מאחר ונוכל להזיז את שני הקודקודים האמצעיים
+ החוצה ועדיין לחבר אותם לכל הקודקודים שהם מחוברים אליהם, כך שאף שני צלעות
+ לא יחצו אחת את השנייה.
+ לפי משפט ארבעת הצבעים, ה-
+\begin_inset Formula $\chi$
+\end_inset
+
+ שלו הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ .
+ הוא גם לא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ -צביע כי קיים מעגל באורך אי-זוגי ושני הקודקודים במרכז המעגל גורמים לו לקיים
+ 
+\begin_inset Formula $\chi\left(G_{left}\right)=4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נשים לב שהוא 
+\begin_inset Formula $3$
+\end_inset
+
+-רגולרי, לפי טענה 
+\begin_inset Formula $\chi\left(G\right)\leq\Delta\left(G\right)+1$
+\end_inset
+
+.
+ וכן עבור 
+\begin_inset Formula $\omega-largest\:clique$
+\end_inset
+
+, 
+\begin_inset Formula $\omega\left(G\right)\leq\chi\left(G\right)$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $3\leq\chi\left(G\right)\leq4$
+\end_inset
+
+.
+ קיימת צביעה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)מאחר ובגרף כזו:
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+ גרף ויהי 
+\begin_inset Formula $k\geq2$
+\end_inset
+
+ טבעי.
+\end_layout
+
+\begin_layout Standard
+נניח ש-
+\begin_inset Formula $\chi\left(G\right)=k$
+\end_inset
+
+.
+ צ.ל.
+ 
+\begin_inset Formula $\left|E\right|\geq{k \choose 2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחלק את 
+\begin_inset Formula $V$
+\end_inset
+
+ ל-
+\begin_inset Formula $k$
+\end_inset
+
+ קבוצות ע"פ צבע.
+ בהכרח קיימת צלע המחברת בין כל אחת מהן.
+ אילו לא אז מספר הצביעה היה קטן יותר מ-
+\begin_inset Formula $k$
+\end_inset
+
+ אך 
+\begin_inset Formula $k=\chi\left(G\right)$
+\end_inset
+
+ הוא מספר הצביעה המינימלי.
+ 
+\end_layout
+
+\begin_layout Standard
+אם כל שני קבוצות אלו לפחות מחוברות מתקיים 
+\begin_inset Formula $\left|E\right|\geq{k \choose 2}$
+\end_inset
+
+.
+ על אחת וכמה כאשר 
+\begin_inset Formula $\chi\left(G\right)\geq k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1515275932 source:c:\users\snir\technion\hw4q3\hw4q3.c
+	<stdio.h>
+	<stdlib.h>
+
+1515354442 source:c:\users\snir\technion\cs\hw4q3\hw4q3.c
+	<stdio.h>
+	<stdlib.h>
+

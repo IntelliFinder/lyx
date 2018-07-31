@@ -1,0 +1,341 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+ראינו כי מעל 
+\begin_inset Formula $R$
+\end_inset
+
+ לכל תבנית ריבועית )או ביליניארית סימטרית( יש מטריצה מייצגת עם 
+\begin_inset Formula $1,-1,0$
+\end_inset
+
+ על האלכסון הראשי.
+\end_layout
+
+\begin_layout Standard
+מספר ה-
+\begin_inset Formula $1$
+\end_inset
+
+-ים אינו תלוי אינו תלוי בבסיס אלא הוא שמורה )אינווריאנט( של התבנית.
+ 
+\end_layout
+
+\begin_layout Standard
+אם נסמן את מספר האחדים ב-
+\begin_inset Formula $1$
+\end_inset
+
+ ב-
+\begin_inset Formula $p$
+\end_inset
+
+ ומספר ה-
+\begin_inset Formula $-1$
+\end_inset
+
+ ב-
+\begin_inset Formula $n$
+\end_inset
+
+ אז 
+\begin_inset Formula $p+n=r$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $r$
+\end_inset
+
+ הוא ה-
+\begin_inset Formula $rank$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הסקנו כי הדרגה+סיגנטורה עהם אינווריאנט מלא.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+משפט
+\bar default
+ 
+\begin_inset Formula $A$
+\end_inset
+
+ו-
+\begin_inset Formula $B$
+\end_inset
+
+ סימטריות ב-
+\begin_inset Formula $M_{n}\left(R\right)$
+\end_inset
+
+ אזי 
+\begin_inset Formula $A$
+\end_inset
+
+ ו-
+\begin_inset Formula $B$
+\end_inset
+
+ חופפות אםם יש להן אותה דרעה ואותה סיגנטורה.
+\end_layout
+
+\begin_layout Standard
+נשים לה כי לכסון אורתוגונלי )של מטריצה סימטרית ממשית( הוא בפרט חפיפה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P^{t}AP=D
+\]
+
+\end_inset
+
+ אז נמשיך עם החפיפה ונקבל מטריצה עם הסיגנטורה הרצויה.
+\end_layout
+
+\begin_layout Standard
+נוכל לנמק שמספר האחדים הוא כמספר הערכים החיוביים ומספר ה-
+\begin_inset Formula $-1$
+\end_inset
+
+ הוא הערכים השליליים.
+ הם אינווריאנט.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+חפיפה סימולטנית
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה: 
+\bar default
+יהיו 
+\begin_inset Formula $A,B$
+\end_inset
+
+ מטריצות שאחת חופפת ל\SpecialChar softhyphen
+
+\begin_inset Formula $I$
+\end_inset
+
+ או השנייה חופפת ל-
+\begin_inset Formula $-I$
+\end_inset
+
+.
+ אז הן חופפות סימולטנית.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+משפט
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ ו-
+\begin_inset Formula $B$
+\end_inset
+
+ סימטריות ממשיות מסדר 
+\begin_inset Formula $n\times n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח כי 
+\begin_inset Formula $A$
+\end_inset
+
+ )או 
+\begin_inset Formula $B$
+\end_inset
+
+( חופפת ל-
+\begin_inset Formula $I$
+\end_inset
+
+ או ל-
+\begin_inset Formula $-I$
+\end_inset
+
+ אזי 
+\begin_inset Formula $A$
+\end_inset
+
+ו-
+\begin_inset Formula $B$
+\end_inset
+
+חופפות סימולטנית לאלכסונית.
+ כלומר קיימת 
+\begin_inset Formula $P$
+\end_inset
+
+ הפיכה כך ש-
+\begin_inset Formula 
+\[
+P^{t}AP=I
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+P^{t}BP=D
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+בחוברת של עדי
+\end_layout
+
+\begin_layout Standard
+זהות הפולריזציה: 
+\begin_inset Formula $4f\left(u,v\right)=q\left(u+v\right)-q\left(u-v\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $q\left(x\right)=x^{t}Ax$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז מציבים 
+\begin_inset Formula $x$
+\end_inset
+
+ בזהות פולריזציה.
+\end_layout
+
+\begin_layout Standard
+אז אם 
+\begin_inset Formula $A$
+\end_inset
+
+ בבסיס הסטנדרטי סיימנו.
+ אם לא אז נצטרך להפוך אותה לבסיס הסטנדרטי.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תרגול
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

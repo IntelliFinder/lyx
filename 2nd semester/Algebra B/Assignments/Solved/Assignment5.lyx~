@@ -1,0 +1,2307 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+אלגברה ב-גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Author
+שניר הורדן
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+205689581
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נוכיח שזו אכן מכפלה פנימית, אנחנו מעל 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ לכן נבדוק רק את המרכיבים כדלהלן:
+\end_layout
+
+\begin_layout Standard
+נסמן
+\begin_inset Formula 
+\[
+p=a_{2}x^{2}+a_{1}x+a_{0}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+q=b_{2}x^{2}+b_{1}x+b_{0}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+z=c_{2}x^{2}+c_{1}x+c_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ לינאריות ברכיב הראשון-
+\begin_inset Formula 
+\[
+\left(\alpha p+q,z\right)=\left(\alpha a_{0}+b_{0}\right)c_{0}+\left(\alpha\left(a_{2}+a_{1}+a_{0}\right)+b_{0}+b_{1}+b_{2}\right)\left(c_{2}+c_{1}+c_{0}\right)+
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+...+\left(\alpha\left(4a_{2}+2a_{1}+a_{0}\right)+4b_{0}+2b_{1}+b_{2}\right)\left(4c_{2}+2c_{1}+c_{0}\right)=\alpha a_{0}c_{0}+b_{0}c_{0}+...
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+...+\alpha\left(a_{2}+a_{1}+a_{0}\right)\left(c_{2}+c_{1}+c_{0}\right)+\left(b_{0}+b_{1}+b_{2}\right)\left(c_{2}+c_{1}+c_{0}\right)...=\alpha\left(p,z\right)+\left(q,z\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.סימטריות- צ.ל.
+ 
+\begin_inset Formula $\left(p,q\right)=\left(q,p\right)$
+\end_inset
+
+לפי קומטטיביות בכפל זה מתקיים
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+ חיוביות לחלוטין- צ.ל.
+ 
+\begin_inset Formula $\left(p,p\right)>0$
+\end_inset
+
+ לכל 
+\begin_inset Formula $p\neq0$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\[
+\left(p,p\right)=a_{0}^{2}+\left(a_{0}+a_{1}+a_{2}\right)^{2}+\left(4a_{0}+2a_{1}+a_{2}\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זה סכום של ריבועים אזי אם קיים מקדם כלשהו שאינו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הביטוי יהיה חיובי.
+\end_layout
+
+\begin_layout Standard
+א.
+\end_layout
+
+\begin_layout Standard
+נתבונן בטרנספורמציה 
+\begin_inset Formula $L\left(p\left(x\right)\right)=p\left(t\right)$
+\end_inset
+
+ עבור 
+\begin_inset Formula $t\in\mathbb{R}$
+\end_inset
+
+.
+ נזכור כי מתקיים 
+\begin_inset Formula $\left\langle p,q\right\rangle =p\left(0\right)q\left(0\right)+p\left(1\right)q\left(1\right)+p\left(2\right)q\left(2\right)$
+\end_inset
+
+וזו מ"פ על 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ לפי משפט כל 
+\begin_inset Formula $q_{0}\in\mathbb{R}_{2}\left[x\right]$
+\end_inset
+
+ מגדיר פונקציונל 
+\begin_inset Formula $f_{q_{0}}\left(p\right)=\left\langle p,q_{0}\right\rangle $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמצא בסיס 
+\begin_inset Formula $B=\left\{ p_{1},p_{2},p_{3}\right\} $
+\end_inset
+
+ עבורו מתקיים 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\left\langle q_{i},p_{j}\right\rangle =\delta_{ij}$
+\end_inset
+
+
+\begin_inset Formula $\left(p_{i},q_{i}\in\mathbb{R}_{2}\left[x\right]\right)$
+\end_inset
+
+ או 
+\begin_inset Formula $p_{i}\left(t_{j}\right)=\delta_{ij}$
+\end_inset
+
+.
+\begin_inset Formula $\left(t_{i}\in\mathbb{R},1\leq i,j\leq3\right)$
+\end_inset
+
+
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $W=\left\{ p\left(x\right)\in V\quad|\quad p\left(1\right)=p\left(2\right)=0\right\} $
+\end_inset
+
+.
+ אזי נמצא תת-בסיס המקיים 
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+ 
+\begin_inset Formula $W=span\left\{ \frac{\left(x-1\right)\left(x-2\right)}{\left(0-1\right)\left(0-2\right)}\right\} $
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $B_{1}=\left\{ \frac{\left(x-1\right)\left(x-2\right)}{\left(0-1\right)\left(0-2\right)}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נשלים לבסיס 
+\bar under
+א"נ
+\bar default
+ 
+\begin_inset Formula $B$
+\end_inset
+
+ של 
+\begin_inset Formula $V$
+\end_inset
+
+ כולו: 
+\begin_inset Formula $B=\left\{ \frac{x(x-1)}{\left(2-0\right)\left(2-1\right)},\frac{x\left(x-2\right)}{\left(1-0\right)\left(1-2\right)}\right\} \cup B_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הפולינומים הם בהכרח אורתוגונלים מהדרישה 
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+ אזי בת"ל לפי משפט ופורשים את 
+\begin_inset Formula $V$
+\end_inset
+
+ כי הם 
+\bar under
+שלושה 
+\bar default
+וקטורים בת"ל 
+\begin_inset Formula $\left(\dim\left(V\right)=\dim\left(span\left\{ B\right\} \right)\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ב.
+\end_layout
+
+\begin_layout Standard
+נשים לב שמתקיים 
+\begin_inset Formula 
+\begin{align*}
+p\left(x\right)=\stackrel[i=1]{3}{\sum}\left\langle p\left(x\right),p_{i}\left(x\right)\right\rangle p_{i}\left(x\right) & =c_{1}p_{1}\left(x\right)+c_{2}p_{2}\left(x\right)+c_{3}p_{3}\left(x\right)\\
+\underbrace{\Rightarrow}_{part.\quad case} & p\left(x\right)=p\left(0\right)\frac{\left(x-1\right)\left(x-2\right)}{\left(0-1\right)\left(0-2\right)}+p\left(1\right)\frac{x\left(x-2\right)}{\left(1-0\right)\left(1-2\right)}+p\left(2\right)\frac{x(x-1)}{\left(2-0\right)\left(2-1\right)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נימוק:
+\bar default
+ כאשר מבצעים את המ"פ 
+\begin_inset Formula $\left\langle p\left(x\right),p_{i}\left(x\right)\right\rangle $
+\end_inset
+
+ כפי שהוגדר כל הגורמים פרט ל-
+\begin_inset Formula $p_{i}\left(i-1\right)$
+\end_inset
+
+ מתאפסים והוא נהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ ואז כופלים באיבר בבסיס.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+למה:
+\bar default
+ יהא 
+\begin_inset Formula $V$
+\end_inset
+
+ מרחב וקטורי ותהא 
+\begin_inset Formula $T$
+\end_inset
+
+ העתקה לינארית.
+ אז אם 
+\begin_inset Formula $B$
+\end_inset
+
+ הוא בסיס אורתונורמלי של 
+\begin_inset Formula $V$
+\end_inset
+
+ אז מתקיים 
+\begin_inset Formula $\left(\left[T\right]_{B}\right)_{ij}=\left\langle Te_{j},e_{i}\right\rangle $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[P_{W}\right]_{B}=\left(\begin{array}{ccc}
+1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זו גם הצורת גורדן שלה.
+\end_layout
+
+\begin_layout Standard
+ג.
+ נזכור כי מתקיים 
+\begin_inset Formula $\mathbb{I}=P_{W_{\perp}}\oplus P_{W}$
+\end_inset
+
+ מאחר ומתקיים 
+\begin_inset Formula $V=W\oplus W_{\perp}$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula 
+\[
+\mathbb{I}p\left(x\right)=P_{W}\left(p\left(x\right)\right)+P_{W_{\perp}}\Rightarrow p\left(x\right)-P_{W_{\perp}}\left(p\left(x\right)\right)=P_{W}\left(p\left(x\right)\right)\Rightarrow||p\left(x\right)-P_{W_{\perp}}\left(p\left(x\right)\right)||=||P_{W}\left(p\left(x\right)\right)||
+\]
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left[p\left(x\right)\right]_{E}=\left(\begin{array}{c}
+7\\
+-3\\
+1
+\end{array}\right)$
+\end_inset
+
+.
+ אך אנו עובדים לפי הבסיס 
+\begin_inset Formula $B$
+\end_inset
+
+ אז 
+\begin_inset Formula $P_{w}\left(p\left(x\right)\right)=\left[P_{W}\right]_{B}\left[p\left(x\right)\right]_{B}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\left[p\left(x\right)\right]_{B}=P_{B\to E}\left[\left(p\left(x\right)\right)\right]_{E}$
+\end_inset
+
+ .
+ נחשב:
+\end_layout
+
+\begin_layout Standard
+נקבל
+\begin_inset Formula 
+\[
+P_{W}\left(x^{2}-3x+7\right)=P_{W}\left(p\left(x\right)\right)=p\left(0\right)\frac{\left(x-1\right)\left(x-2\right)}{\left(0-1\right)\left(0-2\right)}=7\frac{\left(0-1\right)\left(0-2\right)}{\left(0-1\right)\left(0-2\right)}=7
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נזכור 
+\begin_inset Formula $||x||=\sqrt{\left\langle x,x\right\rangle }$
+\end_inset
+
+.
+ אזי
+\begin_inset Formula 
+\[
+||P_{W}\left(p\left(x\right)\right)||=\sqrt{\left\langle P_{W}\left(x^{2}-3x+7\right),P_{W}\left(x^{2}-3x+7\right)\right\rangle }=\sqrt{7^{2}+7^{2}+7^{2}}=\sqrt{3\times49}=\sqrt{147}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+א.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $V$
+\end_inset
+
+ ממ"פ סוף מימדי ויהיו 
+\begin_inset Formula $N,M\subseteq V$
+\end_inset
+
+ תת-מרחבים.
+ נניח ש-
+\begin_inset Formula $P$
+\end_inset
+
+ ו-
+\begin_inset Formula $Q$
+\end_inset
+
+ הן הטלות על 
+\begin_inset Formula $N$
+\end_inset
+
+ ו-
+\begin_inset Formula $M$
+\end_inset
+
+, בהתאמה.
+\end_layout
+
+\begin_layout Standard
+נניח ש-
+\begin_inset Formula $||Px-Qx||<||x||$
+\end_inset
+
+
+\begin_inset Formula $\forall x\neq0,$
+\end_inset
+
+.
+ צ.ל.
+ 
+\begin_inset Formula $\dim\,N=\dim\,M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתבונן בהטלות 
+\begin_inset Formula $P|_{M}$
+\end_inset
+
+ ו-
+\begin_inset Formula $Q|_{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+ 
+\begin_inset Formula $Ker\,Q|_{N}=Ker\,P|_{M}=\left\{ 0\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $0\neq n\in N$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||Pn-Qn||=||n-Qn||<||n||\Rightarrow Qn\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $0\neq m\in M$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+||Pm-Qm||=||Pm-m||<||m||\Rightarrow Pm\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סיימנו.
+ אז יש לנו פונקצייה חח"ע מ-
+\begin_inset Formula $N$
+\end_inset
+
+ ל-
+\begin_inset Formula $M$
+\end_inset
+
+ ולהפך.
+ לפי קנטור-שרדר-ברנשטיין העצמות של 
+\begin_inset Formula $N$
+\end_inset
+
+ ו-
+\begin_inset Formula $M$
+\end_inset
+
+ זהות.
+ כלומר 
+\begin_inset Formula $\dim N=\dim\,M$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+ב.
+ יהי 
+\begin_inset Formula $V=M_{n}\left(\mathbb{C}\right)$
+\end_inset
+
+ עם המ"פ הסטנדרטית 
+\begin_inset Formula $\left\langle A,B\right\rangle =tr\left(B^{*}A\right)$
+\end_inset
+
+ ותהי 
+\begin_inset Formula $P$
+\end_inset
+
+ מטריצה הפיכה.
+ 
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $T_{p}:V\to V$
+\end_inset
+
+ ע"ׁי 
+\begin_inset Formula $T_{P}\left(A\right)=P^{-1}AP$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $T_{p}^{*}\left(A\right)=\left(P^{-1}AP\right)^{*}=P^{*}A^{*}P^{-1^{*}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+tr\left(\left(P^{-1}AP\right)^{*}\right)\underbrace{=}_{transpose\,keeps\,same\,trace}tr\left(A\right)\underbrace{=}_{trace\,of\,similar\,matrices}tr\left(P^{-1}AP\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ג.
+ עבור 
+\begin_inset Formula $B=\left\{ \left(\begin{array}{cc}
+1 & 0\\
+0 & 0
+\end{array}\right),\left(\begin{array}{cc}
+0 & 1\\
+0 & 0
+\end{array}\right),\left(\begin{array}{cc}
+0 & 0\\
+1 & 0
+\end{array}\right),\left(\begin{array}{cc}
+0 & 0\\
+0 & 1
+\end{array}\right)\right\} $
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+T\left(\left(\begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right)\right) & =\left(\begin{array}{cc}
+3d & 2c\\
+-b & 4a
+\end{array}\right)\underbrace{\Rightarrow}_{coordinate\,vectors\,for\,basis\,B}T\left(\begin{array}{c}
+a\\
+b\\
+c\\
+d
+\end{array}\right)=\left(\begin{array}{c}
+3d\\
+2c\\
+-b\\
+4a
+\end{array}\right)\\
+\Rightarrow & T=\left(\begin{array}{cccc}
+0 & 0 & 0 & 3\\
+0 & 0 & 2 & 0\\
+0 & -1 & 0 & 0\\
+4 & 0 & 0 & 0
+\end{array}\right)\underbrace{\Rightarrow}_{column\,vectors\,orthogonal}T^{*}=\left(\begin{array}{cccc}
+ & 0 & 0 & 4\\
+ & 0 & -1 & 0\\
+ & 0 & 2 & 0\\
+ & 3 & 0 & 0
+\end{array}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+6
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $V$
+\end_inset
+
+ ממ"פ סוף מימדי מעל 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+ ויהא 
+\begin_inset Formula $T$
+\end_inset
+
+ אופרטור צמוד לעצמו 
+\begin_inset Formula $T^{*}=T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+ 
+\begin_inset Formula $\forall v\in V\,:\,||v+iT\left(v\right)||=||v-iT\left(v\right)||$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||v+iT\left(v\right)||^{2}=\left\langle v+iT\left(v\right),v+iT\left(v\right)\right\rangle =\left\langle v,v+iT\left(v\right)\right\rangle +\left\langle iT\left(v\right),v+iT\left(v\right)\right\rangle =\left\langle v,v\right\rangle +\left\langle v,iT\left(v\right)\right\rangle +\left\langle iT\left(v\right),v\right\rangle +\left\langle iT\left(v\right),iT\left(v\right)\right\rangle 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\left\langle v,v\right\rangle +-i\left\langle v,T\left(v\right)\right\rangle +i\left\langle T\left(v\right),v\right\rangle +i^{2}\left\langle T\left(v\right),T\left(v\right)\right\rangle \underbrace{=}_{\left\langle v,T\left(v\right)\right\rangle =\left\langle T^{*}\left(v\right),v\right\rangle \underbrace{=}_{T^{*}=T}\left\langle T\left(v\right),v\right\rangle }\left\langle v,v\right\rangle -\left\langle T\left(v\right),T\left(v\right)\right\rangle 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+||v-iT\left(v\right)||^{2}=\left\langle v-iT\left(v\right),v-iT\left(v\right)\right\rangle =\left\langle v,v-iT\left(v\right)\right\rangle +\left\langle -iT\left(v\right),v-iT\left(v\right)\right\rangle 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\left\langle v,v\right\rangle +\left\langle v,-iT\left(v\right)\right\rangle +\left\langle -iT\left(v\right),v\right\rangle +\left\langle -iT\left(v\right),-iT\left(v\right)\right\rangle =\left\langle v,v\right\rangle -\left\langle T\left(v\right),T\left(v\right)\right\rangle 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $v=0$
+\end_inset
+
+.
+ אזי בוודאי 
+\begin_inset Formula $v+iT\left(v\right)=0+i0=0$
+\end_inset
+
+.
+ כי לכל אופרטור 
+\begin_inset Formula $T\left(0\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $v+iT\left(v\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\underbrace{=}_{||x||=0\iff x=0}||v+iT\left(v\right)||=||v-iT\left(v\right)||
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $v-iT\left(v\right)=v+iT\left(v\right)=0$
+\end_inset
+
+.
+ כלומר 
+\begin_inset Formula $v=-iT\left(v\right)\wedge v=iT\left(v\right)$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $v=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+ :
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\begin_inset Formula $\exists C\in V\,:\,C(I-iT)=I$
+\end_inset
+
+, 
+\begin_inset Formula $\exists D\in V\,:\,D\left(I+iT\right)=I$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\begin_inset Formula $\left(\left(I-iT\right)\left(I+iT\right)^{-1}\right)^{*}=\left(\left(I-iT\right)\left(I+iT\right)^{-1}\right)^{-1}$
+\end_inset
+
+, 
+\begin_inset Formula $UU^{-1}=\mathbb{I}$
+\end_inset
+
+, 
+\begin_inset Formula $U$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+\bar under
+1
+\numeric off
+.
+
+\bar default
+ לפי סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתקיים 
+\begin_inset Formula $v+iT\left(v\right)=0$
+\end_inset
+
+ אם"ם 
+\begin_inset Formula $v=0$
+\end_inset
+
+.
+ כלומר 
+\begin_inset Formula $Ker\left(I+iT\right)=\left\{ 0\right\} $
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $Ker\left(I-iT\right)=\left\{ 0\right\} $
+\end_inset
+
+ כי לפי סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\begin_inset Formula $||v+iT\left(v\right)||=||v-iT\left(v\right)||$
+\end_inset
+
+ כלומר 
+\begin_inset Formula 
+\[
+v+iT\left(v\right)=0\underbrace{\iff}_{inner\:product\,definitely\,positive}||v+iT\left(v\right)||=0\iff||v-iT\left(v\right)||\iff v-iT\left(v\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז יש להן אותו גרעין.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+\bar under
+2
+\numeric off
+.
+
+\bar default
+ 
+\begin_inset Formula $\left(\left(I-iT\right)\left(I+iT\right)^{-1}\right)^{-1}=\left(I+iT\right)\left(I-iT\right)^{-1}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\left(I-iT\right)\left(I+iT\right)^{-1}\right)^{*}\underbrace{=}_{transpose\:laws}\left(I+iT\right)^{-1^{*}}\left(I-iT\right)^{*}=\left(I+iT\right)^{*^{-1}}\left(I-iT\right)^{*}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\left(I^{*}+\left(iT\right)^{*}\right)^{-1}\left(I^{*}+\left(-iT\right)^{*}\right)\underbrace{\overbrace{=}^{T=T^{*}}}_{transpose\:laws}\left(I-iT\right)^{-1}\left(I+iT\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+7
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהא 
+\begin_inset Formula $A\in GL_{n}\left(\mathbb{C}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ הפיכה אז קיימות לה 
+\begin_inset Formula $n$
+\end_inset
+
+ שורות בת"ל שהם בסיס למ"ו 
+\begin_inset Formula $\mathbb{\mathbb{C}}^{n}$
+\end_inset
+
+.
+ לפי משפט גרם-שמידט נוכל לבצע את תהליך גרם-שמידט על עמודות אלה ונקבל בסיס
+ 
+\bar under
+אורתונורמלי
+\bar default
+ של מרחב העמודה של 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $B=\left\{ b_{1},...,b_{n}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתבונן באלגוריתם גרם-שמידט
+\begin_inset Formula 
+\[
+v_{i}=\frac{b_{i}-\stackrel[j=1]{j-1}{\sum}\left\langle b_{i},v_{j}\right\rangle v_{j}}{||b_{i}-\stackrel[j=1]{j-1}{\sum}\left\langle b_{i},v_{j}\right\rangle v_{j}||}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המחשה:
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $B=\left\{ b_{1},b_{2}\right\} $
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula 
+\[
+v_{1}=\frac{b_{1}}{||b_{1}||}\Rightarrow b_{1}=v_{1}\left||b_{1}|\right|
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+v_{2}^{'}=b_{2}-\left\langle b_{2},v_{1}\right\rangle v_{1}\Rightarrow v_{2}=\frac{v_{2}^{'}}{||v_{2}^{'}||}\Rightarrow b_{2}=v_{2}\left||v_{2}|\right|+\left\langle b_{2},v_{1}\right\rangle v_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נייצג זו במטריצה 
+\begin_inset Formula 
+\[
+\left(\begin{array}{cc}
+b_{1} & b_{2}\\
+| & |
+\end{array}\right)=\left(\begin{array}{cc}
+v_{1} & v_{2}\\
+| & |
+\end{array}\right)\left(\begin{array}{cc}
+\left||b_{1}|\right| & \left\langle b_{2},v_{1}\right\rangle \\
+0 & \left||v_{2}|\right|
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי באופן כללי נקבל
+\begin_inset Formula 
+\[
+\left(\begin{array}{ccccc}
+| & | & | & | & |\\
+| & | & | & | & |\\
+b_{1} & . & . & . & b_{n}\\
+| & | & | & | & |\\
+| & | & | & | & |
+\end{array}\right)=\left(\begin{array}{ccccc}
+| & | & | & | & |\\
+| & | & | & | & |\\
+v_{1} & . & . & . & v_{n}\\
+| & | & | & | & |\\
+| & | & | & | & |
+\end{array}\right)\left(\begin{array}{ccccc}
+\left||b_{1}|\right| & \left\langle b_{2},v_{1}\right\rangle  & . & . & \left\langle b_{n},v_{1}\right\rangle \\
+0 & ||b_{2}-\left\langle b_{2},v_{1}\right\rangle v_{1}|| & . & . & \left\langle b_{n},v_{2}\right\rangle \\
+0 & 0 & . & . & .\\
+0 & 0 & . & . & .\\
+0 & 0 & 0 & 0 & ||b_{i}-\stackrel[j=1]{j-1}{\sum}\left\langle b_{i},v_{j}\right\rangle v_{j}||
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $A=QR$
+\end_inset
+
+ בהתאמה לאיור לעיל, וקיבלנו מטריצה עם עמודות אורתונורמליות, אזי לפי משפט
+ מההרצאה מתקיים 
+\begin_inset Formula $Q^{*}Q=QQ^{*}=\mathbb{I}$
+\end_inset
+
+ כלומר היא אוניטארית.
+ 
+\begin_inset Formula $R$
+\end_inset
+
+ היא משולשת עליונה הפיכה, כי הנורמות חיוביות ממש כי 
+\begin_inset Formula $b_{i}\ne0$
+\end_inset
+
+,
+\begin_inset Formula $\forall i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+לפי משפט כל מ"פ ניתנת לייצוג על ידי מטריצה מייצגת כך שמתקיים 
+\begin_inset Formula $\left(\left[A\right]\right)_{ij}=\left\langle v_{j},v_{i}\right\rangle $
+\end_inset
+
+.
+ אזי במקרה זה 
+\begin_inset Formula $f\left(x,y\right)=x_{1}y_{1}+x_{2}y_{2}+x_{3}y_{3}+ax_{2}y_{3}+ax_{3}y_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן
+\begin_inset Formula 
+\[
+A=\left(\begin{array}{ccc}
+1 & 0 & 0\\
+0 & 1 & a\\
+0 & a & 1
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבדוק תכונת חיוביות לחלוטין.
+ יהא 
+\begin_inset Formula $\vec{x}=\left(\begin{array}{c}
+x_{1}\\
+x_{2}\\
+x_{3}
+\end{array}\right)\neq0\in\mathbb{R}^{3}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left(\begin{array}{ccc}
+x_{1} & x_{2} & x_{3}\end{array}\right)\left(\begin{array}{ccc}
+1 & 0 & 0\\
+0 & 1 & a\\
+0 & a & 1
+\end{array}\right)\left(\begin{array}{c}
+x_{1}\\
+x_{2}\\
+x_{3}
+\end{array}\right)=\left(\begin{array}{ccc}
+x_{1} & x_{2} & x_{3}\end{array}\right)\left(\begin{array}{c}
+x_{1}\\
+x_{2}+ax_{3}\\
+ax_{2}+x_{3}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=x_{1}^{2}+x_{2}^{2}+2ax_{2}x_{3}+x_{3}^{2}\underbrace{\geq}_{if\,\left|a\right|\leq1}x_{1}^{2}+\left(x_{2}+ax_{3}\right)^{2}\underbrace{>}_{\exists x_{i}>0}0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבדוק מתי 
+\begin_inset Formula $A$
+\end_inset
+
+ הפיכה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|A\right|=\left|\begin{array}{cc}
+1 & a\\
+a & 1
+\end{array}\right|=1-a^{2}\underbrace{\neq}_{iff\,a\neq1}0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $A$
+\end_inset
+
+אינה הפיכה אז בוודאי שאינה חיובית לחלוטין כי אז קיים 
+\begin_inset Formula $x\neq\vec{0}$
+\end_inset
+
+ המקיים 
+\begin_inset Formula $Ax=0$
+\end_inset
+
+ אז בוודאי 
+\begin_inset Formula $x^{t}Ax=0$
+\end_inset
+
+.
+ סתירה להגדרה.
+\end_layout
+
+\begin_layout Standard
+אז התנאי הוא 
+\begin_inset Formula $\left|a\right|<1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ב.
+ יהא 
+\begin_inset Formula $V$
+\end_inset
+
+ ממ"פ סוף מימדי מעל 
+\begin_inset Formula $F=\mathbb{R},\mathbb{C}$
+\end_inset
+
+.
+ )מרחב אוקלידי או אוניטארי(.
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $v_{1},...,v_{m}\in V$
+\end_inset
+
+ וקטורים.
+\end_layout
+
+\begin_layout Standard
+נתבונן בביטוי 
+\begin_inset Formula 
+\[
+||v_{1}+...+v_{m}||^{2}=\left\langle v_{1}+...+v_{m},v_{1}+...+v_{m}\right\rangle \underbrace{=}_{linearity}=\stackrel[i=1]{m}{\sum}\stackrel[j=1]{m}{\sum}\left\langle v_{i},v_{j}\right\rangle \underbrace{\overbrace{=}}_{\left\langle v_{i},v_{j}\right\rangle =\begin{cases}
+||v_{i}||^{2} & i=j\\
+0 & i\neq j
+\end{cases}}^{orthogonality}\stackrel[i=1]{m}{\sum}\left||v_{i}|\right|^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+ג.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ ויהיו 
+\begin_inset Formula $v_{1},...,v_{m}\in V$
+\end_inset
+
+ וקטורים א"נ.
+ לפי גרם-שמידט נוכל להשלים לבסיס אורתונורמלי, 
+\begin_inset Formula $B=\left\{ v_{1},...,v_{m},u_{1},...,u_{n-m}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $\alpha_{i}=\left\langle v,v_{i}\right\rangle $
+\end_inset
+
+.
+ יהיו 
+\begin_inset Formula $\left\{ \beta_{1},...,\beta_{n}\right\} \subset F=\mathbb{R},\mathbb{C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+צ.ל.
+ 
+\begin_inset Formula $||v-\stackrel[i=1]{m}{\sum}\alpha v_{i}||\leq||v-\stackrel[i=1]{m}{\sum}\beta v_{i}||$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(*\right)||\stackrel[i=m+1]{n}{\sum}\beta_{i}u_{i}||\iff||\stackrel[i=m+1]{n}{\sum}\alpha_{i}u_{i}||\leq||||\iff||\stackrel[i=m+1]{n}{\sum}\alpha_{i}u_{i}||^{2}\leq||\stackrel[i=m+1]{n}{\sum}\beta_{i}u_{i}||^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||v-\stackrel[i=1]{m}{\sum}\alpha_{i}v_{i}||\underbrace{=}_{v=\sum\left\langle v,v_{i}\right\rangle v_{i}}||\stackrel[i=1]{n}{\sum}\alpha_{i}v_{i}-\stackrel[j=1]{m}{\sum}\beta_{j}u_{j}||=||\stackrel[i=m+1]{n}{\sum}\alpha_{i}u_{i}||^{2}\underbrace{=}_{Pythogaras's\,theorem}\stackrel[i=m+1]{n}{\sum}||\alpha_{i}u_{i}||^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\underbrace{=}_{norm\,properties}\stackrel[i=m+1]{n}{\sum}\left|\alpha_{i}\right|^{2}||u_{i}||^{2}=\stackrel[i=m+1]{n}{\sum}\left|\left\langle v,u_{i}\right\rangle \right|^{2}||u_{i}||^{2}\underbrace{=}_{ortho.\,basis}\stackrel[i=m+1]{n}{\sum}\left|\left\langle v,u_{i}\right\rangle \right|^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+||v-\stackrel[j=1]{m}{\sum}\beta_{j}v_{j}||=||\stackrel[i=1]{n}{\sum}\alpha_{i}v_{i}-\stackrel[j=1]{m}{\sum}\beta_{j}u_{j}||=||\stackrel[i=1]{m}{\sum}\left(\alpha_{i}-\beta_{i}\right)v_{i}+\stackrel[j=m+1]{n}{\sum}\alpha_{j}u_{j}||
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\underbrace{=}_{Pythogaras's\,theorem}\stackrel[i=1]{m}{\sum}||\left(\alpha_{i}-\beta_{i}\right)v_{i}||+\stackrel[j=m+1]{n}{\sum}||\alpha_{j}u_{j}||\underbrace{=}_{ortho.\,basis}\stackrel[i=1]{m}{\sum}\left|\left(\alpha_{i}-\beta_{i}\right)\right|^{2}+\stackrel[i=m+1]{n}{\sum}\left|\left\langle v,u_{i}\right\rangle \right|^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula 
+\[
+||v-\stackrel[i=1]{m}{\sum}\alpha v_{i}||\leq||v-\stackrel[i=1]{m}{\sum}\beta v_{i}||
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $V$
+\end_inset
+
+ מ"ו מעל 
+\begin_inset Formula $F=\mathbb{R},\mathbb{C}$
+\end_inset
+
+ ו-
+\begin_inset Formula $W\subseteq V$
+\end_inset
+
+ תת-קבוצה.
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $A\left(W\right)=\left\{ f\in V^{*}|\forall w\in W\,:\,f\left(w\right)=0\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+א.
+ 
+\end_layout
+
+\begin_layout Enumerate
+עבור איבר ה-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של 
+\begin_inset Formula $V*$
+\end_inset
+
+)פונקציונל ה-
+\numeric on
+0
+\numeric off
+(.
+ 
+\begin_inset Formula $\forall W\subseteq V\,|\,o\in A\left(W\right)$
+\end_inset
+
+ כי 
+\begin_inset Formula $\forall w\in V\,:\,0\left(w\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+סגירות לחיבור- יהיו 
+\begin_inset Formula $f_{i},f_{j}\in A\left(W\right)$
+\end_inset
+
+.
+ אזי מתקיים 
+\begin_inset Formula $f_{i}\left(w\right)+f_{j}\left(w\right)=0+0=0$
+\end_inset
+
+ לכן 
+\begin_inset Formula $f_{i}+f_{j}\in A\left(W\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+סגירות לכפל בסקלר- יהא 
+\begin_inset Formula $\alpha\in F$
+\end_inset
+
+, 
+\begin_inset Formula $f_{i}\in A\left(W\right)$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $\forall w\in W\,:\:\alpha f_{i}\left(w\right)=\alpha0=0$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+ב.
+ נניח 
+\begin_inset Formula $W'\subseteq W$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $a\in A\left(W\right)$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $\forall w\in W\,:\,a\left(w\right)=0$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $\forall w'\in W'\::\:a\left(w'\right)=0$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $a\in A\left(W'\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $A\left(W\right)\subseteq A\left(W'\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ג.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $U,V\subseteq V$
+\end_inset
+
+.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $a\in A\left(U+W\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\forall x\in U+W\::\:a\left(x\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\forall u\in U\,:\,a\left(u\right)=0$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\forall w\in W\,:\,a\left(w\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $a\in A\left(W\right)\cap A\left(U\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $A\left(U+W\right)\subseteq A\left(U\right)\cap A\left(W\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $b\in A\left(W\right)\cap A\left(U\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\forall w\in W\,:\,b\left(w\right)=0$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\forall u\in U\,:\,b\left(u\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $\forall x\in U+W\,:\:b\left(x\right)=0\Rightarrow b\in A\left(U+W\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לסיכום, 
+\begin_inset Formula $A\left(U+W\right)=A\left(U\right)\cap A\left(W\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+מעתה נניח ש-
+\begin_inset Formula $V$
+\end_inset
+
+ הוא סוף מימדי.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $B_{V}=\left\{ v_{1},...,v_{n}\right\} $
+\end_inset
+
+
+\begin_inset Formula $B_{V^{*}}=\left\{ f_{1},...,f_{n}\right\} $
+\end_inset
+
+ עבור 
+\begin_inset Formula $f_{i}\left(v_{j}\right)=\delta_{ij}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ד.
+ 
+\begin_inset Formula $\dim V\underbrace{=}_{\left|B_{V^{*}}\right|=\left|B_{V}\right|}\dim V^{*}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $W=span\left\{ v_{i},...,v_{j}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וכן 
+\begin_inset Formula $A\left(W\right)=span\left\{ B_{V^{*}}\backslash\left\{ f_{i},...,f_{j}\right\} \right\} $
+\end_inset
+
+ .
+ )שים לב לאינדקסים(
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $\dim A\left(W\right)=\dim\left\{ B_{V^{*}}\backslash\left\{ f_{i},...,f_{j}\right\} \right\} =\left|B_{V^{*}}\right|-\left|\left\{ f_{i},...,f_{j}\right\} \right|=\dim V^{*}-\dim W=\dim V-\dim W$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ה.
+ נוכיח שוויון מימדים,
+\end_layout
+
+\begin_layout Standard
+נעזר בבסיסים שהגדרנו לעיל,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A\left(U\cap W\right)=span\left\{ B_{V^{*}}\backslash\left\{ f_{i},...,f_{j}\right\} \right\} =span\left\{ B_{V^{*}}\backslash\left\{ f_{i},...,f_{j},f_{u_{1}}...,f_{u_{l}}\right\} \right\} \cup span\left\{ B_{V^{*}}\backslash\left\{ f_{i},...,f_{j},f_{w_{1}}...,f_{w_{g}}\right\} \right\} =A\left(U\right)+A\left(W\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מ.ְש.ל.
+\end_layout
+
+\begin_layout Standard
+ו.
+ נניח 
+\begin_inset Formula $V=U\oplus W$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבחר בסיס 
+\begin_inset Formula $B=\left\{ u_{1},...,u_{k},v_{1},...,v_{n-k}\right\} $
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $u_{i}\in U,w_{i}\in W$
+\end_inset
+
+.
+ נגדיר 
+\begin_inset Formula $B_{V^{*}}=\left\{ f_{1},...,f_{n}\right\} $
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $f_{i}\left(c_{j}\right)=\delta_{ij}$
+\end_inset
+
+
+\begin_inset Formula $c_{j}\in B,$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A\left(U\right)=\left\{ f\in V^{*}\,|\,\forall u\in U\quad f\left(u\right)=0\right\} =span\left\{ B_{V^{*}}\backslash\left\{ f_{1},....,f_{k}\right\} \right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+A\left(W\right)=\left\{ f\in V^{*}\,|\,\forall u\in W\quad f\left(u\right)=0\right\} =span\left\{ B_{V^{*}}\backslash\left\{ f_{k+1},...,f_{n}\right\} \right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז ש
+\begin_inset Formula 
+\[
+A\left(W\right)\oplus A\left(U\right)=span\left\{ B_{V^{*}}\right\} =V^{*}
+\]
+
+\end_inset
+
+ז.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\subseteq V^{*}$
+\end_inset
+
+.
+ נגדיר 
+\begin_inset Formula $a\left(X\right)=\left\{ v\in V\,|\,f\in X\,:\,f\left(v\right)=0\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה שזהו תת-מרחב וקטורי של 
+\begin_inset Formula $V$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+איבר ה-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של 
+\begin_inset Formula $V$
+\end_inset
+
+ הוא איבר של 
+\begin_inset Formula $a\left(X\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\forall f\in X\,:\:f\left(0\right)=0$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $0\in a\left(X\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+סגירות לחיבור וכפל בסקלר- 
+\begin_inset Formula $\left(f+g\right)\left(\alpha v\right)=\alpha f\left(v\right)+\alpha g\left(v\right)=0\Rightarrow v\in a\left(X\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $W\subseteq V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתבונן במ"ו 
+\begin_inset Formula $a\left(A\left(W\right)\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a\left(A\left(W\right)\right)=a\left(\left\{ f\in V^{*}\,|\,\forall w\in W\,:\,f\left(w\right)=0\right\} \right)=\left\{ v\in V\,|\,\forall f\in\left\{ f\in V^{*}\,|\,\forall w\in W\,:\,f\left(w\right)=0\right\} \,:\:f\left(v\right)=0\right\} =span\,W
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נימוק:
+\bar default
+ נתהונן בקבוצת כל הפונקציונלים שכל איברי 
+\begin_inset Formula $W$
+\end_inset
+
+ מאפסים אותם.
+ אז אם נתבונן בקבוצת כל איברי 
+\begin_inset Formula $W$
+\end_inset
+
+ שמתאפסים באמצעות פונקציונל כלשהו מ-
+\begin_inset Formula $V^{*}$
+\end_inset
+
+ נקבל את המ"ו הנפרש על ידי 
+\begin_inset Formula $W$
+\end_inset
+
+ כי אם נחבר או נכפול בסקלר את איברים אלו נשאר ב-
+\begin_inset Formula $W$
+\end_inset
+
+ ואיבר ה-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בוודאי נמצא שם.
+\end_layout
+
+\end_body
+\end_document

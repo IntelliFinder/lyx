@@ -1,0 +1,3756 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תורת הקבוצות-
+\numeric on
+104290
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+גליון
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Author
+שניר הורדן
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+205689581
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $x,y,z\in\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+רפלקסיביות- עבור 
+\begin_inset Formula $k=1\in\mathbb{N}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $x=x^{1}$
+\end_inset
+
+.
+ לכן מתקיים 
+\begin_inset Formula $x\leq x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+אנטי-סימטריות- נניח 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ וגם 
+\begin_inset Formula $y\leq x$
+\end_inset
+
+.
+ אז קיימים 
+\begin_inset Formula $k_{1},k_{2}\in\mathbb{N}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $y=x^{k_{1}}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x=y^{k_{2}}$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $y=y^{k_{2}^{k_{1}}}=y^{k_{1}\times k_{2}}$
+\end_inset
+
+ אזי 
+\begin_inset Formula $k_{1}\times k_{2}=1$
+\end_inset
+
+ מאחר ושניהם טבעיים מתקיים 
+\begin_inset Formula $k_{1}=k_{2}=1$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $x=y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+טרנזיטיביות- נניח 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ וגם 
+\begin_inset Formula $y\leq z$
+\end_inset
+
+ .
+ אזי 
+\begin_inset Formula $y=x^{k_{1}}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $z=y^{k_{2}}$
+\end_inset
+
+, עבור 
+\begin_inset Formula $k_{1},k_{2}\in\mathbb{N}$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $z=x^{k_{1}\times k_{2}}$
+\end_inset
+
+.
+ אזי עבור 
+\begin_inset Formula $k=k_{1}\times k_{2}\in\mathbb{N}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $z=x^{k}$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $x\leq z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+\bar under
+איברים מקסימליים
+\backslash
+גדולים ביותר
+\bar default
+ 
+\bar under
+-
+\bar default
+
+\begin_inset Formula $\forall n\in\mathbb{N}\left(n^{0}=1\right)$
+\end_inset
+
+אז
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ ניתן להשוואה עם כל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ ומקיים 
+\begin_inset Formula $n\leq1$
+\end_inset
+
+.
+ אז הוא הגדול ביותר.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיים איבר מקסימלי שאינו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\begin_inset Formula $1,0\neq m\in\mathbb{N}$
+\end_inset
+
+.
+ כלומר, לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $n\leq m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אך 
+\begin_inset Formula $m^{2}\in\mathbb{N}$
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula $m\leq m^{2}$
+\end_inset
+
+.
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+איברים מינימליים-
+\begin_inset Formula $\left\{ n\in\mathbb{N}|n\neq1,\forall k\in\mathbb{N}\left(^{k}\sqrt{n}\in\mathbb{R\backslash\mathbb{N}}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+איבר קטן ביותר-
+\bar default
+לא קיים כי קיימים מספר איברים מינימליים כך שאין איבר הקטן ממש מהם.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ תהא 
+\begin_inset Formula $\left(A,\leq\right)$
+\end_inset
+
+ קבוצה סדורה בסדר מלא.
+\end_layout
+
+\begin_layout Standard
+נניח שלכל 
+\begin_inset Formula $\emptyset\neq B\subseteq A$
+\end_inset
+
+ חסומה מלעיל קיים חסם עליון, כלומר קיים איבר מינימלי בקבוצה 
+\begin_inset Formula $\left\{ a\in A|\forall b\in B\left(b\leq a\right)\right\} $
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $\emptyset\neq B\subseteq A$
+\end_inset
+
+חסומה מלרע.
+ 
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצה 
+\begin_inset Formula $\emptyset\neq C=\left\{ a\in A|\forall b\in B\left(a\leq b\right)\right\} \subseteq A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+זו קבוצה חסומה מלעיל על ידי האיבר הראשון ב-
+\begin_inset Formula $B$
+\end_inset
+
+ שקיים כי 
+\begin_inset Formula $A$
+\end_inset
+
+ סדורה היטב.
+ 
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה, לקבוצה זו קיים חסם עליון 
+\begin_inset Formula $c\in C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c$
+\end_inset
+
+ הוא החסם התחתון של 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\begin_inset Formula $[0,1]$
+\end_inset
+
+.
+ לכל תת-קבוצה חסומה ולא ריקה קיים חסם עליון.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A$
+\end_inset
+
+ קבוצה ויהי 
+\begin_inset Formula $R$
+\end_inset
+
+ יחס סדר חלקי מעל 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $F$
+\end_inset
+
+ משפחה של יחסי סדר מעל 
+\begin_inset Formula $A$
+\end_inset
+
+ המרחיבים את 
+\begin_inset Formula $R$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+\begin_inset Formula $F\neq\emptyset$
+\end_inset
+
+ כי 
+\begin_inset Formula $R$
+\end_inset
+
+ מרחיב את עצמו באופן ריק.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.עלינו להראות שלכל שרשרת קיים חסם מלעיל.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $T=\bigcup C_{i}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ היא שרשרת של יחסי סדר חלקיים המרחיבים את 
+\begin_inset Formula $R$
+\end_inset
+
+ ביחס ההכלה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.נראה שמתקיים 
+\begin_inset Formula $T\in F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתבונן בתכונות של 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $T\subseteq A$
+\end_inset
+
+ ומקיים
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.רפלקסיביות-לכל איבר 
+\begin_inset Formula $x\in T$
+\end_inset
+
+ קיים 
+\begin_inset Formula $j\in I$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $x\in C_{j}$
+\end_inset
+
+ ומתקיים שם 
+\begin_inset Formula $x\leq x$
+\end_inset
+
+ כי 
+\begin_inset Formula $C_{j}$
+\end_inset
+
+ הוא קס"ִח.
+ בפרט, 
+\begin_inset Formula $C_{j}\subseteq T$
+\end_inset
+
+ אז תכונה זו מתקיימת גם ב-
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ טרנזיטיביות-יהיו 
+\begin_inset Formula $x,y,z\in T$
+\end_inset
+
+.נניח שמתקיים 
+\begin_inset Formula $x\leq y\land y\leq z$
+\end_inset
+
+.
+ אזי קיימים 
+\begin_inset Formula $i,j,k\in I$
+\end_inset
+
+ ושרשראות בה"כ 
+\begin_inset Formula $C_{k}\subseteq C_{k}\subseteq C_{i}$
+\end_inset
+
+ .כך ש-
+\begin_inset Formula $x,y\in C_{j}\Rightarrow x\leq y$
+\end_inset
+
+, 
+\begin_inset Formula $y,z\in C_{k}\Rightarrow y\leq z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי קיים 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ המרחיב את 
+\begin_inset Formula $C_{k}$
+\end_inset
+
+ המקיים 
+\begin_inset Formula $x\leq z$
+\end_inset
+
+ .
+ 
+\begin_inset Formula $C_{i}\subseteq T$
+\end_inset
+
+ אז זה מתקיים גם ב-
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+ אנטי-סימטריות- יהיו 
+\begin_inset Formula $x,y\in T$
+\end_inset
+
+קיים 
+\begin_inset Formula $j\in I$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $x,y\in C_{j}$
+\end_inset
+
+ ומתקיים שם 
+\begin_inset Formula $x\leq y\land y\leq x\Rightarrow x=y$
+\end_inset
+
+.
+ מאחר ו-
+\begin_inset Formula $C_{j}\subseteq T$
+\end_inset
+
+ זה מתקיים ב-
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אנו עונים על תכונות קס"ח אז 
+\begin_inset Formula $T$
+\end_inset
+
+ היא קס"ח המרחיב את 
+\begin_inset Formula $R$
+\end_inset
+
+ אז הוא שייך ל-
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+.לפי הלמה של צורן קיים איבר מקסימלי ביחס להכלה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+5
+\numeric off
+.איבר מקסימלי זה הוא יחס סדר מלא.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+הוכחנו ש-
+\begin_inset Formula $T\in F$
+\end_inset
+
+ אז הוא יחס סדר חלקי.
+ נותר להוכיח שכל שני איברים ב-
+\begin_inset Formula $T$
+\end_inset
+
+ ניתנים להשוואה.
+\end_layout
+
+\begin_layout Standard
+עלינו להוכיח 
+\begin_inset Formula $\forall x,y\in T$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ או 
+\begin_inset Formula $y\leq x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $x,y\in T$
+\end_inset
+
+.
+ קיים איזשהו יחס סדר חלקי מעל 
+\begin_inset Formula $A$
+\end_inset
+
+ המרחיב את 
+\begin_inset Formula $R$
+\end_inset
+
+כך ש- 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ או 
+\begin_inset Formula $y\leq x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמנו 
+\begin_inset Formula $C_{\alpha}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $T$
+\end_inset
+
+ הוא מקסימלי ביחס ההכלה אז בהכרח 
+\begin_inset Formula $C_{\alpha}\subset T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $x$
+\end_inset
+
+ ו-
+\begin_inset Formula $y$
+\end_inset
+
+ ניתנים להשוואה.
+ אזי 
+\begin_inset Formula $T$
+\end_inset
+
+ הוא יחס סדר 
+\series bold
+מלא
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $X$
+\end_inset
+
+ קבוצה ו-
+\begin_inset Formula $A=2^{X}$
+\end_inset
+
+ עם יחס הסדר 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ הרגיל.
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $x,y\in A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצה 
+\begin_inset Formula $\left\{ x,y\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\bar default
+בה"כ
+\bar under
+ 
+\begin_inset Formula $x\subseteq y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז מתקיים 
+\begin_inset Formula $x\leq x$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ לכן 
+\begin_inset Formula $x$
+\end_inset
+
+ חסם תחתון של 
+\begin_inset Formula $\left\{ x,y\right\} $
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+באופן דומה 
+\begin_inset Formula $y$
+\end_inset
+
+ חסם עליון של 
+\begin_inset Formula $\left\{ x,y\right\} $
+\end_inset
+
+.נגדיר
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\bar default
+קיימים 
+\begin_inset Formula $t_{i}\in X$
+\end_inset
+
+ כך שבה"כ 
+\begin_inset Formula $t\in x$
+\end_inset
+
+ אך 
+\begin_inset Formula $t\notin y$
+\end_inset
+
+ או
+\backslash
+וגם להפך.
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצה 
+\begin_inset Formula $x\backslash\left\{ t_{1}...t_{n}\right\} $
+\end_inset
+
+ אז מתקיים 
+\begin_inset Formula $x\backslash\left\{ t_{1},...,t_{n}\right\} \subseteq y$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+באופן דומה אפשר להתבונן בקבוצה 
+\begin_inset Formula $y\backslash\left\{ t_{1},...,t_{n}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז קיבלנו קבוצה שהיא חסם תחתון.
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצה 
+\begin_inset Formula $y\cup\left\{ t_{1},...,t_{2}\right\} $
+\end_inset
+
+.
+ זהו החסם העליון המבוקש.
+ )או להפך עם 
+\begin_inset Formula $x$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+כל מקרה
+\family roman
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ הוא פירוט על פעולות האיחוד וחיתוך.
+\end_layout
+
+\begin_layout Standard
+כעת, נניח בשלילה שהוא לא החסם מלעיל הקטן ביותר.
+ אזי קיימת קבוצה מגודל קטן ממנו המקיימת זו.
+ אך אם נוריד איבר נקבל שאחת הקבוצות 
+\begin_inset Formula $x$
+\end_inset
+
+ או 
+\begin_inset Formula $y$
+\end_inset
+
+ אינה מוכלת בו.
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $Meet$
+\end_inset
+
+-חיתוך בין הקבוצות
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $Join$
+\end_inset
+
+-איחוד בין הקבוצות
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $A=\mathbb{N}$
+\end_inset
+
+ ופעולת 
+\begin_inset Formula $|$
+\end_inset
+
+ המוגדר על ידי חלוקה.
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $x,y\in A$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+נגדיר:
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $Meet$
+\end_inset
+
+-
+\begin_inset Formula $LCD$
+\end_inset
+
+ של 
+\begin_inset Formula $x$
+\end_inset
+
+ ו-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+x
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $Join$
+\end_inset
+
+-
+\begin_inset Formula $LCM$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+אז קיימים חסם עליון ותחתון עבור כל 
+\begin_inset Formula $\left\{ x,y\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+1
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $x,y,z\in\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+רפלקסיביות- עבור 
+\begin_inset Formula $k=1\in\mathbb{N}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $x=x^{1}$
+\end_inset
+
+.
+ לכן מתקיים 
+\begin_inset Formula $x\leq x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+אנטי-סימטריות- נניח 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ וגם 
+\begin_inset Formula $y\leq x$
+\end_inset
+
+.
+ אז קיימים 
+\begin_inset Formula $k_{1},k_{2}\in\mathbb{N}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $y=x^{k_{1}}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x=y^{k_{2}}$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $y=y^{k_{2}^{k_{1}}}=y^{k_{1}\times k_{2}}$
+\end_inset
+
+ אזי 
+\begin_inset Formula $k_{1}\times k_{2}=1$
+\end_inset
+
+ מאחר ושניהם טבעיים מתקיים 
+\begin_inset Formula $k_{1}=k_{2}=1$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $x=y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+טרנזיטיביות- נניח 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ וגם 
+\begin_inset Formula $y\leq z$
+\end_inset
+
+ .
+ אזי 
+\begin_inset Formula $y=x^{k_{1}}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $z=y^{k_{2}}$
+\end_inset
+
+, עבור 
+\begin_inset Formula $k_{1},k_{2}\in\mathbb{N}$
+\end_inset
+
+.
+ אזי 
+\begin_inset Formula $z=x^{k_{1}\times k_{2}}$
+\end_inset
+
+.
+ אזי עבור 
+\begin_inset Formula $k=k_{1}\times k_{2}\in\mathbb{N}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $z=x^{k}$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $x\leq z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+\bar under
+איברים מקסימליים
+\backslash
+גדולים ביותר
+\bar default
+ 
+\bar under
+-
+\bar default
+
+\begin_inset Formula $\forall n\in\mathbb{N}\left(n^{0}=1\right)$
+\end_inset
+
+אז
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ ניתן להשוואה עם כל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ ומקיים 
+\begin_inset Formula $n\leq1$
+\end_inset
+
+.
+ אז הוא הגדול ביותר.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיים איבר מקסימלי שאינו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\begin_inset Formula $1,0\neq m\in\mathbb{N}$
+\end_inset
+
+.
+ כלומר, לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $n\leq m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אך 
+\begin_inset Formula $m^{2}\in\mathbb{N}$
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula $m\leq m^{2}$
+\end_inset
+
+.
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+איברים מינימליים-
+\begin_inset Formula $\left\{ n\in\mathbb{N}|n\neq1,\forall k\in\mathbb{N}\left(^{k}\sqrt{n}\in\mathbb{R\backslash\mathbb{N}}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+איבר קטן ביותר-
+\bar default
+לא קיים כי קיימים מספר איברים מינימליים כך שאין איבר הקטן ממש מהם.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+2
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ תהא 
+\begin_inset Formula $\left(A,\leq\right)$
+\end_inset
+
+ קבוצה סדורה בסדר מלא.
+\end_layout
+
+\begin_layout Standard
+נניח שלכל 
+\begin_inset Formula $\emptyset\neq B\subseteq A$
+\end_inset
+
+ חסומה מלעיל קיים חסם עליון, כלומר קיים איבר מינימלי בקבוצה 
+\begin_inset Formula $\left\{ a\in A|\forall b\in B\left(b\leq a\right)\right\} $
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $\emptyset\neq B\subseteq A$
+\end_inset
+
+חסומה מלרע.
+ 
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצה 
+\begin_inset Formula $\emptyset\neq C=\left\{ a\in A|\forall b\in B\left(a\leq b\right)\right\} \subseteq A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+זו קבוצה חסומה מלעיל על ידי האיבר הראשון ב-
+\begin_inset Formula $B$
+\end_inset
+
+ שקיים כי 
+\begin_inset Formula $A$
+\end_inset
+
+ סדורה היטב.
+ 
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה, לקבוצה זו קיים חסם עליון 
+\begin_inset Formula $c\in C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c$
+\end_inset
+
+ הוא החסם התחתון של 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\begin_inset Formula $[0,1]$
+\end_inset
+
+.
+ לכל תת-קבוצה חסומה ולא ריקה קיים חסם עליון.
+ הקבוצה סופית לכן כל תת-קבוצה שלה היא חסומה וקיים לה סופרמום )מאינפי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+(.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A$
+\end_inset
+
+ קבוצה ויהי 
+\begin_inset Formula $R$
+\end_inset
+
+ יחס סדר חלקי מעל 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $F$
+\end_inset
+
+ משפחה של יחסי סדר מעל 
+\begin_inset Formula $A$
+\end_inset
+
+ המרחיבים את 
+\begin_inset Formula $R$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+\begin_inset Formula $F\neq\emptyset$
+\end_inset
+
+ כי 
+\begin_inset Formula $R$
+\end_inset
+
+ מרחיב את עצמו באופן ריק.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.עלינו להראות שלכל שרשרת קיים חסם מלעיל.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $T=\bigcup C_{i}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ היא שרשרת של יחסי סדר חלקיים המרחיבים את 
+\begin_inset Formula $R$
+\end_inset
+
+ ביחס ההכלה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.נראה שמתקיים 
+\begin_inset Formula $T\in F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתבונן בתכונות של 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $T\subseteq A$
+\end_inset
+
+ ומקיים
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.רפלקסיביות-לכל איבר 
+\begin_inset Formula $x\in T$
+\end_inset
+
+ קיים 
+\begin_inset Formula $j\in I$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $x\in C_{j}$
+\end_inset
+
+ ומתקיים שם 
+\begin_inset Formula $x\leq x$
+\end_inset
+
+ כי 
+\begin_inset Formula $C_{j}$
+\end_inset
+
+ הוא קס"ִח.
+ בפרט, 
+\begin_inset Formula $C_{j}\subseteq T$
+\end_inset
+
+ אז תכונה זו מתקיימת גם ב-
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ טרנזיטיביות-יהיו 
+\begin_inset Formula $x,y,z\in T$
+\end_inset
+
+.נניח שמתקיים 
+\begin_inset Formula $x\leq y\land y\leq z$
+\end_inset
+
+.
+ אזי קיימים 
+\begin_inset Formula $i,j,k\in I$
+\end_inset
+
+ ושרשראות בה"כ 
+\begin_inset Formula $C_{k}\subseteq C_{k}\subseteq C_{i}$
+\end_inset
+
+ .כך ש-
+\begin_inset Formula $x,y\in C_{j}\Rightarrow x\leq y$
+\end_inset
+
+, 
+\begin_inset Formula $y,z\in C_{k}\Rightarrow y\leq z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי קיים 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ המרחיב את 
+\begin_inset Formula $C_{k}$
+\end_inset
+
+ המקיים 
+\begin_inset Formula $x\leq z$
+\end_inset
+
+ .
+ 
+\begin_inset Formula $C_{i}\subseteq T$
+\end_inset
+
+ אז זה מתקיים גם ב-
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+ אנטי-סימטריות- יהיו 
+\begin_inset Formula $x,y\in T$
+\end_inset
+
+קיים 
+\begin_inset Formula $j\in I$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $x,y\in C_{j}$
+\end_inset
+
+ ומתקיים שם 
+\begin_inset Formula $x\leq y\land y\leq x\Rightarrow x=y$
+\end_inset
+
+.
+ מאחר ו-
+\begin_inset Formula $C_{j}\subseteq T$
+\end_inset
+
+ זה מתקיים ב-
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אנו עונים על תכונות קס"ח אז 
+\begin_inset Formula $T$
+\end_inset
+
+ היא קס"ח המרחיב את 
+\begin_inset Formula $R$
+\end_inset
+
+ אז הוא שייך ל-
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+.לפי הלמה של צורן קיים איבר מקסימלי ביחס להכלה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+5
+\numeric off
+.איבר מקסימלי זה הוא יחס סדר מלא.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+הוכחנו ש-
+\begin_inset Formula $T\in F$
+\end_inset
+
+ אז הוא יחס סדר חלקי.
+ נותר להוכיח שכל שני איברים ב-
+\begin_inset Formula $T$
+\end_inset
+
+ ניתנים להשוואה.
+\end_layout
+
+\begin_layout Standard
+עלינו להוכיח 
+\begin_inset Formula $\forall x,y\in T$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ או 
+\begin_inset Formula $y\leq x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $x,y\in T$
+\end_inset
+
+.
+ קיים איזשהו יחס סדר חלקי מעל 
+\begin_inset Formula $A$
+\end_inset
+
+ המרחיב את 
+\begin_inset Formula $R$
+\end_inset
+
+כך ש- 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ או 
+\begin_inset Formula $y\leq x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמנו 
+\begin_inset Formula $C_{\alpha}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $T$
+\end_inset
+
+ הוא מקסימלי ביחס ההכלה אז בהכרח 
+\begin_inset Formula $C_{\alpha}\subset T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $x$
+\end_inset
+
+ ו-
+\begin_inset Formula $y$
+\end_inset
+
+ ניתנים להשוואה.
+ אזי 
+\begin_inset Formula $T$
+\end_inset
+
+ הוא יחס סדר 
+\series bold
+מלא
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $X$
+\end_inset
+
+ קבוצה ו-
+\begin_inset Formula $A=2^{X}$
+\end_inset
+
+ עם יחס הסדר 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ הרגיל.
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $x,y\in A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצה 
+\begin_inset Formula $\left\{ x,y\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\bar default
+בה"כ
+\bar under
+ 
+\begin_inset Formula $x\subseteq y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז מתקיים 
+\begin_inset Formula $x\leq x$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+ לכן 
+\begin_inset Formula $x$
+\end_inset
+
+ חסם תחתון של 
+\begin_inset Formula $\left\{ x,y\right\} $
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+באופן דומה 
+\begin_inset Formula $y$
+\end_inset
+
+ חסם עליון של 
+\begin_inset Formula $\left\{ x,y\right\} $
+\end_inset
+
+.נגדיר
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\bar default
+קיימים 
+\begin_inset Formula $t_{i}\in X$
+\end_inset
+
+ כך שבה"כ 
+\begin_inset Formula $t\in x$
+\end_inset
+
+ אך 
+\begin_inset Formula $t\notin y$
+\end_inset
+
+ או
+\backslash
+וגם להפך.
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצה 
+\begin_inset Formula $x\backslash\left\{ t_{1}...t_{n}\right\} $
+\end_inset
+
+ אז מתקיים 
+\begin_inset Formula $x\backslash\left\{ t_{1},...,t_{n}\right\} \subseteq y$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+באופן דומה אפשר להתבונן בקבוצה 
+\begin_inset Formula $y\backslash\left\{ t_{1},...,t_{n}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז קיבלנו קבוצה שהיא חסם תחתון.
+\end_layout
+
+\begin_layout Standard
+נתבונן בקבוצה 
+\begin_inset Formula $y\cup\left\{ t_{1},...,t_{2}\right\} $
+\end_inset
+
+.
+ זהו החסם העליון המבוקש.
+ )או להפך עם 
+\begin_inset Formula $x$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+כל מקרה
+\family roman
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ הוא פירוט על פעולות האיחוד וחיתוך.
+\end_layout
+
+\begin_layout Standard
+כעת, נניח בשלילה שהוא לא החסם מלעיל הקטן ביותר.
+ אזי קיימת קבוצה מגודל קטן ממנו המקיימת זו.
+ אך אם נוריד איבר נקבל שאחת הקבוצות 
+\begin_inset Formula $x$
+\end_inset
+
+ או 
+\begin_inset Formula $y$
+\end_inset
+
+ אינה מוכלת בו.
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $Meet$
+\end_inset
+
+-חיתוך בין הקבוצות
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $Join$
+\end_inset
+
+-איחוד בין הקבוצות
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $A=\mathbb{N}$
+\end_inset
+
+ ופעולת 
+\begin_inset Formula $|$
+\end_inset
+
+ המוגדר על ידי חלוקה.
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $x,y\in A$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $Meet$
+\end_inset
+
+-
+\begin_inset Formula $LCD$
+\end_inset
+
+ של 
+\begin_inset Formula $x$
+\end_inset
+
+ ו-
+\begin_inset Formula $y$
+\end_inset
+
+נגדיר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+x
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $Join$
+\end_inset
+
+-
+\begin_inset Formula $LCM$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+אז קיימים חסם עליון ותחתון עבור כל 
+\begin_inset Formula $\left\{ x,y\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+5
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+א.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהא 
+\begin_inset Formula $X$
+\end_inset
+
+ קבוצה.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $\leq$
+\end_inset
+
+ יחס בינארי מעל 
+\begin_inset Formula $X$
+\end_inset
+
+ שהוא רפלקסיבי וטרנזיטיבי )קדם סדר(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+רפלקסיביות-
+\bar default
+ 
+\begin_inset Formula $\forall x\in X\left(x\leq x\land x\geq x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סימטריות-
+\bar default
+ 
+\begin_inset Formula $\forall x.y\in X\left(x\leq y\land x\geq y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טרנזיטיביות- 
+\begin_inset Formula $\forall x,y,z\in X\left(x\leq z\land x\geq z|\left(x\leq y\land y\leq z\right)\land\left(x\geq y\land y\geq z\right)\iff x\equiv y,y\equiv z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז זה יחס שקילות
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+ב.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $A\triangleq X/\equiv$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+מוגדר היטב-
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $c\in\left[b\right]$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $c\leq b\land c\geq b$
+\end_inset
+
+ אז 
+\begin_inset Formula $b=c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן אם 
+\begin_inset Formula $\left[a\right]\leq_{A}\left[b\right]$
+\end_inset
+
+ אז גם 
+\begin_inset Formula $\forall d\in\left[a\right],c\in\left[b\right]\left(d\leq c\right)$
+\end_inset
+
+ ולהפך.
+\end_layout
+
+\begin_layout Standard
+סיימנו.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+יחס סדר חלקי-
+\end_layout
+
+\begin_layout Standard
+רפלקסיביות וטרנזיטיביות מכך ש-
+\begin_inset Formula $\left[a\right]\leq_{A}\left[a\right]$
+\end_inset
+
+ אםם 
+\begin_inset Formula $a\leq a$
+\end_inset
+
+ וזהו קדם סדר.
+\end_layout
+
+\begin_layout Standard
+אנטי-סימטריות- נניח 
+\begin_inset Formula $\left[x\right]\leq_{A}\left[y\right]\land\left[x\right]\geq_{A}\left[y\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $x\leq y\land x\geq y$
+\end_inset
+
+ לכל האיברים בקבוצות הנ"ל המתאימות לפי 
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+ אזי 
+\begin_inset Formula $x\equiv y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מאחר וזו תכונה מוגדרת היטב, אזי 
+\begin_inset Formula $x,y$
+\end_inset
+
+ הם נציגים שונים לאותה מחלקת שקילות, כלומר 
+\begin_inset Formula $\left[x\right]=\left[y\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+6
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\begin_inset Formula $f:\mathbb{Z}\to\mathbb{Q}$
+\end_inset
+
+ המוגדרת כך 
+\begin_inset Formula $f\left(x\right)=x$
+\end_inset
+
+.
+ זו פונקציה חח"ׁע השומרת סדר )הרגיל על 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ ו-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+לא קיימת פונקציה חח"ע שומרת סדר בין 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ ל-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיימת כזו.
+ 
+\end_layout
+
+\begin_layout Standard
+יהא
+\begin_inset Formula $x\in\mathbb{Z}$
+\end_inset
+
+ כך שעבור 
+\begin_inset Formula $q_{1},q_{2}\in\mathbb{Q}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $f\left(q_{1}\right)=x$
+\end_inset
+
+ ו-
+\begin_inset Formula $f\left(q_{2}\right)=x+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אלה קיימים כי העצמות של 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ ו-
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ זהות אז אם מאחר ו-
+\begin_inset Formula $f$
+\end_inset
+
+ מוגדרת לכל 
+\begin_inset Formula $q\in\mathbb{Q}$
+\end_inset
+
+ והיא חח"ע לכל 
+\begin_inset Formula $z\in\mathbb{Z}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $q_{0}\in\mathbb{Q}$
+\end_inset
+
+ כך ש-
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $f\left(q_{0}\right)=z$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+לפי תכונת הצפיפות של 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+, 
+\begin_inset Formula $\exists q\left(q_{1}<q<q_{2}\right)$
+\end_inset
+
+.
+ אזי מאחר ו-
+\begin_inset Formula $f$
+\end_inset
+
+ שומרת סדר 
+\begin_inset Formula $\exists z\left(x<z<x+1\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אך המספרים השלמים אינם צפופים.
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+\begin_inset Formula $f:\left(2^{\mathbb{N}},\subseteq\right)\to\left(\left[0,1\right],\leq\right)$
+\end_inset
+
+ המוגדרת כך:
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $x\in\left\{ 0,1\right\} ^{\mathbb{N}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נגדיר משקל כלשהו עבור כל קואורדינטה בסדרה הבינארית האינסופית 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ כך: 
+\begin_inset Formula $x_{n}=\frac{1}{2^{n+1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתבונן בביטוי 
+\begin_inset Formula $f\left(x\right)=\stackrel[n\in\mathbb{N}]{}{\sum}x_{i}$
+\end_inset
+
+ זה מגדיר פונקציה חח"ע ושומרת סדר כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\bar default
+קס"ִח.
+ בפרט, 
+\begin_inset Formula $C_{j}\subseteq T$
+\end_inset
+
+ אז תכונה זו מתקיימת 
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $x,y\in2^{\mathbb{N}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+חח"ע
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $x\neq y$
+\end_inset
+
+ נמפה אותם לצורה 
+\begin_inset Formula $\left\{ 0,1\right\} ^{\mathbb{N}}$
+\end_inset
+
+ ואז קיימת לפחות קואורדינטה אחת שונה ביניהם כלומר 
+\begin_inset Formula $\stackrel[n\in\mathbb{N}]{}{\sum}x_{i}\neq\stackrel[n\in\mathbb{N}]{}{\sum}y_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שומרת סדר
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $x\subseteq y$
+\end_inset
+
+ אז קיים איבר נוסף ב-
+\begin_inset Formula $y$
+\end_inset
+
+שאינו ב-
+\begin_inset Formula $x$
+\end_inset
+
+ או שהן שוות.
+ אם קיים איבר נוסף אז הסכום יגדל אם הן שוות הוא יהיה זהה.
+\end_layout
+
+\begin_layout Standard
+לכן, 
+\begin_inset Formula $f\left(x\right)\leq f\left(y\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.נגדיר 
+\begin_inset Formula $f:\left(0,1\right)\to\left[0,1\right]$
+\end_inset
+
+ , 
+\begin_inset Formula $g:\left[0,1\right]\to\left(0,1\right)$
+\end_inset
+
+ חח"ע ושומרות סדר.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x\right)=x
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+g\left(x\right)=\frac{x}{2}+\frac{1}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f$
+\end_inset
+
+ היא פונקציית הזהות אז בוודאי שומרת סדר וחח"ע.
+ 
+\begin_inset Formula $g$
+\end_inset
+
+ היא פונקציה חח"ע, על ושומרת סדר על 
+\begin_inset Formula $\left[\frac{1}{4},\frac{3}{4}\right]$
+\end_inset
+
+ אז בוודאי שחח"ע ושומרת סדר על 
+\begin_inset Formula $\left[\frac{1}{4},\frac{3}{4}\right]\subseteq\left(0,1\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+.
+ 
+\begin_inset Formula $\left[0,1\right]$
+\end_inset
+
+ ו-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+.
+ הסדר הרגיל על 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ שונה מהסדר הרגיל על 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+.
+ אילו הייתה קיימת פונקציה חח"ע ושומרת סדר מ-
+\begin_inset Formula $[0,1]$
+\end_inset
+
+ל-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ אז היינו מקבלים לפי משפט קנטור 
+\begin_inset Formula $\left|\mathbb{R}\right|\underbrace{=}_{axiom}\left|\left[0,1\right]\right|\leq\left|\mathbb{Z}\right|\Rightarrow\aleph\leq\aleph_{0}$
+\end_inset
+
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+אילו הייתה קיימת פונקציה חח"ע ושומרת סדר מ-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ ל-
+\begin_inset Formula $\left[0,1\right]$
+\end_inset
+
+אז עבור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ היה קיים 
+\begin_inset Formula $z\in\mathbb{Z}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $f\left(z\right)=0$
+\end_inset
+
+ .
+ לכל איבר ב-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ קיים קודם מיידי לכן קיים 
+\begin_inset Formula $z_{0}$
+\end_inset
+
+ כך שמתקיים 
+\begin_inset Formula $z_{0}\leq z$
+\end_inset
+
+.
+ אז מכך שהפונקציה שומרת סדר, 
+\begin_inset Formula $\exists r\in\left[0,1\right]\left(f\left(z_{0}\right)=r\land r\leq0\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אך הפונקציה חח"ׂע, אז 
+\begin_inset Formula $r<0$
+\end_inset
+
+ , סתירה.
+\end_layout
+
+\begin_layout Standard
+אז לא קיימת פונקציה חח"ע ושומרת סדר בין 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ ל-
+\begin_inset Formula $\left[0,1\right]$
+\end_inset
+
+ אז 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ לא ניתנת לשיכון בו.
+\end_layout
+
+\begin_layout Standard
+א.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+תהא 
+\begin_inset Formula $X$
+\end_inset
+
+ קבוצה.
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $\leq$
+\end_inset
+
+ יחס בינארי מעל 
+\begin_inset Formula $X$
+\end_inset
+
+ שהוא רפלקסיבי וטרנזיטיבי )קדם סדר(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+רפלקסיביות-
+\bar default
+ 
+\begin_inset Formula $\forall x\in X\left(x\leq x\land x\geq x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סימטריות-
+\bar default
+ 
+\begin_inset Formula $\forall x.y\in X\left(x\leq y\land x\geq y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טרנזיטיביות- 
+\begin_inset Formula $\forall x,y,z\in X\left(x\leq z\land x\geq z|\left(x\leq y\land y\leq z\right)\land\left(x\geq y\land y\geq z\right)\iff x\equiv y,y\equiv z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז זה יחס שקילות
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+ב.
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $A\triangleq X/\equiv$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+מוגדר היטב-
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $c\in\left[b\right]$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $c\leq b\land c\geq b$
+\end_inset
+
+ אז 
+\begin_inset Formula $b=c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן אם 
+\begin_inset Formula $\left[a\right]\leq_{A}\left[b\right]$
+\end_inset
+
+ אז גם 
+\begin_inset Formula $\forall d\in\left[a\right],c\in\left[b\right]\left(d\leq c\right)$
+\end_inset
+
+ ולהפך.
+\end_layout
+
+\begin_layout Standard
+סיימנו.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+יחס סדר חלקי-
+\end_layout
+
+\begin_layout Standard
+רפלקסיביות וטרנזיטיביות מכך ש-
+\begin_inset Formula $\left[a\right]\leq_{A}\left[a\right]$
+\end_inset
+
+ אםם 
+\begin_inset Formula $a\leq a$
+\end_inset
+
+ וזה קדם סדר.
+\end_layout
+
+\begin_layout Standard
+אנטי-סימטריות- נניח 
+\begin_inset Formula $\left[x\right]\leq_{A}\left[y\right]\land\left[x\right]\geq_{A}\left[y\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $x\leq y\land x\geq y$
+\end_inset
+
+ לפי 
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+ אזי 
+\begin_inset Formula $x\equiv y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מאחר וזו תכונה מוגדרת היטב, אזי 
+\begin_inset Formula $x,y$
+\end_inset
+
+ הם נציגים שונים לאותה מחלקת שקילות, כלומר 
+\begin_inset Formula $\left[x\right]=\left[y\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\numeric on
+6
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ 
+\begin_inset Formula $f:\mathbb{Z}\to\mathbb{Q}$
+\end_inset
+
+ המוגדרת כך 
+\begin_inset Formula $f\left(x\right)=x$
+\end_inset
+
+.
+ זו פונקציה חח"ׁע השומרת סדר )הרגיל על 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ ו-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+לא קיימת פונקציה חח"ע שומרת סדר בין 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ ל-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיימת כזו.
+ 
+\end_layout
+
+\begin_layout Standard
+יהא
+\begin_inset Formula $x\in\mathbb{Z}$
+\end_inset
+
+ כך שעבור 
+\begin_inset Formula $q_{1},q_{2}\in\mathbb{Q}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $f\left(q_{1}\right)=x$
+\end_inset
+
+ ו-
+\begin_inset Formula $f\left(q_{2}\right)=x+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אלה קיימים כי העצמות של 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ ו-
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ זהות אז אם מאחר ו-
+\begin_inset Formula $f$
+\end_inset
+
+ מוגדרת לכל 
+\begin_inset Formula $q\in\mathbb{Q}$
+\end_inset
+
+ והיא חח"ע לכל 
+\begin_inset Formula $z\in\mathbb{Z}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $q_{0}\in\mathbb{Q}$
+\end_inset
+
+ כך ש-
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $f\left(q_{0}\right)=z$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+לפי תכונת הצפיפות של 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+, 
+\begin_inset Formula $\exists q\left(q_{1}<q<q_{2}\right)$
+\end_inset
+
+.
+ אזי מאחר ו-
+\begin_inset Formula $f$
+\end_inset
+
+ שומרת סדר 
+\begin_inset Formula $\exists z\left(x<z<x+1\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אך המספרים השלמים אינם צפופים.
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+\begin_inset Formula $f:\left(2^{\mathbb{N}},\subseteq\right)\to\left(\left[0,1\right],\leq\right)$
+\end_inset
+
+ המוגדרת כך:
+\end_layout
+
+\begin_layout Standard
+יהא 
+\begin_inset Formula $x\in\left\{ 0,1\right\} ^{\mathbb{N}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נגדיר משקל כלשהו עבור כל קואורדינטה בסדרה הבינארית האינסופית 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ כך: 
+\begin_inset Formula $x_{n}=\frac{1}{2^{n+1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתבונן בביטוי 
+\begin_inset Formula $f\left(x\right)=\stackrel[n\in\mathbb{N}]{}{\sum}x_{i}$
+\end_inset
+
+ זה מגדיר פונקציה חח"ע ושומרת סדר כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $x,y\in2^{\mathbb{N}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+חח"ע
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $x\neq y$
+\end_inset
+
+ נמפה אותם לצורה 
+\begin_inset Formula $\left\{ 0,1\right\} ^{\mathbb{N}}$
+\end_inset
+
+ ואז קיימת לפחות קואורדינטה אחת שונה ביניהם כלומר 
+\begin_inset Formula $\stackrel[n\in\mathbb{N}]{}{\sum}x_{i}\neq\stackrel[n\in\mathbb{N}]{}{\sum}y_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שומרת סדר
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $x\subseteq y$
+\end_inset
+
+ אז קיים איבר נוסף ב-
+\begin_inset Formula $y$
+\end_inset
+
+שאינו ב-
+\begin_inset Formula $x$
+\end_inset
+
+ או שהן שוות.
+ אם קיים איבר נוסף אז הסכום יגדל אם הן שוות הוא יהיה זהה.
+\end_layout
+
+\begin_layout Standard
+לכן, 
+\begin_inset Formula $f\left(x\right)\leq f\left(y\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מ.ש.ל.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.נגדיר 
+\begin_inset Formula $f:\left(0,1\right)\to\left[0,1\right]$
+\end_inset
+
+ , 
+\begin_inset Formula $g:\left[0,1\right]\to\left(0,1\right)$
+\end_inset
+
+ חח"ע ושומרות סדר.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x\right)=x
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+g\left(x\right)=\frac{x}{2}+\frac{1}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f$
+\end_inset
+
+ היא פונקציית הזהות אז בוודאי שומרת סדר וחח"ע.
+ 
+\begin_inset Formula $g$
+\end_inset
+
+ היא פונקציה חח"ע, על ושומרת סדר על 
+\begin_inset Formula $\left[\frac{1}{4},\frac{3}{4}\right]$
+\end_inset
+
+ אז בוודאי שחח"ע ושומרת סדר על 
+\begin_inset Formula $\left[\frac{1}{4},\frac{3}{4}\right]\subseteq\left(0,1\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+.
+ 
+\begin_inset Formula $\left[0,1\right]$
+\end_inset
+
+ ו-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+.
+ הסדר הרגיל על 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ שונה מהסדר הרגיל על 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+.
+ אילו הייתה קיימת פונקציה חח"ע ושומרת סדר מ-
+\begin_inset Formula $[0,1]$
+\end_inset
+
+ל-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ אז היינו מקבלים לפי משפט קנטור 
+\begin_inset Formula $\left|\mathbb{R}\right|\underbrace{=}_{axiom}\left|\left[0,1\right]\right|\leq\left|\mathbb{Z}\right|\Rightarrow\aleph\leq\aleph_{0}$
+\end_inset
+
+ סתירה.
+\end_layout
+
+\begin_layout Standard
+אילו הייתה קיימת פונקציה חח"ע ושומרת סדר מ-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ ל-
+\begin_inset Formula $\left[0,1\right]$
+\end_inset
+
+אז עבור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ היה קיים 
+\begin_inset Formula $z\in\mathbb{Z}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $f\left(z\right)=0$
+\end_inset
+
+ .
+ לכל איבר ב-
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ קיים קודם מיידי לכן קיים 
+\begin_inset Formula $z_{0}$
+\end_inset
+
+ כך שמתקיים 
+\begin_inset Formula $z_{0}\leq z$
+\end_inset
+
+.
+ אז מכך שהפונקציה שומרת סדר, 
+\begin_inset Formula $\exists r\in\left[0,1\right]\left(f\left(z_{0}\right)=r\land r\leq0\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אך הפונקציה חח"ׂע, אז 
+\begin_inset Formula $r<0$
+\end_inset
+
+ , סתירה.
+\end_layout
+
+\begin_layout Standard
+אז לא קיימת פונקציה חח"ע ושומרת סדר בין 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ ל-
+\begin_inset Formula $\left[0,1\right]$
+\end_inset
+
+ אז 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ לא ניתנת לשיכון בו.
+\end_layout
+
+\end_body
+\end_document
